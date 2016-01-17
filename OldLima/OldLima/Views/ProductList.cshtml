@@ -1,7 +1,6 @@
 ﻿@inherits Merchello.Web.Mvc.MerchelloTemplatePage
 @using Merchello.Web.Models.VirtualContent
-@using Oldlima.Models
-
+@using OldLima.Models
 @{
     Layout = "Shared/_Layout.cshtml";
 }
@@ -43,7 +42,7 @@
                             Stock: @productContent.TotalInventoryCount 
                             <span class="pull-right">
                                 <input type="number" name="orderAmount" class="small-input" />&nbsp;
-                                @Html.Action("Display_BuyButton", "Basket", new { area = "MerchelloProductListExample", product = new AddItemModel { ProductId = productId, ContentId = contentidForChildPage} })</span>
+                                @Html.Action("Display_BuyButton", "Basket", new { product = new AddItemModel { ProductKey = productId, ContentId = contentidForChildPage} })</span>
                         </p>
                         <p><a href="@productContent.Name">Meer info</a></p>
                     </div>

@@ -1,5 +1,5 @@
 ﻿@using Merchello.Web
-@model dynamic
+@model OldLima.Models.AddItemModel
 
 @{
     // build Html form
@@ -9,7 +9,7 @@
         @Html.HiddenFor(x => x.ContentId)
 
         // Merchello Product Guid
-        @Html.HiddenFor(x => x.ProductId)
+        @Html.HiddenFor(x => x.ProductKey)
 
         <input type="submit" value="Koop" />
     }

@@ -9,7 +9,7 @@ using Umbraco.Web.Mvc;
 
 namespace OldLima.Controllers
 {
-    [PluginController("MerchelloProductListExample")]
+    //[PluginController("MerchelloProductListExample")]
     public class BasketController : MerchelloSurfaceContoller
     {
         // TODO These would normally be passed in or looked up so that there is not a
@@ -37,7 +37,7 @@ namespace OldLima.Controllers
         [HttpPost]
         public ActionResult AddToBasket(AddItemModel model)
         {
-            return RedirectToUmbracoPage(BasketContentId);
+            return RedirectToUmbracoPage(1465);
         }
     }
 }
