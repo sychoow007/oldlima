@@ -1,0 +1,60 @@
+﻿@inherits Merchello.Web.Mvc.MerchelloTemplatePage
+@using Umbraco.Core
+@using Merchello.Web
+@using Merchello.Web.Models.ContentEditing
+@{
+    Layout = "Shared/_Layout.cshtml";
+}
+
+@{
+
+    // Get Mechello - this is NOT the only way to get access to Merchello
+    // For a quick and simple example, this is the most straight forward
+    var helper = new MerchelloHelper();
+
+    // Merchello product guid tied to the Umbraco content page
+    // set via the Merchello Product Selector
+    var key = CurrentPage.GetPropertyValue<ProductDisplay>("product").Key;
+
+    // Merchello product
+    var product = helper.Query.Product.GetByKey(key);
+
+}
+
+@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@{
+    Layout = "Shared/_Layout.cshtml";
+    IPublishedContent productPage = CurrentPage;
+    string[] productImages = productPage.GetPropertyValue("images").ToString().Split(',');
+}
+<link href="~/Content/ekko-lightbox.min.css" rel="stylesheet" />
+<script src="~/Scripts/ekko-lightbox.min.js"></script>
+<script type="text/javascript">
+    $(document).delegate('*[data-toggle="lightbox"]', 'click', function (event) {
+        event.preventDefault();
+        $(this).ekkoLightbox();
+    });
+</script>
+
+<div class="col-md-6">
+    <div class="row">
+        @for (int i = 0; i < productImages.Length; i++)
+        {
+            var image = Umbraco.Media(productImages[i]);
+            <div class="col-md-4">
+                <a href="@image.Url" data-toggle="lightbox" data-gallery="multiimages" data-title="@product.Name" class="thumbnail">
+                    <img src="@image.GetResponsiveImageUrl(270, 161)" class="slimsy-image" />
+                </a>
+            </div>
+        }
+    </div>
+</div>
+<div class="col-md-6">
+    <h4 class="pull-right">@product.Price.ToString("C")</h4>
+    <h4>@product.Name</h4>
+    <p>@Html.Raw(productPage.GetPropertyValue("productDescription").ToString())</p>
+    <p>
+        Stock: @productContent.TotalInventoryCount
+        <span class="pull-right"><input type="number" name="orderAmount" class="small-input" />&nbsp;<a href="#" class="btn btn-primary">Koop</a></span>
+    </p>
+</div>

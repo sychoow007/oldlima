@@ -1,0 +1,106 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@{
+    Layout = "Shared/_Layout.cshtml";
+    IEnumerable<IPublishedContent> motos = CurrentPage.Children;
+
+    string yearFilter = Request["year"];
+    string typeFilter = Request["type"];
+}
+@if (motos.Count() > 0)
+{
+<div class="col-md-12 search">
+    <span>Bouwjaar</span>
+    <select id="buildYear">
+        <option></option>
+        @foreach (var year in motos.Select(m => m.GetPropertyValue("buildingYear")).Distinct())
+        {
+            <option value="@year">@year</option>
+        }
+    </select>
+    <span>Model</span>
+    <select id="type">
+        <option></option>
+        @foreach (var type in motos.Select(m => m.Name).Distinct())
+        {
+            <option value="@type">@type</option>
+        }
+    </select>
+    <button class="btn search">Zoek</button>
+</div>
+<div class="col-md-12 overview">
+    <h2>Te koop</h2>
+    @ShowMotoItems(false, yearFilter, typeFilter)
+    <div class="clearfix"></div>
+    <h2>Verkocht</h2>
+    @ShowMotoItems(true, yearFilter, typeFilter)
+</div>
+}
+else
+{
+    <div class="col-md-12">
+        Op dit moment zijn er geen motors beschikbaar.
+    </div>
+}
+
+@section Scripts{
+    <script src="~/Scripts/ekko-lightbox.min.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            $('.btn.search').on('click', function () {
+                $('.overview').load('/@CurrentPage.Name .overview', { year: $('#buildYear').val(), type: $('#type').val() });
+            });
+        });
+
+        $(document).delegate('*[data-toggle="lightbox"]', 'click', function (event) {
+            event.preventDefault();
+            $(this).ekkoLightbox();
+        });
+    </script>
+}
+
+@helper ShowMotoItems(bool sold, string yearFilter, string typeFilter)
+{
+IEnumerable<IPublishedContent> motos = CurrentPage.Children;
+var motoItems = motos.Where(x => Convert.ToBoolean(x.GetPropertyValue("sold")) == sold);
+
+if (!string.IsNullOrEmpty(yearFilter))
+{
+    motoItems = motoItems.Where(x => x.GetPropertyValue("buildingYear").ToString() == yearFilter);
+}
+
+if (!string.IsNullOrEmpty(typeFilter))
+{
+    motoItems = motoItems.Where(x => x.Name == typeFilter);
+}
+
+if (motoItems.Count() > 0)
+{
+        <div class="row">
+            @foreach (var page in motoItems)
+            {
+                string images = page.GetPropertyValue("images").ToString();
+                int firstImageId = int.Parse(images.Split(',').First());
+                var motoImage = Umbraco.TypedMedia(firstImageId);
+                <div class="col-md-4">
+                    <a href="@page.Url" class="item image image-full thumbnail">
+                        <img src="@motoImage.GetResponsiveImageUrl(260,0)" alt="" class="slimsy-image" />
+                        <div class="info">
+                            <div class="left">
+                                <div class="build"><b>Bouwjaar:</b> @page.GetPropertyValue("buildingYear")</div>
+                                <div class="model"><b>Model:</b> @page.Name</div>
+                            </div>
+                            <div class="right">
+                                <div class="price"><b>Prijs:</b> @page.GetPropertyValue("price")</div>
+                            </div>
+                        </div>
+                        <div class="mask"></div>
+                    </a>
+                </div>
+            }
+        </div>
+}
+else
+{
+        <p>Op dit moment is er niets beschikbaar.</p>
+}
+}

@@ -1,0 +1,57 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@{
+    Layout = "Shared/_Layout.cshtml";
+    IPublishedContent moto = CurrentPage;
+    string[] motoImages = moto.GetPropertyValue("images").ToString().Split(',');
+    bool sold = Convert.ToBoolean(moto.GetPropertyValue("sold"));
+}
+<link href="~/Content/ekko-lightbox.min.css" rel="stylesheet" />
+<script src="~/Scripts/ekko-lightbox.min.js"></script>
+<script type="text/javascript">
+    $(document).delegate('*[data-toggle="lightbox"]', 'click', function (event) {
+        event.preventDefault();
+        $(this).ekkoLightbox();
+    });
+</script>
+
+<div class="col-md-6">
+    <div class="row">
+        @for (int i = 0; i < motoImages.Length; i++)
+        {
+            var image = Umbraco.Media(motoImages[i]);
+            <div class="col-md-4">
+                <a href="@image.Url" data-toggle="lightbox" data-gallery="multiimages" data-title="@moto.Name" class="thumbnail">
+                    <img src="@image.GetResponsiveImageUrl(270, 161)" class="slimsy-image" />
+                </a>
+            </div>
+        }
+    </div>
+</div>
+<div class="col-md-6">
+    <h2>
+        @moto.Name        
+    </h2>
+    @if (sold)
+    {
+        <span class="label label-danger">Verkocht</span>
+    }
+    else
+    {
+        <span class="label label-success">Te koop</span>
+    }
+    <div class="info">
+        <div class="build"><b>Bouwjaar:</b> @moto.GetPropertyValue("buildingYear")</div>
+        <div class="price"><b>Prijs:</b> @moto.GetPropertyValue("price")</div>
+        @if (moto.HasValue("state"))
+        {
+            <div class="state"><b>Staat:</b> @moto.GetPropertyValue("state")</div>
+        }
+        @if (moto.HasValue("extraInfo"))
+        {
+            <b>Extra info</b>
+            <div class="extraInfo">
+                @moto.GetPropertyValue("extraInfo")
+            </div>
+        }
+    </div>
+</div>

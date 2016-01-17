@@ -1,0 +1,823 @@
+﻿ 2016-01-16 00:04:25,838 [P4912/D2/T95] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type Contact matches a locally declared controller of type OldLima.Controllers.ContactController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderMvcController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2016-01-16 01:26:27,363 [P4912/D2/T76] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-01-15 01:26:27
+ 2016-01-16 01:50:53,319 [P4912/D2/T39] INFO  Umbraco.Core.Persistence.UmbracoDatabase -    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at System.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at System.Data.SqlClient.SqlDataReader.Read()
+   at StackExchange.Profiling.Data.ProfiledDbDataReader.Read() in c:\Code\github\SamSaffron\MiniProfiler\StackExchange.Profiling\Data\ProfiledDbDataReader.cs:line 478
+   at Umbraco.Core.Persistence.Database.<Query>d__1c`1.MoveNext()
+ 2016-01-16 01:50:53,366 [P4912/D2/T39] ERROR Umbraco.Web.WebServices.ScheduledPublishController - Error executing scheduled task
+System.Data.SqlClient.SqlException (0x80131904): A timeout occurred while waiting for memory resources to execute the query in resource pool 'internal' (1). Rerun the query.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at System.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at System.Data.SqlClient.SqlDataReader.Read()
+   at StackExchange.Profiling.Data.ProfiledDbDataReader.Read() in c:\Code\github\SamSaffron\MiniProfiler\StackExchange.Profiling\Data\ProfiledDbDataReader.cs:line 478
+   at Umbraco.Core.Persistence.Database.<Query>d__1c`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Umbraco.Core.Persistence.Database.Fetch[T1,T2,T3,T4,T5](Sql sql)
+   at Umbraco.Core.Persistence.Repositories.ContentRepository.ProcessQuery(Sql sql)
+   at Umbraco.Core.Persistence.Repositories.ContentRepository.PerformGetByQuery(IQuery`1 query)
+   at Umbraco.Core.Persistence.Repositories.RepositoryBase`2.GetByQuery(IQuery`1 query)
+   at Umbraco.Core.Services.ContentService.GetContentForExpiration()
+   at Umbraco.Core.Publishing.ScheduledPublisher.CheckPendingAndProcess()
+   at Umbraco.Web.WebServices.ScheduledPublishController.Index()
+ClientConnectionId:eedfb085-4887-463c-a3a0-4b09b0b036ff
+Error Number:8645,State:1,Class:17
+ 2016-01-16 05:26:27,548 [P4912/D2/T76] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-01-15 05:26:27
+ 2016-01-16 08:41:06,399 [P4912/D2/T143] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type Contact matches a locally declared controller of type OldLima.Controllers.ContactController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderMvcController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2016-01-16 08:41:47,930 [P4912/D2/T143] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type Contact matches a locally declared controller of type OldLima.Controllers.ContactController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderMvcController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2016-01-16 09:26:34,398 [P4912/D2/T168] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-01-15 09:26:33
+ 2016-01-16 12:42:17,624 [P4912/D2/T203] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type Contact matches a locally declared controller of type OldLima.Controllers.ContactController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderMvcController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2016-01-16 12:42:46,187 [P4912/D2/T227] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type Contact matches a locally declared controller of type OldLima.Controllers.ContactController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderMvcController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2016-01-16 13:24:54,504 [P4912/D2/T227] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type Contact matches a locally declared controller of type OldLima.Controllers.ContactController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderMvcController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2016-01-16 13:26:24,973 [P4912/D2/T222] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type Contact matches a locally declared controller of type OldLima.Controllers.ContactController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderMvcController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2016-01-16 13:26:34,817 [P4912/D2/T222] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-01-15 13:26:34
+ 2016-01-16 14:16:57,198 [P4912/D2/T173] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type Contact matches a locally declared controller of type OldLima.Controllers.ContactController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderMvcController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2016-01-16 14:25:23,011 [P4912/D2/T187] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username marc from IP address 84.197.8.186
+ 2016-01-16 14:25:23,386 [P4912/D2/T171] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2016-01-16 14:25:23,417 [P4912/D2/T171] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 37ms)
+ 2016-01-16 14:25:23,652 [P4912/D2/T156] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2016-01-16 14:25:23,652 [P4912/D2/T156] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 2ms)
+ 2016-01-16 14:25:23,667 [P4912/D2/T187] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplication
+ 2016-01-16 14:25:23,667 [P4912/D2/T187] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplication, found 0 (took 1ms)
+ 2016-01-16 14:25:23,683 [P4912/D2/T156] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2016-01-16 14:25:23,683 [P4912/D2/T156] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2016-01-16 14:25:23,699 [P4912/D2/T156] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2016-01-16 14:25:23,699 [P4912/D2/T156] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 0ms)
+ 2016-01-16 14:33:11,871 [P4912/D2/T165] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2016-01-16 14:33:11,871 [P4912/D2/T165] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2016-01-16 14:36:48,059 [P4912/D2/T191] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type Contact matches a locally declared controller of type OldLima.Controllers.ContactController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderMvcController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2016-01-16 14:44:56,795 [P4912/D2/T173] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: marc, IP Address: 84.197.8.186
+ 2016-01-16 14:52:04,967 [P4912/D2/T170] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username jurgen.van.de.water@gmail.com from IP address 84.197.8.186
+ 2016-01-16 14:52:05,030 [P4912/D2/T170] ERROR Umbraco.Web.WebApi.Filters.AngularAntiForgeryHelper - Could not validate XSRF token
+System.Web.Mvc.HttpAntiForgeryException (0x80004005): The provided anti-forgery token was meant for user "marc", but the current user is "jurgen.van.de.water@gmail.com".
+   at System.Web.Helpers.AntiXsrf.TokenValidator.ValidateTokens(HttpContextBase httpContext, IIdentity identity, AntiForgeryToken sessionToken, AntiForgeryToken fieldToken)
+   at System.Web.Helpers.AntiXsrf.AntiForgeryWorker.Validate(HttpContextBase httpContext, String cookieToken, String formToken)
+   at System.Web.Helpers.AntiForgery.Validate(String cookieToken, String formToken)
+   at Umbraco.Web.WebApi.Filters.AngularAntiForgeryHelper.ValidateTokens(String cookieToken, String headerToken)
+ 2016-01-16 14:53:55,171 [P4912/D2/T156] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ICacheRefresher
+ 2016-01-16 14:53:55,202 [P4912/D2/T156] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 0 (took 32ms)
+ 2016-01-16 14:56:04,249 [P4912/D2/T191] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'BMW R 27a' with Id '0' has been published.
+ 2016-01-16 14:56:09,344 [P4912/D2/T9] INFO  umbraco.content - Save Xml to file...
+ 2016-01-16 14:56:09,374 [P4912/D2/T163] INFO  umbraco.content - Saved Xml to file.
+ 2016-01-16 14:58:10,265 [P4912/D2/T165] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'BMW R 27' with Id '1473' has been published.
+ 2016-01-16 14:58:15,796 [P4912/D2/T170] INFO  umbraco.content - Save Xml to file...
+ 2016-01-16 14:58:15,796 [P4912/D2/T163] INFO  umbraco.content - Saved Xml to file.
+ 2016-01-16 14:58:43,890 [P4912/D2/T173] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'BMW R 27' with Id '1651' has been published.
+ 2016-01-16 14:58:48,078 [P4912/D2/T172] INFO  umbraco.content - Save Xml to file...
+ 2016-01-16 14:58:48,093 [P4912/D2/T164] INFO  umbraco.content - Saved Xml to file.
+ 2016-01-16 14:59:04,171 [P4912/D2/T187] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'BMW R 26a' with Id '0' has been published.
+ 2016-01-16 14:59:08,281 [P4912/D2/T167] INFO  umbraco.content - Save Xml to file...
+ 2016-01-16 14:59:08,296 [P4912/D2/T161] INFO  umbraco.content - Saved Xml to file.
+ 2016-01-16 14:59:16,999 [P4912/D2/T167] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'BMW R 26' with Id '1487' has been published.
+ 2016-01-16 14:59:21,187 [P4912/D2/T197] INFO  umbraco.content - Save Xml to file...
+ 2016-01-16 14:59:21,187 [P4912/D2/T161] INFO  umbraco.content - Saved Xml to file.
+ 2016-01-16 14:59:25,296 [P4912/D2/T170] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'BMW R 26' with Id '1652' has been published.
+ 2016-01-16 14:59:25,734 [P4912/D2/T167] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Terminating
+ 2016-01-16 14:59:25,734 [P4912/D2/T167] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Waiting for tasks to complete
+ 2016-01-16 14:59:25,734 [P4912/D2/T167] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Terminating
+ 2016-01-16 14:59:25,734 [P4912/D2/T167] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Waiting for tasks to complete
+ 2016-01-16 14:59:25,749 [P4912/D2/T167] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Terminating
+ 2016-01-16 14:59:25,749 [P4912/D2/T167] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Waiting for tasks to complete
+ 2016-01-16 14:59:25,749 [P4912/D2/T191] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Tasks completed, terminated
+ 2016-01-16 14:59:25,749 [P4912/D2/T171] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Tasks completed, terminated
+ 2016-01-16 14:59:25,749 [P4912/D2/T222] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Tasks completed, terminated
+ 2016-01-16 14:59:25,765 [P4912/D2/T197] INFO  umbraco.content - Save Xml to file...
+ 2016-01-16 14:59:25,765 [P4912/D2/T163] INFO  umbraco.content - Saved Xml to file.
+ 2016-01-16 14:59:25,890 [P4912/D2/T167] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Terminating
+ 2016-01-16 14:59:25,890 [P4912/D2/T167] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Waiting for tasks to complete
+ 2016-01-16 14:59:25,890 [P4912/D2/T156] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Tasks completed, terminated
+ 2016-01-16 14:59:36,140 [P4912/D3/T134] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.3.1 application starting on SHAREDWIN007
+ 2016-01-16 14:59:36,218 [P4912/D3/T134] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2016-01-16 14:59:36,234 [P4912/D3/T134] INFO  Umbraco.Core.PluginManager - Hash determined (took 8ms)
+ 2016-01-16 14:59:36,359 [P4912/D3/T134] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+ 2016-01-16 14:59:36,374 [P4912/D3/T134] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 22ms)
+ 2016-01-16 14:59:36,421 [P4912/D3/T134] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2016-01-16 14:59:36,421 [P4912/D3/T134] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 0ms)
+ 2016-01-16 14:59:36,421 [P4912/D3/T134] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2016-01-16 14:59:36,421 [P4912/D3/T134] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 0 (took 1ms)
+ 2016-01-16 14:59:36,421 [P4912/D3/T134] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+ 2016-01-16 14:59:36,421 [P4912/D3/T134] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 1ms)
+ 2016-01-16 14:59:36,421 [P4912/D3/T134] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+ 2016-01-16 14:59:36,437 [P4912/D3/T134] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 0 (took 6ms)
+ 2016-01-16 14:59:36,484 [P4912/D3/T134] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+ 2016-01-16 14:59:36,484 [P4912/D3/T134] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 0 (took 0ms)
+ 2016-01-16 14:59:36,484 [P4912/D3/T134] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+ 2016-01-16 14:59:36,484 [P4912/D3/T134] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 0 (took 0ms)
+ 2016-01-16 14:59:37,421 [P4912/D3/T134] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-01-16 14:59:37,656 [P4912/D3/T134] INFO  Merchello.Web.UmbracoApplicationEventHandler - Attempting to initialize Merchello
+ 2016-01-16 14:59:37,781 [P4912/D3/T134] INFO  Umbraco.Core.PluginManager - Starting resolution types of Merchello.Core.Gateways.GatewayProviderBase
+ 2016-01-16 14:59:37,781 [P4912/D3/T134] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Merchello.Core.Gateways.GatewayProviderBase, found 0 (took 1ms)
+ 2016-01-16 14:59:37,968 [P4912/D3/T134] INFO  Umbraco.Core.PluginManager - Starting resolution types of Merchello.Core.Observation.ITrigger
+ 2016-01-16 14:59:37,968 [P4912/D3/T134] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Merchello.Core.Observation.ITrigger, found 0 (took 0ms)
+ 2016-01-16 14:59:37,968 [P4912/D3/T134] INFO  Umbraco.Core.PluginManager - Starting resolution types of Merchello.Core.Observation.IMonitor
+ 2016-01-16 14:59:37,968 [P4912/D3/T134] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Merchello.Core.Observation.IMonitor, found 0 (took 0ms)
+ 2016-01-16 14:59:37,968 [P4912/D3/T134] INFO  Umbraco.Core.PluginManager - Starting resolution types of Merchello.Core.Chains.OfferConstraints.IOfferProcessor
+ 2016-01-16 14:59:37,968 [P4912/D3/T134] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Merchello.Core.Chains.OfferConstraints.IOfferProcessor, found 0 (took 1ms)
+ 2016-01-16 14:59:37,968 [P4912/D3/T134] INFO  Umbraco.Core.PluginManager - Starting resolution types of Merchello.Web.Mvc.IPaymentMethodUiController
+ 2016-01-16 14:59:37,968 [P4912/D3/T134] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Merchello.Web.Mvc.IPaymentMethodUiController, found 0 (took 0ms)
+ 2016-01-16 14:59:37,968 [P4912/D3/T134] INFO  Umbraco.Core.PluginManager - Starting resolution types of Merchello.Web.Reporting.ReportController
+ 2016-01-16 14:59:37,968 [P4912/D3/T134] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Merchello.Web.Reporting.ReportController, found 0 (took 0ms)
+ 2016-01-16 14:59:37,968 [P4912/D3/T134] INFO  Umbraco.Core.PluginManager - Starting resolution types of Merchello.Core.Marketing.Offer.IOfferProvider
+ 2016-01-16 14:59:37,968 [P4912/D3/T134] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Merchello.Core.Marketing.Offer.IOfferProvider, found 0 (took 1ms)
+ 2016-01-16 14:59:37,968 [P4912/D3/T134] INFO  Umbraco.Core.PluginManager - Starting resolution types of Merchello.Core.Marketing.Offer.OfferComponentBase
+ 2016-01-16 14:59:37,968 [P4912/D3/T134] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Merchello.Core.Marketing.Offer.OfferComponentBase, found 0 (took 2ms)
+ 2016-01-16 14:59:37,968 [P4912/D3/T134] INFO  Merchello.Core.CoreBootManager - Starting subscribing Monitors to Triggers
+ 2016-01-16 14:59:37,968 [P4912/D3/T134] INFO  Merchello.Core.Observation.MonitorBase`1[[Merchello.Core.Models.MonitorModels.IShipmentResultNotifyModel, Merchello.Core, Version=1.13.0.0, Culture=neutral, PublicKeyToken=null]] - PartialOrderShippedMonitor subscribing to PartialOrderShippedTrigger
+ 2016-01-16 14:59:37,968 [P4912/D3/T134] INFO  Merchello.Core.Observation.MonitorBase`1[[Merchello.Core.Models.MonitorModels.IPaymentResultMonitorModel, Merchello.Core, Version=1.13.0.0, Culture=neutral, PublicKeyToken=null]] - OrderConfirmationMonitor subscribing to OrderConfirmationTrigger
+ 2016-01-16 14:59:37,968 [P4912/D3/T134] INFO  Merchello.Core.Observation.MonitorBase`1[[Merchello.Core.Models.MonitorModels.IShipmentResultNotifyModel, Merchello.Core, Version=1.13.0.0, Culture=neutral, PublicKeyToken=null]] - OrderShippedMonitor subscribing to OrderShippedTrigger
+ 2016-01-16 14:59:37,968 [P4912/D3/T134] INFO  Umbraco.Core.CoreBootManager - Finished subscribing Monitors to Triggers
+ 2016-01-16 14:59:37,968 [P4912/D3/T134] INFO  Merchello.Core.CoreBootManager - Initializing EntityCollectionProviders
+ 2016-01-16 14:59:37,968 [P4912/D3/T134] INFO  Umbraco.Core.PluginManager - Starting resolution types of Merchello.Core.EntityCollections.IEntityCollectionProvider
+ 2016-01-16 14:59:37,984 [P4912/D3/T134] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Merchello.Core.EntityCollections.IEntityCollectionProvider, found 0 (took 3ms)
+ 2016-01-16 14:59:38,406 [P4912/D3/T134] INFO  Merchello.Web.UmbracoApplicationEventHandler - Initialization of Merchello complete
+ 2016-01-16 14:59:38,437 [P4912/D3/T134] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-01-16 14:59:38,437 [P4912/D3/T134] INFO  Merchello.Web.Search.ExamineEvents - Initializing Merchello ProductIndex binding events
+ 2016-01-16 14:59:38,562 [P4912/D3/T134] INFO  Merchello.Web.Trees.ServerVariablesParsingEvents - Initializing Merchello ServerVariablesParsingEvents
+ 2016-01-16 14:59:38,562 [P4912/D3/T134] INFO  Merchello.Web.UmbracoApplicationEventHandler - Initializing Customer related events
+ 2016-01-16 14:59:38,562 [P4912/D3/T134] INFO  Merchello.Web.UmbracoApplicationEventHandler - Verifying Merchello Version.
+ 2016-01-16 14:59:38,562 [P4912/D3/T134] INFO  Merchello.Core.Gateways.GatewayEvents - Initializing Merchello Warehouse Catalog binding events
+ 2016-01-16 14:59:38,562 [P4912/D3/T134] INFO  Merchello.Core.Gateways.Notification.Monitors.NotificationMonitorEvents - Initializing Merchello NotificationMonitor binding events
+ 2016-01-16 14:59:38,562 [P4912/D3/T134] INFO  Merchello.Core.Gateways.Notification.Monitors.NotificationMonitorEvents - Completed Merchello NotificationMonitor binding events
+ 2016-01-16 14:59:38,562 [P4912/D3/T134] INFO  Merchello.Core.Gateways.Notification.Smtp.SmtpProviderEvents - Initializing SMTP notification gateway provider registration binding events
+ 2016-01-16 14:59:38,625 [P4912/D3/T134] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-01-16 14:59:38,765 [P4912/D3/T134] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2016-01-16 14:59:38,765 [P4912/D3/T134] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2016-01-16 14:59:38,765 [P4912/D3/T134] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2016-01-16 14:59:38,812 [P4912/D3/T134] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 2753ms)
+ 2016-01-16 14:59:40,703 [P4912/D3/T205] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://www.oldlima.be:80/umbraco (UmbracoModule request)
+ 2016-01-16 14:59:45,546 [P4912/D3/T170] INFO  umbraco.content - Load Xml from file...
+ 2016-01-16 14:59:45,546 [P4912/D3/T170] INFO  umbraco.content - Loaded Xml from file.
+ 2016-01-16 14:59:45,781 [P4912/D3/T205] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ICacheRefresher
+ 2016-01-16 14:59:45,781 [P4912/D3/T205] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 0 (took 1ms)
+ 2016-01-16 14:59:45,781 [P4912/D3/T170] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2016-01-16 14:59:45,781 [P4912/D3/T170] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 0 (took 1ms)
+ 2016-01-16 14:59:46,578 [P4912/D3/T170] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2016-01-16 14:59:46,578 [P4912/D3/T170] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 1ms)
+ 2016-01-16 14:59:50,718 [P4912/D3/T222] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Terminating
+ 2016-01-16 14:59:50,718 [P4912/D3/T222] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Waiting for tasks to complete
+ 2016-01-16 14:59:50,718 [P4912/D3/T222] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Terminating
+ 2016-01-16 14:59:50,718 [P4912/D3/T222] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Waiting for tasks to complete
+ 2016-01-16 14:59:50,718 [P4912/D3/T171] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Tasks completed, terminated
+ 2016-01-16 14:59:50,718 [P4912/D3/T187] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Tasks completed, terminated
+ 2016-01-16 14:59:50,734 [P4912/D3/T162] INFO  umbraco.content - Save Xml to file...
+ 2016-01-16 14:59:50,734 [P4912/D3/T197] INFO  umbraco.content - Saved Xml to file.
+ 2016-01-16 14:59:50,734 [P4912/D3/T222] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Terminating
+ 2016-01-16 14:59:50,734 [P4912/D3/T222] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Waiting for tasks to complete
+ 2016-01-16 14:59:50,734 [P4912/D3/T222] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Terminating
+ 2016-01-16 14:59:50,734 [P4912/D3/T222] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Waiting for tasks to complete
+ 2016-01-16 14:59:50,734 [P4912/D3/T173] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Tasks completed, terminated
+ 2016-01-16 14:59:50,750 [P4912/D3/T191] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Tasks completed, terminated
+ 2016-01-16 14:59:54,328 [P4912/D4/T134] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.3.1 application starting on SHAREDWIN007
+ 2016-01-16 14:59:54,343 [P4912/D4/T134] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2016-01-16 14:59:54,359 [P4912/D4/T134] INFO  Umbraco.Core.PluginManager - Hash determined (took 7ms)
+ 2016-01-16 14:59:54,437 [P4912/D4/T134] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+ 2016-01-16 14:59:54,453 [P4912/D4/T134] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 12ms)
+ 2016-01-16 14:59:54,468 [P4912/D4/T134] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2016-01-16 14:59:54,468 [P4912/D4/T134] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 1ms)
+ 2016-01-16 14:59:54,484 [P4912/D4/T134] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2016-01-16 14:59:54,484 [P4912/D4/T134] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 0 (took 1ms)
+ 2016-01-16 14:59:54,484 [P4912/D4/T134] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+ 2016-01-16 14:59:54,484 [P4912/D4/T134] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 1ms)
+ 2016-01-16 14:59:54,484 [P4912/D4/T134] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+ 2016-01-16 14:59:54,484 [P4912/D4/T134] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 0 (took 6ms)
+ 2016-01-16 14:59:54,515 [P4912/D4/T134] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+ 2016-01-16 14:59:54,515 [P4912/D4/T134] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 0 (took 0ms)
+ 2016-01-16 14:59:54,515 [P4912/D4/T134] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+ 2016-01-16 14:59:54,515 [P4912/D4/T134] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 0 (took 0ms)
+ 2016-01-16 14:59:55,343 [P4912/D4/T134] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-01-16 14:59:55,421 [P4912/D4/T134] INFO  Merchello.Web.UmbracoApplicationEventHandler - Attempting to initialize Merchello
+ 2016-01-16 14:59:55,453 [P4912/D4/T134] INFO  Umbraco.Core.PluginManager - Starting resolution types of Merchello.Core.Gateways.GatewayProviderBase
+ 2016-01-16 14:59:55,468 [P4912/D4/T134] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Merchello.Core.Gateways.GatewayProviderBase, found 0 (took 2ms)
+ 2016-01-16 14:59:55,531 [P4912/D4/T134] INFO  Umbraco.Core.PluginManager - Starting resolution types of Merchello.Core.Observation.ITrigger
+ 2016-01-16 14:59:55,531 [P4912/D4/T134] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Merchello.Core.Observation.ITrigger, found 0 (took 0ms)
+ 2016-01-16 14:59:55,531 [P4912/D4/T134] INFO  Umbraco.Core.PluginManager - Starting resolution types of Merchello.Core.Observation.IMonitor
+ 2016-01-16 14:59:55,531 [P4912/D4/T134] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Merchello.Core.Observation.IMonitor, found 0 (took 0ms)
+ 2016-01-16 14:59:55,531 [P4912/D4/T134] INFO  Umbraco.Core.PluginManager - Starting resolution types of Merchello.Core.Chains.OfferConstraints.IOfferProcessor
+ 2016-01-16 14:59:55,531 [P4912/D4/T134] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Merchello.Core.Chains.OfferConstraints.IOfferProcessor, found 0 (took 1ms)
+ 2016-01-16 14:59:55,531 [P4912/D4/T134] INFO  Umbraco.Core.PluginManager - Starting resolution types of Merchello.Web.Mvc.IPaymentMethodUiController
+ 2016-01-16 14:59:55,531 [P4912/D4/T134] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Merchello.Web.Mvc.IPaymentMethodUiController, found 0 (took 0ms)
+ 2016-01-16 14:59:55,531 [P4912/D4/T134] INFO  Umbraco.Core.PluginManager - Starting resolution types of Merchello.Web.Reporting.ReportController
+ 2016-01-16 14:59:55,531 [P4912/D4/T134] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Merchello.Web.Reporting.ReportController, found 0 (took 0ms)
+ 2016-01-16 14:59:55,531 [P4912/D4/T134] INFO  Umbraco.Core.PluginManager - Starting resolution types of Merchello.Core.Marketing.Offer.IOfferProvider
+ 2016-01-16 14:59:55,531 [P4912/D4/T134] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Merchello.Core.Marketing.Offer.IOfferProvider, found 0 (took 1ms)
+ 2016-01-16 14:59:55,531 [P4912/D4/T134] INFO  Umbraco.Core.PluginManager - Starting resolution types of Merchello.Core.Marketing.Offer.OfferComponentBase
+ 2016-01-16 14:59:55,531 [P4912/D4/T134] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Merchello.Core.Marketing.Offer.OfferComponentBase, found 0 (took 2ms)
+ 2016-01-16 14:59:55,531 [P4912/D4/T134] INFO  Merchello.Core.CoreBootManager - Starting subscribing Monitors to Triggers
+ 2016-01-16 14:59:55,531 [P4912/D4/T134] INFO  Merchello.Core.Observation.MonitorBase`1[[Merchello.Core.Models.MonitorModels.IShipmentResultNotifyModel, Merchello.Core, Version=1.13.0.0, Culture=neutral, PublicKeyToken=null]] - PartialOrderShippedMonitor subscribing to PartialOrderShippedTrigger
+ 2016-01-16 14:59:55,531 [P4912/D4/T134] INFO  Merchello.Core.Observation.MonitorBase`1[[Merchello.Core.Models.MonitorModels.IPaymentResultMonitorModel, Merchello.Core, Version=1.13.0.0, Culture=neutral, PublicKeyToken=null]] - OrderConfirmationMonitor subscribing to OrderConfirmationTrigger
+ 2016-01-16 14:59:55,531 [P4912/D4/T134] INFO  Merchello.Core.Observation.MonitorBase`1[[Merchello.Core.Models.MonitorModels.IShipmentResultNotifyModel, Merchello.Core, Version=1.13.0.0, Culture=neutral, PublicKeyToken=null]] - OrderShippedMonitor subscribing to OrderShippedTrigger
+ 2016-01-16 14:59:55,531 [P4912/D4/T134] INFO  Umbraco.Core.CoreBootManager - Finished subscribing Monitors to Triggers
+ 2016-01-16 14:59:55,531 [P4912/D4/T134] INFO  Merchello.Core.CoreBootManager - Initializing EntityCollectionProviders
+ 2016-01-16 14:59:55,531 [P4912/D4/T134] INFO  Umbraco.Core.PluginManager - Starting resolution types of Merchello.Core.EntityCollections.IEntityCollectionProvider
+ 2016-01-16 14:59:55,546 [P4912/D4/T134] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Merchello.Core.EntityCollections.IEntityCollectionProvider, found 0 (took 3ms)
+ 2016-01-16 14:59:55,937 [P4912/D4/T134] INFO  Merchello.Web.UmbracoApplicationEventHandler - Initialization of Merchello complete
+ 2016-01-16 14:59:55,953 [P4912/D4/T134] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-01-16 14:59:55,968 [P4912/D4/T134] INFO  Merchello.Web.Search.ExamineEvents - Initializing Merchello ProductIndex binding events
+ 2016-01-16 14:59:56,062 [P4912/D4/T134] INFO  Merchello.Web.Trees.ServerVariablesParsingEvents - Initializing Merchello ServerVariablesParsingEvents
+ 2016-01-16 14:59:56,062 [P4912/D4/T134] INFO  Merchello.Web.UmbracoApplicationEventHandler - Initializing Customer related events
+ 2016-01-16 14:59:56,062 [P4912/D4/T134] INFO  Merchello.Web.UmbracoApplicationEventHandler - Verifying Merchello Version.
+ 2016-01-16 14:59:56,062 [P4912/D4/T134] INFO  Merchello.Core.Gateways.GatewayEvents - Initializing Merchello Warehouse Catalog binding events
+ 2016-01-16 14:59:56,062 [P4912/D4/T134] INFO  Merchello.Core.Gateways.Notification.Monitors.NotificationMonitorEvents - Initializing Merchello NotificationMonitor binding events
+ 2016-01-16 14:59:56,062 [P4912/D4/T134] INFO  Merchello.Core.Gateways.Notification.Monitors.NotificationMonitorEvents - Completed Merchello NotificationMonitor binding events
+ 2016-01-16 14:59:56,062 [P4912/D4/T134] INFO  Merchello.Core.Gateways.Notification.Smtp.SmtpProviderEvents - Initializing SMTP notification gateway provider registration binding events
+ 2016-01-16 14:59:56,109 [P4912/D4/T134] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-01-16 14:59:56,109 [P4912/D4/T134] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2016-01-16 14:59:56,125 [P4912/D4/T134] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2016-01-16 14:59:56,125 [P4912/D4/T134] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2016-01-16 14:59:56,125 [P4912/D4/T134] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 1864ms)
+ 2016-01-16 14:59:56,671 [P4912/D2/T167] INFO  Umbraco.Core.UmbracoApplicationBase - Application shutdown. Details: ConfigurationChange
+
+_shutDownMessage=IIS configuration change
+HostingEnvironment initiated shutdown
+HostingEnvironment caused shutdown
+
+_shutDownStack=   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownInternal()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownWithoutDemand()
+   at System.Web.Hosting.PipelineRuntime.StopProcessing()
+ 2016-01-16 14:59:57,078 [P4912/D4/T172] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://www.oldlima.be:80/umbraco (UmbracoModule request)
+ 2016-01-16 14:59:57,296 [P4912/D4/T172] INFO  umbraco.content - Load Xml from file...
+ 2016-01-16 14:59:57,296 [P4912/D4/T172] INFO  umbraco.content - Loaded Xml from file.
+ 2016-01-16 14:59:57,812 [P4912/D4/T172] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2016-01-16 14:59:57,812 [P4912/D4/T172] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 0 (took 1ms)
+ 2016-01-16 14:59:58,953 [P4912/D4/T172] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2016-01-16 14:59:58,953 [P4912/D4/T172] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 1ms)
+ 2016-01-16 15:00:02,171 [P4912/D4/T197] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IAction
+ 2016-01-16 15:00:02,171 [P4912/D4/T197] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IAction, found 0 (took 1ms)
+ 2016-01-16 15:00:16,718 [P4912/D4/T170] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'BMW R 100GS a' with Id '0' has been published.
+ 2016-01-16 15:00:16,828 [P4912/D4/T170] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ICacheRefresher
+ 2016-01-16 15:00:16,828 [P4912/D4/T170] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 0 (took 1ms)
+ 2016-01-16 15:00:20,843 [P4912/D3/T170] INFO  Umbraco.Core.UmbracoApplicationBase - Application shutdown. Details: ConfigurationChange
+
+_shutDownMessage=IIS configuration change
+HostingEnvironment initiated shutdown
+HostingEnvironment caused shutdown
+
+_shutDownStack=   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownInternal()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownWithoutDemand()
+   at System.Web.Hosting.PipelineRuntime.StopProcessing()
+ 2016-01-16 15:00:21,562 [P4912/D4/T208] INFO  umbraco.content - Save Xml to file...
+ 2016-01-16 15:00:21,609 [P4912/D4/T156] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2016-01-16 15:00:21,609 [P4912/D4/T156] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 1ms)
+ 2016-01-16 15:00:21,625 [P4912/D4/T156] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2016-01-16 15:00:21,625 [P4912/D4/T156] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 1ms)
+ 2016-01-16 15:00:21,656 [P4912/D4/T26] INFO  umbraco.content - Saved Xml to file.
+ 2016-01-16 15:00:32,093 [P4912/D4/T197] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'BMW R 100GS' with Id '1443' has been published.
+ 2016-01-16 15:00:36,500 [P4912/D4/T173] INFO  umbraco.content - Save Xml to file...
+ 2016-01-16 15:00:36,500 [P4912/D4/T26] INFO  umbraco.content - Saved Xml to file.
+ 2016-01-16 15:00:41,562 [P4912/D4/T222] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'BMW R 100GS' with Id '1653' has been published.
+ 2016-01-16 15:00:45,672 [P4912/D4/T173] INFO  umbraco.content - Save Xml to file...
+ 2016-01-16 15:00:45,672 [P4912/D4/T41] INFO  umbraco.content - Saved Xml to file.
+ 2016-01-16 15:00:59,937 [P4912/D4/T165] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'BMW R 100GSPD a' with Id '0' has been published.
+ 2016-01-16 15:01:00,109 [P4912/D4/T156] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Terminating
+ 2016-01-16 15:01:00,109 [P4912/D4/T156] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Waiting for tasks to complete
+ 2016-01-16 15:01:00,109 [P4912/D4/T156] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Terminating
+ 2016-01-16 15:01:00,109 [P4912/D4/T156] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Waiting for tasks to complete
+ 2016-01-16 15:01:00,109 [P4912/D4/T191] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Tasks completed, terminated
+ 2016-01-16 15:01:00,109 [P4912/D4/T167] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Tasks completed, terminated
+ 2016-01-16 15:01:00,109 [P4912/D4/T173] INFO  umbraco.content - Save Xml to file...
+ 2016-01-16 15:01:00,109 [P4912/D4/T41] INFO  umbraco.content - Saved Xml to file.
+ 2016-01-16 15:01:00,109 [P4912/D4/T156] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Terminating
+ 2016-01-16 15:01:00,109 [P4912/D4/T156] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Waiting for tasks to complete
+ 2016-01-16 15:01:00,109 [P4912/D4/T205] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Tasks completed, terminated
+ 2016-01-16 15:01:00,125 [P4912/D4/T156] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Terminating
+ 2016-01-16 15:01:00,125 [P4912/D4/T156] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Waiting for tasks to complete
+ 2016-01-16 15:01:00,125 [P4912/D4/T171] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Tasks completed, terminated
+ 2016-01-16 15:01:00,562 [P4912/D5/T63] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.3.1 application starting on SHAREDWIN007
+ 2016-01-16 15:01:00,593 [P4912/D5/T63] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2016-01-16 15:01:00,609 [P4912/D5/T63] INFO  Umbraco.Core.PluginManager - Hash determined (took 7ms)
+ 2016-01-16 15:01:00,703 [P4912/D5/T63] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+ 2016-01-16 15:01:00,703 [P4912/D5/T63] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 12ms)
+ 2016-01-16 15:01:00,734 [P4912/D5/T63] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2016-01-16 15:01:00,734 [P4912/D5/T63] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 1ms)
+ 2016-01-16 15:01:00,734 [P4912/D5/T63] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2016-01-16 15:01:00,734 [P4912/D5/T63] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 0 (took 1ms)
+ 2016-01-16 15:01:00,750 [P4912/D5/T63] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+ 2016-01-16 15:01:00,750 [P4912/D5/T63] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 1ms)
+ 2016-01-16 15:01:00,750 [P4912/D5/T63] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+ 2016-01-16 15:01:00,750 [P4912/D5/T63] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 0 (took 7ms)
+ 2016-01-16 15:01:00,781 [P4912/D5/T63] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+ 2016-01-16 15:01:00,781 [P4912/D5/T63] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 0 (took 1ms)
+ 2016-01-16 15:01:00,797 [P4912/D5/T63] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+ 2016-01-16 15:01:00,797 [P4912/D5/T63] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 0 (took 0ms)
+ 2016-01-16 15:01:01,765 [P4912/D5/T63] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-01-16 15:01:01,828 [P4912/D5/T63] INFO  Merchello.Web.UmbracoApplicationEventHandler - Attempting to initialize Merchello
+ 2016-01-16 15:01:01,859 [P4912/D5/T63] INFO  Umbraco.Core.PluginManager - Starting resolution types of Merchello.Core.Gateways.GatewayProviderBase
+ 2016-01-16 15:01:01,859 [P4912/D5/T63] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Merchello.Core.Gateways.GatewayProviderBase, found 0 (took 1ms)
+ 2016-01-16 15:01:02,062 [P4912/D5/T63] INFO  Umbraco.Core.PluginManager - Starting resolution types of Merchello.Core.Observation.ITrigger
+ 2016-01-16 15:01:02,062 [P4912/D5/T63] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Merchello.Core.Observation.ITrigger, found 0 (took 0ms)
+ 2016-01-16 15:01:02,062 [P4912/D5/T63] INFO  Umbraco.Core.PluginManager - Starting resolution types of Merchello.Core.Observation.IMonitor
+ 2016-01-16 15:01:02,062 [P4912/D5/T63] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Merchello.Core.Observation.IMonitor, found 0 (took 0ms)
+ 2016-01-16 15:01:02,062 [P4912/D5/T63] INFO  Umbraco.Core.PluginManager - Starting resolution types of Merchello.Core.Chains.OfferConstraints.IOfferProcessor
+ 2016-01-16 15:01:02,062 [P4912/D5/T63] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Merchello.Core.Chains.OfferConstraints.IOfferProcessor, found 0 (took 1ms)
+ 2016-01-16 15:01:02,062 [P4912/D5/T63] INFO  Umbraco.Core.PluginManager - Starting resolution types of Merchello.Web.Mvc.IPaymentMethodUiController
+ 2016-01-16 15:01:02,062 [P4912/D5/T63] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Merchello.Web.Mvc.IPaymentMethodUiController, found 0 (took 0ms)
+ 2016-01-16 15:01:02,062 [P4912/D5/T63] INFO  Umbraco.Core.PluginManager - Starting resolution types of Merchello.Web.Reporting.ReportController
+ 2016-01-16 15:01:02,078 [P4912/D5/T63] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Merchello.Web.Reporting.ReportController, found 0 (took 0ms)
+ 2016-01-16 15:01:02,078 [P4912/D5/T63] INFO  Umbraco.Core.PluginManager - Starting resolution types of Merchello.Core.Marketing.Offer.IOfferProvider
+ 2016-01-16 15:01:02,078 [P4912/D5/T63] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Merchello.Core.Marketing.Offer.IOfferProvider, found 0 (took 1ms)
+ 2016-01-16 15:01:02,078 [P4912/D5/T63] INFO  Umbraco.Core.PluginManager - Starting resolution types of Merchello.Core.Marketing.Offer.OfferComponentBase
+ 2016-01-16 15:01:02,078 [P4912/D5/T63] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Merchello.Core.Marketing.Offer.OfferComponentBase, found 0 (took 2ms)
+ 2016-01-16 15:01:02,078 [P4912/D5/T63] INFO  Merchello.Core.CoreBootManager - Starting subscribing Monitors to Triggers
+ 2016-01-16 15:01:02,078 [P4912/D5/T63] INFO  Merchello.Core.Observation.MonitorBase`1[[Merchello.Core.Models.MonitorModels.IShipmentResultNotifyModel, Merchello.Core, Version=1.13.0.0, Culture=neutral, PublicKeyToken=null]] - PartialOrderShippedMonitor subscribing to PartialOrderShippedTrigger
+ 2016-01-16 15:01:02,078 [P4912/D5/T63] INFO  Merchello.Core.Observation.MonitorBase`1[[Merchello.Core.Models.MonitorModels.IPaymentResultMonitorModel, Merchello.Core, Version=1.13.0.0, Culture=neutral, PublicKeyToken=null]] - OrderConfirmationMonitor subscribing to OrderConfirmationTrigger
+ 2016-01-16 15:01:02,078 [P4912/D5/T63] INFO  Merchello.Core.Observation.MonitorBase`1[[Merchello.Core.Models.MonitorModels.IShipmentResultNotifyModel, Merchello.Core, Version=1.13.0.0, Culture=neutral, PublicKeyToken=null]] - OrderShippedMonitor subscribing to OrderShippedTrigger
+ 2016-01-16 15:01:02,078 [P4912/D5/T63] INFO  Umbraco.Core.CoreBootManager - Finished subscribing Monitors to Triggers
+ 2016-01-16 15:01:02,078 [P4912/D5/T63] INFO  Merchello.Core.CoreBootManager - Initializing EntityCollectionProviders
+ 2016-01-16 15:01:02,078 [P4912/D5/T63] INFO  Umbraco.Core.PluginManager - Starting resolution types of Merchello.Core.EntityCollections.IEntityCollectionProvider
+ 2016-01-16 15:01:02,078 [P4912/D5/T63] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Merchello.Core.EntityCollections.IEntityCollectionProvider, found 0 (took 3ms)
+ 2016-01-16 15:01:02,422 [P4912/D5/T63] INFO  Merchello.Web.UmbracoApplicationEventHandler - Initialization of Merchello complete
+ 2016-01-16 15:01:02,437 [P4912/D5/T63] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-01-16 15:01:02,453 [P4912/D5/T63] INFO  Merchello.Web.Search.ExamineEvents - Initializing Merchello ProductIndex binding events
+ 2016-01-16 15:01:02,562 [P4912/D5/T63] INFO  Merchello.Web.Trees.ServerVariablesParsingEvents - Initializing Merchello ServerVariablesParsingEvents
+ 2016-01-16 15:01:02,562 [P4912/D5/T63] INFO  Merchello.Web.UmbracoApplicationEventHandler - Initializing Customer related events
+ 2016-01-16 15:01:02,562 [P4912/D5/T63] INFO  Merchello.Web.UmbracoApplicationEventHandler - Verifying Merchello Version.
+ 2016-01-16 15:01:02,562 [P4912/D5/T63] INFO  Merchello.Core.Gateways.GatewayEvents - Initializing Merchello Warehouse Catalog binding events
+ 2016-01-16 15:01:02,562 [P4912/D5/T63] INFO  Merchello.Core.Gateways.Notification.Monitors.NotificationMonitorEvents - Initializing Merchello NotificationMonitor binding events
+ 2016-01-16 15:01:02,562 [P4912/D5/T63] INFO  Merchello.Core.Gateways.Notification.Monitors.NotificationMonitorEvents - Completed Merchello NotificationMonitor binding events
+ 2016-01-16 15:01:02,562 [P4912/D5/T63] INFO  Merchello.Core.Gateways.Notification.Smtp.SmtpProviderEvents - Initializing SMTP notification gateway provider registration binding events
+ 2016-01-16 15:01:02,609 [P4912/D5/T63] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-01-16 15:01:02,734 [P4912/D5/T63] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2016-01-16 15:01:02,734 [P4912/D5/T63] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2016-01-16 15:01:02,734 [P4912/D5/T63] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2016-01-16 15:01:02,734 [P4912/D5/T63] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 2262ms)
+ 2016-01-16 15:01:03,609 [P4912/D5/T191] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://www.oldlima.be:80/umbraco (UmbracoModule request)
+ 2016-01-16 15:01:04,406 [P4912/D5/T191] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2016-01-16 15:01:04,422 [P4912/D5/T191] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 0 (took 1ms)
+ 2016-01-16 15:01:04,968 [P4912/D5/T170] INFO  umbraco.content - Load Xml from file...
+ 2016-01-16 15:01:04,968 [P4912/D5/T170] INFO  umbraco.content - Loaded Xml from file.
+ 2016-01-16 15:01:05,125 [P4912/D5/T170] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2016-01-16 15:01:05,125 [P4912/D5/T170] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 1ms)
+ 2016-01-16 15:01:07,828 [P4912/D5/T170] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ICacheRefresher
+ 2016-01-16 15:01:07,828 [P4912/D5/T170] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 0 (took 2ms)
+ 2016-01-16 15:01:11,969 [P4912/D5/T26] INFO  umbraco.content - Save Xml to file...
+ 2016-01-16 15:01:11,969 [P4912/D5/T170] INFO  umbraco.content - Saved Xml to file.
+ 2016-01-16 15:01:18,390 [P4912/D5/T170] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2016-01-16 15:01:18,390 [P4912/D5/T170] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 1ms)
+ 2016-01-16 15:01:18,390 [P4912/D5/T170] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2016-01-16 15:01:18,390 [P4912/D5/T170] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 1ms)
+ 2016-01-16 15:01:30,203 [P4912/D4/T172] INFO  Umbraco.Core.UmbracoApplicationBase - Application shutdown. Details: ConfigurationChange
+
+_shutDownMessage=IIS configuration change
+HostingEnvironment initiated shutdown
+HostingEnvironment caused shutdown
+
+_shutDownStack=   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownInternal()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownWithoutDemand()
+   at System.Web.Hosting.PipelineRuntime.StopProcessing()
+ 2016-01-16 15:01:37,562 [P4912/D5/T170] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'BMW R 100GSPD' with Id '1654' has been published.
+ 2016-01-16 15:01:38,609 [P4912/D6/T134] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.3.1 application starting on SHAREDWIN007
+ 2016-01-16 15:01:38,687 [P4912/D6/T134] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2016-01-16 15:01:38,687 [P4912/D6/T134] INFO  Umbraco.Core.PluginManager - Hash determined (took 7ms)
+ 2016-01-16 15:01:38,890 [P4912/D5/T167] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Terminating
+ 2016-01-16 15:01:38,906 [P4912/D5/T167] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Waiting for tasks to complete
+ 2016-01-16 15:01:38,906 [P4912/D5/T205] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Tasks completed, terminated
+ 2016-01-16 15:01:38,906 [P4912/D5/T171] INFO  umbraco.content - Save Xml to file...
+ 2016-01-16 15:01:38,984 [P4912/D6/T134] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+ 2016-01-16 15:01:38,968 [P4912/D5/T176] INFO  umbraco.content - Saved Xml to file.
+ 2016-01-16 15:01:39,000 [P4912/D6/T134] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 13ms)
+ 2016-01-16 15:01:39,031 [P4912/D6/T134] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2016-01-16 15:01:39,031 [P4912/D6/T134] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 1ms)
+ 2016-01-16 15:01:38,968 [P4912/D5/T167] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Waiting for tasks to complete
+ 2016-01-16 15:01:39,031 [P4912/D6/T134] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2016-01-16 15:01:38,968 [P4912/D5/T167] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Terminating
+ 2016-01-16 15:01:38,968 [P4912/D5/T167] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Waiting for tasks to complete
+ 2016-01-16 15:01:38,968 [P4912/D5/T167] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Terminating
+ 2016-01-16 15:01:38,968 [P4912/D5/T167] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Waiting for tasks to complete
+ 2016-01-16 15:01:39,047 [P4912/D6/T134] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+ 2016-01-16 15:01:39,047 [P4912/D6/T134] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 1ms)
+ 2016-01-16 15:01:39,015 [P4912/D5/T165] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Tasks completed, terminated
+ 2016-01-16 15:01:39,062 [P4912/D6/T134] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 0 (took 7ms)
+ 2016-01-16 15:01:39,093 [P4912/D6/T134] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+ 2016-01-16 15:01:39,109 [P4912/D6/T134] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 0 (took 0ms)
+ 2016-01-16 15:01:39,109 [P4912/D6/T134] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+ 2016-01-16 15:01:39,109 [P4912/D6/T134] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 0 (took 0ms)
+ 2016-01-16 15:01:39,562 [P4912/D7/T63] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.3.1 application starting on SHAREDWIN007
+ 2016-01-16 15:01:39,593 [P4912/D7/T63] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2016-01-16 15:01:39,593 [P4912/D7/T63] INFO  Umbraco.Core.PluginManager - Hash determined (took 7ms)
+ 2016-01-16 15:01:40,000 [P4912/D7/T63] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+ 2016-01-16 15:01:40,015 [P4912/D7/T63] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 12ms)
+ 2016-01-16 15:01:40,031 [P4912/D7/T63] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2016-01-16 15:01:40,031 [P4912/D7/T63] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 1ms)
+ 2016-01-16 15:01:40,031 [P4912/D7/T63] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2016-01-16 15:01:40,047 [P4912/D7/T63] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 0 (took 1ms)
+ 2016-01-16 15:01:40,047 [P4912/D7/T63] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+ 2016-01-16 15:01:40,047 [P4912/D7/T63] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 1ms)
+ 2016-01-16 15:01:40,047 [P4912/D7/T63] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+ 2016-01-16 15:01:40,047 [P4912/D7/T63] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 0 (took 6ms)
+ 2016-01-16 15:01:40,078 [P4912/D7/T63] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+ 2016-01-16 15:01:40,078 [P4912/D7/T63] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 0 (took 0ms)
+ 2016-01-16 15:01:40,078 [P4912/D7/T63] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+ 2016-01-16 15:01:40,078 [P4912/D7/T63] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 0 (took 0ms)
+ 2016-01-16 15:01:40,109 [P4912/D6/T134] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-01-16 15:01:40,281 [P4912/D6/T134] INFO  Merchello.Web.UmbracoApplicationEventHandler - Attempting to initialize Merchello
+ 2016-01-16 15:01:40,312 [P4912/D6/T134] INFO  Umbraco.Core.PluginManager - Starting resolution types of Merchello.Core.Gateways.GatewayProviderBase
+ 2016-01-16 15:01:40,312 [P4912/D6/T134] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Merchello.Core.Gateways.GatewayProviderBase, found 0 (took 1ms)
+ 2016-01-16 15:01:41,047 [P4912/D7/T63] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-01-16 15:01:40,859 [P4912/D6/T134] INFO  Umbraco.Core.PluginManager - Starting resolution types of Merchello.Core.Observation.ITrigger
+ 2016-01-16 15:01:40,859 [P4912/D6/T134] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Merchello.Core.Observation.ITrigger, found 0 (took 0ms)
+ 2016-01-16 15:01:40,859 [P4912/D6/T134] INFO  Umbraco.Core.PluginManager - Starting resolution types of Merchello.Core.Observation.IMonitor
+ 2016-01-16 15:01:40,859 [P4912/D6/T134] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Merchello.Core.Observation.IMonitor, found 0 (took 0ms)
+ 2016-01-16 15:01:40,859 [P4912/D6/T134] INFO  Umbraco.Core.PluginManager - Starting resolution types of Merchello.Core.Chains.OfferConstraints.IOfferProcessor
+ 2016-01-16 15:01:40,859 [P4912/D6/T134] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Merchello.Core.Chains.OfferConstraints.IOfferProcessor, found 0 (took 1ms)
+ 2016-01-16 15:01:40,859 [P4912/D6/T134] INFO  Umbraco.Core.PluginManager - Starting resolution types of Merchello.Web.Mvc.IPaymentMethodUiController
+ 2016-01-16 15:01:40,859 [P4912/D6/T134] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Merchello.Web.Mvc.IPaymentMethodUiController, found 0 (took 0ms)
+ 2016-01-16 15:01:40,859 [P4912/D6/T134] INFO  Umbraco.Core.PluginManager - Starting resolution types of Merchello.Web.Reporting.ReportController
+ 2016-01-16 15:01:40,875 [P4912/D6/T134] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Merchello.Web.Reporting.ReportController, found 0 (took 0ms)
+ 2016-01-16 15:01:40,875 [P4912/D6/T134] INFO  Umbraco.Core.PluginManager - Starting resolution types of Merchello.Core.Marketing.Offer.IOfferProvider
+ 2016-01-16 15:01:40,875 [P4912/D6/T134] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Merchello.Core.Marketing.Offer.IOfferProvider, found 0 (took 1ms)
+ 2016-01-16 15:01:40,890 [P4912/D6/T134] INFO  Umbraco.Core.PluginManager - Starting resolution types of Merchello.Core.Marketing.Offer.OfferComponentBase
+ 2016-01-16 15:01:40,890 [P4912/D6/T134] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Merchello.Core.Marketing.Offer.OfferComponentBase, found 0 (took 2ms)
+ 2016-01-16 15:01:40,890 [P4912/D6/T134] INFO  Merchello.Core.CoreBootManager - Starting subscribing Monitors to Triggers
+ 2016-01-16 15:01:40,890 [P4912/D6/T134] INFO  Merchello.Core.Observation.MonitorBase`1[[Merchello.Core.Models.MonitorModels.IShipmentResultNotifyModel, Merchello.Core, Version=1.13.0.0, Culture=neutral, PublicKeyToken=null]] - PartialOrderShippedMonitor subscribing to PartialOrderShippedTrigger
+ 2016-01-16 15:01:40,890 [P4912/D6/T134] INFO  Merchello.Core.Observation.MonitorBase`1[[Merchello.Core.Models.MonitorModels.IPaymentResultMonitorModel, Merchello.Core, Version=1.13.0.0, Culture=neutral, PublicKeyToken=null]] - OrderConfirmationMonitor subscribing to OrderConfirmationTrigger
+ 2016-01-16 15:01:40,890 [P4912/D6/T134] INFO  Merchello.Core.Observation.MonitorBase`1[[Merchello.Core.Models.MonitorModels.IShipmentResultNotifyModel, Merchello.Core, Version=1.13.0.0, Culture=neutral, PublicKeyToken=null]] - OrderShippedMonitor subscribing to OrderShippedTrigger
+ 2016-01-16 15:01:40,890 [P4912/D6/T134] INFO  Umbraco.Core.CoreBootManager - Finished subscribing Monitors to Triggers
+ 2016-01-16 15:01:40,890 [P4912/D6/T134] INFO  Merchello.Core.CoreBootManager - Initializing EntityCollectionProviders
+ 2016-01-16 15:01:40,890 [P4912/D6/T134] INFO  Umbraco.Core.PluginManager - Starting resolution types of Merchello.Core.EntityCollections.IEntityCollectionProvider
+ 2016-01-16 15:01:40,890 [P4912/D6/T134] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Merchello.Core.EntityCollections.IEntityCollectionProvider, found 0 (took 3ms)
+ 2016-01-16 15:01:41,312 [P4912/D6/T134] INFO  Merchello.Web.UmbracoApplicationEventHandler - Initialization of Merchello complete
+ 2016-01-16 15:01:41,328 [P4912/D6/T134] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-01-16 15:01:41,328 [P4912/D6/T134] INFO  Merchello.Web.Search.ExamineEvents - Initializing Merchello ProductIndex binding events
+ 2016-01-16 15:01:41,343 [P4912/D7/T63] INFO  Merchello.Web.UmbracoApplicationEventHandler - Attempting to initialize Merchello
+ 2016-01-16 15:01:41,609 [P4912/D7/T63] INFO  Umbraco.Core.PluginManager - Starting resolution types of Merchello.Core.Gateways.GatewayProviderBase
+ 2016-01-16 15:01:41,609 [P4912/D7/T63] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Merchello.Core.Gateways.GatewayProviderBase, found 0 (took 1ms)
+ 2016-01-16 15:01:41,640 [P4912/D7/T63] INFO  Umbraco.Core.PluginManager - Starting resolution types of Merchello.Core.Observation.ITrigger
+ 2016-01-16 15:01:41,640 [P4912/D7/T63] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Merchello.Core.Observation.ITrigger, found 0 (took 0ms)
+ 2016-01-16 15:01:41,640 [P4912/D7/T63] INFO  Umbraco.Core.PluginManager - Starting resolution types of Merchello.Core.Observation.IMonitor
+ 2016-01-16 15:01:41,640 [P4912/D7/T63] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Merchello.Core.Observation.IMonitor, found 0 (took 0ms)
+ 2016-01-16 15:01:41,640 [P4912/D7/T63] INFO  Umbraco.Core.PluginManager - Starting resolution types of Merchello.Core.Chains.OfferConstraints.IOfferProcessor
+ 2016-01-16 15:01:41,640 [P4912/D7/T63] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Merchello.Core.Chains.OfferConstraints.IOfferProcessor, found 0 (took 1ms)
+ 2016-01-16 15:01:41,640 [P4912/D7/T63] INFO  Umbraco.Core.PluginManager - Starting resolution types of Merchello.Web.Mvc.IPaymentMethodUiController
+ 2016-01-16 15:01:41,640 [P4912/D7/T63] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Merchello.Web.Mvc.IPaymentMethodUiController, found 0 (took 0ms)
+ 2016-01-16 15:01:41,640 [P4912/D7/T63] INFO  Umbraco.Core.PluginManager - Starting resolution types of Merchello.Web.Reporting.ReportController
+ 2016-01-16 15:01:41,640 [P4912/D7/T63] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Merchello.Web.Reporting.ReportController, found 0 (took 0ms)
+ 2016-01-16 15:01:41,640 [P4912/D7/T63] INFO  Umbraco.Core.PluginManager - Starting resolution types of Merchello.Core.Marketing.Offer.IOfferProvider
+ 2016-01-16 15:01:41,656 [P4912/D7/T63] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Merchello.Core.Marketing.Offer.IOfferProvider, found 0 (took 1ms)
+ 2016-01-16 15:01:41,656 [P4912/D7/T63] INFO  Umbraco.Core.PluginManager - Starting resolution types of Merchello.Core.Marketing.Offer.OfferComponentBase
+ 2016-01-16 15:01:41,656 [P4912/D7/T63] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Merchello.Core.Marketing.Offer.OfferComponentBase, found 0 (took 2ms)
+ 2016-01-16 15:01:41,656 [P4912/D7/T63] INFO  Merchello.Core.CoreBootManager - Starting subscribing Monitors to Triggers
+ 2016-01-16 15:01:41,656 [P4912/D7/T63] INFO  Merchello.Core.Observation.MonitorBase`1[[Merchello.Core.Models.MonitorModels.IShipmentResultNotifyModel, Merchello.Core, Version=1.13.0.0, Culture=neutral, PublicKeyToken=null]] - PartialOrderShippedMonitor subscribing to PartialOrderShippedTrigger
+ 2016-01-16 15:01:41,656 [P4912/D7/T63] INFO  Merchello.Core.Observation.MonitorBase`1[[Merchello.Core.Models.MonitorModels.IPaymentResultMonitorModel, Merchello.Core, Version=1.13.0.0, Culture=neutral, PublicKeyToken=null]] - OrderConfirmationMonitor subscribing to OrderConfirmationTrigger
+ 2016-01-16 15:01:41,656 [P4912/D7/T63] INFO  Merchello.Core.Observation.MonitorBase`1[[Merchello.Core.Models.MonitorModels.IShipmentResultNotifyModel, Merchello.Core, Version=1.13.0.0, Culture=neutral, PublicKeyToken=null]] - OrderShippedMonitor subscribing to OrderShippedTrigger
+ 2016-01-16 15:01:41,656 [P4912/D7/T63] INFO  Umbraco.Core.CoreBootManager - Finished subscribing Monitors to Triggers
+ 2016-01-16 15:01:41,656 [P4912/D7/T63] INFO  Merchello.Core.CoreBootManager - Initializing EntityCollectionProviders
+ 2016-01-16 15:01:41,656 [P4912/D7/T63] INFO  Umbraco.Core.PluginManager - Starting resolution types of Merchello.Core.EntityCollections.IEntityCollectionProvider
+ 2016-01-16 15:01:41,656 [P4912/D7/T63] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Merchello.Core.EntityCollections.IEntityCollectionProvider, found 0 (took 3ms)
+ 2016-01-16 15:01:42,015 [P4912/D7/T63] INFO  Merchello.Web.UmbracoApplicationEventHandler - Initialization of Merchello complete
+ 2016-01-16 15:01:42,031 [P4912/D7/T63] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-01-16 15:01:42,031 [P4912/D7/T63] INFO  Merchello.Web.Search.ExamineEvents - Initializing Merchello ProductIndex binding events
+ 2016-01-16 15:01:42,281 [P4912/D6/T134] INFO  Merchello.Web.Trees.ServerVariablesParsingEvents - Initializing Merchello ServerVariablesParsingEvents
+ 2016-01-16 15:01:42,281 [P4912/D6/T134] INFO  Merchello.Web.UmbracoApplicationEventHandler - Initializing Customer related events
+ 2016-01-16 15:01:42,281 [P4912/D6/T134] INFO  Merchello.Web.UmbracoApplicationEventHandler - Verifying Merchello Version.
+ 2016-01-16 15:01:42,281 [P4912/D6/T134] INFO  Merchello.Core.Gateways.GatewayEvents - Initializing Merchello Warehouse Catalog binding events
+ 2016-01-16 15:01:42,281 [P4912/D6/T134] INFO  Merchello.Core.Gateways.Notification.Monitors.NotificationMonitorEvents - Initializing Merchello NotificationMonitor binding events
+ 2016-01-16 15:01:42,281 [P4912/D6/T134] INFO  Merchello.Core.Gateways.Notification.Monitors.NotificationMonitorEvents - Completed Merchello NotificationMonitor binding events
+ 2016-01-16 15:01:42,281 [P4912/D6/T134] INFO  Merchello.Core.Gateways.Notification.Smtp.SmtpProviderEvents - Initializing SMTP notification gateway provider registration binding events
+ 2016-01-16 15:01:42,328 [P4912/D6/T134] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-01-16 15:01:42,343 [P4912/D6/T134] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2016-01-16 15:01:42,375 [P4912/D6/T134] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2016-01-16 15:01:42,375 [P4912/D6/T134] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2016-01-16 15:01:42,375 [P4912/D6/T134] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 3853ms)
+ 2016-01-16 15:01:43,297 [P4912/D6/T191] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://www.oldlima.be:80/umbraco (UmbracoModule request)
+ 2016-01-16 15:01:43,656 [P4912/D7/T63] INFO  Merchello.Web.Trees.ServerVariablesParsingEvents - Initializing Merchello ServerVariablesParsingEvents
+ 2016-01-16 15:01:43,656 [P4912/D7/T63] INFO  Merchello.Web.UmbracoApplicationEventHandler - Initializing Customer related events
+ 2016-01-16 15:01:43,656 [P4912/D7/T63] INFO  Merchello.Web.UmbracoApplicationEventHandler - Verifying Merchello Version.
+ 2016-01-16 15:01:43,656 [P4912/D7/T63] INFO  Merchello.Core.Gateways.GatewayEvents - Initializing Merchello Warehouse Catalog binding events
+ 2016-01-16 15:01:43,656 [P4912/D7/T63] INFO  Merchello.Core.Gateways.Notification.Monitors.NotificationMonitorEvents - Initializing Merchello NotificationMonitor binding events
+ 2016-01-16 15:01:43,656 [P4912/D7/T63] INFO  Merchello.Core.Gateways.Notification.Monitors.NotificationMonitorEvents - Completed Merchello NotificationMonitor binding events
+ 2016-01-16 15:01:43,656 [P4912/D7/T63] INFO  Merchello.Core.Gateways.Notification.Smtp.SmtpProviderEvents - Initializing SMTP notification gateway provider registration binding events
+ 2016-01-16 15:01:43,703 [P4912/D7/T63] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-01-16 15:01:43,718 [P4912/D7/T63] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2016-01-16 15:01:43,734 [P4912/D7/T63] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2016-01-16 15:01:43,734 [P4912/D7/T63] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2016-01-16 15:01:43,734 [P4912/D7/T63] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 4342ms)
+ 2016-01-16 15:01:44,672 [P4912/D7/T197] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://www.oldlima.be:80/umbraco (UmbracoModule request)
+ 2016-01-16 15:01:45,390 [P4912/D6/T172] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Terminating
+ 2016-01-16 15:01:45,390 [P4912/D6/T172] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Waiting for tasks to complete
+ 2016-01-16 15:01:45,390 [P4912/D6/T172] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Terminating
+ 2016-01-16 15:01:45,390 [P4912/D6/T172] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Waiting for tasks to complete
+ 2016-01-16 15:01:45,390 [P4912/D6/T172] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Terminating
+ 2016-01-16 15:01:45,390 [P4912/D6/T172] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Waiting for tasks to complete
+ 2016-01-16 15:01:45,453 [P4912/D6/T6] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Tasks completed, terminated
+ 2016-01-16 15:01:45,453 [P4912/D6/T205] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Tasks completed, terminated
+ 2016-01-16 15:01:45,453 [P4912/D6/T173] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Tasks completed, terminated
+ 2016-01-16 15:01:45,469 [P4912/D6/T172] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Terminating
+ 2016-01-16 15:01:45,469 [P4912/D6/T172] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Waiting for tasks to complete
+ 2016-01-16 15:01:45,469 [P4912/D6/T156] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Tasks completed, terminated
+ 2016-01-16 15:01:52,500 [P4912/D7/T197] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2016-01-16 15:01:52,500 [P4912/D7/T197] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 0 (took 1ms)
+ 2016-01-16 15:01:59,922 [P4912/D7/T165] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2016-01-16 15:01:59,922 [P4912/D7/T165] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 1ms)
+ 2016-01-16 15:02:02,375 [P4912/D7/T156] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ICacheRefresher
+ 2016-01-16 15:02:02,375 [P4912/D7/T156] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 0 (took 1ms)
+ 2016-01-16 15:02:02,375 [P4912/D7/T156] INFO  umbraco.content - Load Xml from file...
+ 2016-01-16 15:02:02,375 [P4912/D7/T156] INFO  umbraco.content - Loaded Xml from file.
+ 2016-01-16 15:02:04,719 [P4912/D7/T46] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Terminating
+ 2016-01-16 15:02:04,719 [P4912/D7/T46] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Waiting for tasks to complete
+ 2016-01-16 15:02:04,734 [P4912/D7/T46] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Terminating
+ 2016-01-16 15:02:04,734 [P4912/D7/T46] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Waiting for tasks to complete
+ 2016-01-16 15:02:04,734 [P4912/D7/T46] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Terminating
+ 2016-01-16 15:02:04,734 [P4912/D7/T46] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Waiting for tasks to complete
+ 2016-01-16 15:02:04,734 [P4912/D7/T171] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Tasks completed, terminated
+ 2016-01-16 15:02:04,750 [P4912/D7/T163] INFO  umbraco.content - Save Xml to file...
+ 2016-01-16 15:02:04,750 [P4912/D7/T161] INFO  umbraco.content - Saved Xml to file.
+ 2016-01-16 15:02:04,750 [P4912/D7/T46] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Terminating
+ 2016-01-16 15:02:04,750 [P4912/D7/T46] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Waiting for tasks to complete
+ 2016-01-16 15:02:04,765 [P4912/D7/T164] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Tasks completed, terminated
+ 2016-01-16 15:02:04,765 [P4912/D7/T191] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Tasks completed, terminated
+ 2016-01-16 15:02:04,765 [P4912/D7/T160] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Tasks completed, terminated
+ 2016-01-16 15:02:05,219 [P4912/D8/T63] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.3.1 application starting on SHAREDWIN007
+ 2016-01-16 15:02:05,250 [P4912/D8/T63] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2016-01-16 15:02:05,250 [P4912/D8/T63] INFO  Umbraco.Core.PluginManager - Hash determined (took 9ms)
+ 2016-01-16 15:02:05,328 [P4912/D8/T63] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+ 2016-01-16 15:02:05,344 [P4912/D8/T63] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 12ms)
+ 2016-01-16 15:02:05,359 [P4912/D8/T63] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2016-01-16 15:02:05,359 [P4912/D8/T63] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 1ms)
+ 2016-01-16 15:02:05,359 [P4912/D8/T63] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2016-01-16 15:02:05,375 [P4912/D8/T63] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 0 (took 1ms)
+ 2016-01-16 15:02:05,375 [P4912/D8/T63] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+ 2016-01-16 15:02:05,375 [P4912/D8/T63] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 1ms)
+ 2016-01-16 15:02:05,375 [P4912/D8/T63] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+ 2016-01-16 15:02:05,375 [P4912/D8/T63] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 0 (took 6ms)
+ 2016-01-16 15:02:05,422 [P4912/D8/T63] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+ 2016-01-16 15:02:05,422 [P4912/D8/T63] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 0 (took 0ms)
+ 2016-01-16 15:02:05,422 [P4912/D8/T63] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+ 2016-01-16 15:02:05,422 [P4912/D8/T63] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 0 (took 0ms)
+ 2016-01-16 15:02:06,031 [P4912/D8/T63] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-01-16 15:02:06,156 [P4912/D8/T63] INFO  Merchello.Web.UmbracoApplicationEventHandler - Attempting to initialize Merchello
+ 2016-01-16 15:02:06,187 [P4912/D8/T63] INFO  Umbraco.Core.PluginManager - Starting resolution types of Merchello.Core.Gateways.GatewayProviderBase
+ 2016-01-16 15:02:06,187 [P4912/D8/T63] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Merchello.Core.Gateways.GatewayProviderBase, found 0 (took 2ms)
+ 2016-01-16 15:02:06,422 [P4912/D8/T63] INFO  Umbraco.Core.PluginManager - Starting resolution types of Merchello.Core.Observation.ITrigger
+ 2016-01-16 15:02:06,422 [P4912/D8/T63] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Merchello.Core.Observation.ITrigger, found 0 (took 0ms)
+ 2016-01-16 15:02:06,422 [P4912/D8/T63] INFO  Umbraco.Core.PluginManager - Starting resolution types of Merchello.Core.Observation.IMonitor
+ 2016-01-16 15:02:06,422 [P4912/D8/T63] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Merchello.Core.Observation.IMonitor, found 0 (took 0ms)
+ 2016-01-16 15:02:06,422 [P4912/D8/T63] INFO  Umbraco.Core.PluginManager - Starting resolution types of Merchello.Core.Chains.OfferConstraints.IOfferProcessor
+ 2016-01-16 15:02:06,422 [P4912/D8/T63] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Merchello.Core.Chains.OfferConstraints.IOfferProcessor, found 0 (took 1ms)
+ 2016-01-16 15:02:06,422 [P4912/D8/T63] INFO  Umbraco.Core.PluginManager - Starting resolution types of Merchello.Web.Mvc.IPaymentMethodUiController
+ 2016-01-16 15:02:06,422 [P4912/D8/T63] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Merchello.Web.Mvc.IPaymentMethodUiController, found 0 (took 0ms)
+ 2016-01-16 15:02:06,422 [P4912/D8/T63] INFO  Umbraco.Core.PluginManager - Starting resolution types of Merchello.Web.Reporting.ReportController
+ 2016-01-16 15:02:06,422 [P4912/D8/T63] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Merchello.Web.Reporting.ReportController, found 0 (took 0ms)
+ 2016-01-16 15:02:06,422 [P4912/D8/T63] INFO  Umbraco.Core.PluginManager - Starting resolution types of Merchello.Core.Marketing.Offer.IOfferProvider
+ 2016-01-16 15:02:06,422 [P4912/D8/T63] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Merchello.Core.Marketing.Offer.IOfferProvider, found 0 (took 1ms)
+ 2016-01-16 15:02:06,422 [P4912/D8/T63] INFO  Umbraco.Core.PluginManager - Starting resolution types of Merchello.Core.Marketing.Offer.OfferComponentBase
+ 2016-01-16 15:02:06,437 [P4912/D8/T63] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Merchello.Core.Marketing.Offer.OfferComponentBase, found 0 (took 2ms)
+ 2016-01-16 15:02:06,437 [P4912/D8/T63] INFO  Merchello.Core.CoreBootManager - Starting subscribing Monitors to Triggers
+ 2016-01-16 15:02:06,437 [P4912/D8/T63] INFO  Merchello.Core.Observation.MonitorBase`1[[Merchello.Core.Models.MonitorModels.IShipmentResultNotifyModel, Merchello.Core, Version=1.13.0.0, Culture=neutral, PublicKeyToken=null]] - PartialOrderShippedMonitor subscribing to PartialOrderShippedTrigger
+ 2016-01-16 15:02:06,437 [P4912/D8/T63] INFO  Merchello.Core.Observation.MonitorBase`1[[Merchello.Core.Models.MonitorModels.IPaymentResultMonitorModel, Merchello.Core, Version=1.13.0.0, Culture=neutral, PublicKeyToken=null]] - OrderConfirmationMonitor subscribing to OrderConfirmationTrigger
+ 2016-01-16 15:02:06,437 [P4912/D8/T63] INFO  Merchello.Core.Observation.MonitorBase`1[[Merchello.Core.Models.MonitorModels.IShipmentResultNotifyModel, Merchello.Core, Version=1.13.0.0, Culture=neutral, PublicKeyToken=null]] - OrderShippedMonitor subscribing to OrderShippedTrigger
+ 2016-01-16 15:02:06,437 [P4912/D8/T63] INFO  Umbraco.Core.CoreBootManager - Finished subscribing Monitors to Triggers
+ 2016-01-16 15:02:06,437 [P4912/D8/T63] INFO  Merchello.Core.CoreBootManager - Initializing EntityCollectionProviders
+ 2016-01-16 15:02:06,437 [P4912/D8/T63] INFO  Umbraco.Core.PluginManager - Starting resolution types of Merchello.Core.EntityCollections.IEntityCollectionProvider
+ 2016-01-16 15:02:06,437 [P4912/D8/T63] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Merchello.Core.EntityCollections.IEntityCollectionProvider, found 0 (took 3ms)
+ 2016-01-16 15:02:06,828 [P4912/D8/T63] INFO  Merchello.Web.UmbracoApplicationEventHandler - Initialization of Merchello complete
+ 2016-01-16 15:02:06,844 [P4912/D8/T63] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-01-16 15:02:06,859 [P4912/D8/T63] INFO  Merchello.Web.Search.ExamineEvents - Initializing Merchello ProductIndex binding events
+ 2016-01-16 15:02:07,422 [P4912/D8/T63] INFO  Merchello.Web.Trees.ServerVariablesParsingEvents - Initializing Merchello ServerVariablesParsingEvents
+ 2016-01-16 15:02:07,422 [P4912/D8/T63] INFO  Merchello.Web.UmbracoApplicationEventHandler - Initializing Customer related events
+ 2016-01-16 15:02:07,422 [P4912/D8/T63] INFO  Merchello.Web.UmbracoApplicationEventHandler - Verifying Merchello Version.
+ 2016-01-16 15:02:07,422 [P4912/D8/T63] INFO  Merchello.Core.Gateways.GatewayEvents - Initializing Merchello Warehouse Catalog binding events
+ 2016-01-16 15:02:07,422 [P4912/D8/T63] INFO  Merchello.Core.Gateways.Notification.Monitors.NotificationMonitorEvents - Initializing Merchello NotificationMonitor binding events
+ 2016-01-16 15:02:07,422 [P4912/D8/T63] INFO  Merchello.Core.Gateways.Notification.Monitors.NotificationMonitorEvents - Completed Merchello NotificationMonitor binding events
+ 2016-01-16 15:02:07,422 [P4912/D8/T63] INFO  Merchello.Core.Gateways.Notification.Smtp.SmtpProviderEvents - Initializing SMTP notification gateway provider registration binding events
+ 2016-01-16 15:02:07,469 [P4912/D8/T63] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-01-16 15:02:07,703 [P4912/D8/T63] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2016-01-16 15:02:07,703 [P4912/D8/T63] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2016-01-16 15:02:07,703 [P4912/D8/T63] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2016-01-16 15:02:07,703 [P4912/D8/T63] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 2565ms)
+ 2016-01-16 15:02:08,687 [P4912/D8/T160] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://www.oldlima.be:80/umbraco (UmbracoModule request)
+ 2016-01-16 15:02:09,062 [P4912/D5/T197] INFO  Umbraco.Core.UmbracoApplicationBase - Application shutdown. Details: ConfigurationChange
+
+_shutDownMessage=IIS configuration change
+HostingEnvironment initiated shutdown
+HostingEnvironment caused shutdown
+
+_shutDownStack=   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownInternal()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownWithoutDemand()
+   at System.Web.Hosting.PipelineRuntime.StopProcessing()
+ 2016-01-16 15:02:15,547 [P4912/D6/T41] INFO  Umbraco.Core.UmbracoApplicationBase - Application shutdown. Details: ConfigurationChange
+
+_shutDownMessage=IIS configuration change
+HostingEnvironment initiated shutdown
+HostingEnvironment caused shutdown
+
+_shutDownStack=   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownInternal()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownWithoutDemand()
+   at System.Web.Hosting.PipelineRuntime.StopProcessing()
+ 2016-01-16 15:02:16,156 [P4912/D8/T165] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2016-01-16 15:02:16,156 [P4912/D8/T165] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 1ms)
+ 2016-01-16 15:02:16,515 [P4912/D8/T160] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2016-01-16 15:02:16,515 [P4912/D8/T160] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 0 (took 1ms)
+ 2016-01-16 15:02:16,578 [P4912/D8/T160] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'BMW R 100GSPD' with Id '1655' has been published.
+ 2016-01-16 15:02:17,594 [P4912/D8/T160] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ICacheRefresher
+ 2016-01-16 15:02:17,594 [P4912/D8/T160] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 0 (took 1ms)
+ 2016-01-16 15:02:17,609 [P4912/D8/T160] INFO  umbraco.content - Load Xml from file...
+ 2016-01-16 15:02:17,609 [P4912/D8/T160] INFO  umbraco.content - Loaded Xml from file.
+ 2016-01-16 15:02:21,656 [P4912/D8/T206] INFO  umbraco.content - Save Xml to file...
+ 2016-01-16 15:02:21,672 [P4912/D8/T175] INFO  umbraco.content - Saved Xml to file.
+ 2016-01-16 15:02:33,203 [P4912/D8/T173] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'BMW R 100GSPD' with Id '1462' has been unpublished.
+ 2016-01-16 15:02:34,750 [P4912/D7/T165] INFO  Umbraco.Core.UmbracoApplicationBase - Application shutdown. Details: ConfigurationChange
+
+_shutDownMessage=IIS configuration change
+HostingEnvironment initiated shutdown
+HostingEnvironment caused shutdown
+
+_shutDownStack=   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownInternal()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownWithoutDemand()
+   at System.Web.Hosting.PipelineRuntime.StopProcessing()
+ 2016-01-16 15:02:37,547 [P4912/D8/T156] INFO  umbraco.content - Save Xml to file...
+ 2016-01-16 15:02:37,578 [P4912/D8/T208] INFO  umbraco.content - Saved Xml to file.
+ 2016-01-16 15:03:11,297 [P4912/D8/T164] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-01-15 15:03:11
+ 2016-01-16 15:04:08,156 [P4912/D8/T160] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'BMW R 65TIC a' with Id '0' has been published.
+ 2016-01-16 15:04:12,672 [P4912/D8/T187] INFO  umbraco.content - Save Xml to file...
+ 2016-01-16 15:04:12,672 [P4912/D8/T161] INFO  umbraco.content - Saved Xml to file.
+ 2016-01-16 15:04:53,375 [P4912/D8/T6] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2016-01-16 15:04:53,375 [P4912/D8/T6] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 1ms)
+ 2016-01-16 15:04:53,375 [P4912/D8/T6] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2016-01-16 15:04:53,375 [P4912/D8/T6] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 1ms)
+ 2016-01-16 15:06:06,078 [P4912/D8/T46] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'BMW R 65TIC' with Id '1480' has been unpublished.
+ 2016-01-16 15:06:10,422 [P4912/D8/T173] INFO  umbraco.content - Save Xml to file...
+ 2016-01-16 15:06:10,422 [P4912/D8/T161] INFO  umbraco.content - Saved Xml to file.
+ 2016-01-16 15:06:40,141 [P4912/D8/T197] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'BMW R 65TIC' with Id '1657' has been published.
+ 2016-01-16 15:06:44,547 [P4912/D8/T171] INFO  umbraco.content - Save Xml to file...
+ 2016-01-16 15:06:44,547 [P4912/D8/T161] INFO  umbraco.content - Saved Xml to file.
+ 2016-01-16 15:08:12,188 [P4912/D8/T165] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'BMW R 100/7a' with Id '0' has been published.
+ 2016-01-16 15:08:16,626 [P4912/D8/T172] INFO  umbraco.content - Save Xml to file...
+ 2016-01-16 15:08:16,626 [P4912/D8/T162] INFO  umbraco.content - Saved Xml to file.
+ 2016-01-16 15:08:18,813 [P4912/D9/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.3.1 application starting on SHAREDWIN007
+ 2016-01-16 15:08:18,844 [P4912/D9/T1] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2016-01-16 15:08:18,844 [P4912/D9/T1] INFO  Umbraco.Core.PluginManager - Hash determined (took 7ms)
+ 2016-01-16 15:08:18,922 [P4912/D9/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+ 2016-01-16 15:08:18,938 [P4912/D9/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 12ms)
+ 2016-01-16 15:08:18,954 [P4912/D9/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2016-01-16 15:08:18,954 [P4912/D9/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 1ms)
+ 2016-01-16 15:08:18,954 [P4912/D9/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2016-01-16 15:08:18,954 [P4912/D9/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 0 (took 1ms)
+ 2016-01-16 15:08:18,969 [P4912/D9/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+ 2016-01-16 15:08:18,969 [P4912/D9/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 1ms)
+ 2016-01-16 15:08:18,969 [P4912/D9/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+ 2016-01-16 15:08:18,969 [P4912/D9/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 0 (took 6ms)
+ 2016-01-16 15:08:19,001 [P4912/D9/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+ 2016-01-16 15:08:19,001 [P4912/D9/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 0 (took 0ms)
+ 2016-01-16 15:08:19,001 [P4912/D9/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+ 2016-01-16 15:08:19,016 [P4912/D9/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 0 (took 0ms)
+ 2016-01-16 15:08:19,626 [P4912/D9/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-01-16 15:08:19,704 [P4912/D9/T1] INFO  Merchello.Web.UmbracoApplicationEventHandler - Attempting to initialize Merchello
+ 2016-01-16 15:08:19,735 [P4912/D9/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Merchello.Core.Gateways.GatewayProviderBase
+ 2016-01-16 15:08:19,735 [P4912/D9/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Merchello.Core.Gateways.GatewayProviderBase, found 0 (took 1ms)
+ 2016-01-16 15:08:19,782 [P4912/D9/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Merchello.Core.Observation.ITrigger
+ 2016-01-16 15:08:19,797 [P4912/D9/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Merchello.Core.Observation.ITrigger, found 0 (took 2ms)
+ 2016-01-16 15:08:19,797 [P4912/D9/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Merchello.Core.Observation.IMonitor
+ 2016-01-16 15:08:19,797 [P4912/D9/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Merchello.Core.Observation.IMonitor, found 0 (took 1ms)
+ 2016-01-16 15:08:19,797 [P4912/D9/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Merchello.Core.Chains.OfferConstraints.IOfferProcessor
+ 2016-01-16 15:08:19,797 [P4912/D9/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Merchello.Core.Chains.OfferConstraints.IOfferProcessor, found 0 (took 1ms)
+ 2016-01-16 15:08:19,797 [P4912/D9/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Merchello.Web.Mvc.IPaymentMethodUiController
+ 2016-01-16 15:08:19,797 [P4912/D9/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Merchello.Web.Mvc.IPaymentMethodUiController, found 0 (took 0ms)
+ 2016-01-16 15:08:19,797 [P4912/D9/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Merchello.Web.Reporting.ReportController
+ 2016-01-16 15:08:19,797 [P4912/D9/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Merchello.Web.Reporting.ReportController, found 0 (took 0ms)
+ 2016-01-16 15:08:19,797 [P4912/D9/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Merchello.Core.Marketing.Offer.IOfferProvider
+ 2016-01-16 15:08:19,797 [P4912/D9/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Merchello.Core.Marketing.Offer.IOfferProvider, found 0 (took 1ms)
+ 2016-01-16 15:08:19,797 [P4912/D9/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Merchello.Core.Marketing.Offer.OfferComponentBase
+ 2016-01-16 15:08:19,813 [P4912/D9/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Merchello.Core.Marketing.Offer.OfferComponentBase, found 0 (took 2ms)
+ 2016-01-16 15:08:19,813 [P4912/D9/T1] INFO  Merchello.Core.CoreBootManager - Starting subscribing Monitors to Triggers
+ 2016-01-16 15:08:19,813 [P4912/D9/T1] INFO  Merchello.Core.Observation.MonitorBase`1[[Merchello.Core.Models.MonitorModels.IShipmentResultNotifyModel, Merchello.Core, Version=1.13.0.0, Culture=neutral, PublicKeyToken=null]] - PartialOrderShippedMonitor subscribing to PartialOrderShippedTrigger
+ 2016-01-16 15:08:19,813 [P4912/D9/T1] INFO  Merchello.Core.Observation.MonitorBase`1[[Merchello.Core.Models.MonitorModels.IPaymentResultMonitorModel, Merchello.Core, Version=1.13.0.0, Culture=neutral, PublicKeyToken=null]] - OrderConfirmationMonitor subscribing to OrderConfirmationTrigger
+ 2016-01-16 15:08:19,813 [P4912/D9/T1] INFO  Merchello.Core.Observation.MonitorBase`1[[Merchello.Core.Models.MonitorModels.IShipmentResultNotifyModel, Merchello.Core, Version=1.13.0.0, Culture=neutral, PublicKeyToken=null]] - OrderShippedMonitor subscribing to OrderShippedTrigger
+ 2016-01-16 15:08:19,813 [P4912/D9/T1] INFO  Umbraco.Core.CoreBootManager - Finished subscribing Monitors to Triggers
+ 2016-01-16 15:08:19,813 [P4912/D9/T1] INFO  Merchello.Core.CoreBootManager - Initializing EntityCollectionProviders
+ 2016-01-16 15:08:19,813 [P4912/D9/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Merchello.Core.EntityCollections.IEntityCollectionProvider
+ 2016-01-16 15:08:19,813 [P4912/D9/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Merchello.Core.EntityCollections.IEntityCollectionProvider, found 0 (took 3ms)
+ 2016-01-16 15:08:20,204 [P4912/D9/T1] INFO  Merchello.Web.UmbracoApplicationEventHandler - Initialization of Merchello complete
+ 2016-01-16 15:08:20,219 [P4912/D9/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-01-16 15:08:20,219 [P4912/D9/T1] INFO  Merchello.Web.Search.ExamineEvents - Initializing Merchello ProductIndex binding events
+ 2016-01-16 15:08:21,922 [P4912/D9/T1] INFO  Merchello.Web.Trees.ServerVariablesParsingEvents - Initializing Merchello ServerVariablesParsingEvents
+ 2016-01-16 15:08:21,922 [P4912/D9/T1] INFO  Merchello.Web.UmbracoApplicationEventHandler - Initializing Customer related events
+ 2016-01-16 15:08:21,922 [P4912/D9/T1] INFO  Merchello.Web.UmbracoApplicationEventHandler - Verifying Merchello Version.
+ 2016-01-16 15:08:21,922 [P4912/D9/T1] INFO  Merchello.Core.Gateways.GatewayEvents - Initializing Merchello Warehouse Catalog binding events
+ 2016-01-16 15:08:21,922 [P4912/D9/T1] INFO  Merchello.Core.Gateways.Notification.Monitors.NotificationMonitorEvents - Initializing Merchello NotificationMonitor binding events
+ 2016-01-16 15:08:21,922 [P4912/D9/T1] INFO  Merchello.Core.Gateways.Notification.Monitors.NotificationMonitorEvents - Completed Merchello NotificationMonitor binding events
+ 2016-01-16 15:08:21,922 [P4912/D9/T1] INFO  Merchello.Core.Gateways.Notification.Smtp.SmtpProviderEvents - Initializing SMTP notification gateway provider registration binding events
+ 2016-01-16 15:08:21,969 [P4912/D9/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-01-16 15:08:22,126 [P4912/D9/T1] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2016-01-16 15:08:22,126 [P4912/D9/T1] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2016-01-16 15:08:22,126 [P4912/D9/T1] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2016-01-16 15:08:22,126 [P4912/D9/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 3405ms)
+ 2016-01-16 15:08:22,157 [P4912/D8/T171] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Terminating
+ 2016-01-16 15:08:22,157 [P4912/D8/T171] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Waiting for tasks to complete
+ 2016-01-16 15:08:22,157 [P4912/D8/T171] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Terminating
+ 2016-01-16 15:08:22,157 [P4912/D8/T171] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Waiting for tasks to complete
+ 2016-01-16 15:08:22,157 [P4912/D8/T171] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Terminating
+ 2016-01-16 15:08:22,157 [P4912/D8/T171] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Waiting for tasks to complete
+ 2016-01-16 15:08:22,157 [P4912/D8/T171] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Terminating
+ 2016-01-16 15:08:22,157 [P4912/D8/T171] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Waiting for tasks to complete
+ 2016-01-16 15:08:22,172 [P4912/D8/T156] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Tasks completed, terminated
+ 2016-01-16 15:08:22,172 [P4912/D8/T164] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Tasks completed, terminated
+ 2016-01-16 15:08:22,329 [P4912/D8/T167] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Tasks completed, terminated
+ 2016-01-16 15:08:22,329 [P4912/D8/T191] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Tasks completed, terminated
+ 2016-01-16 15:08:23,001 [P4912/D9/T197] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://www.oldlima.be:80/umbraco (UmbracoModule request)
+ 2016-01-16 15:08:23,626 [P4912/D9/T197] INFO  umbraco.content - Load Xml from file...
+ 2016-01-16 15:08:23,626 [P4912/D9/T197] INFO  umbraco.content - Loaded Xml from file.
+ 2016-01-16 15:08:23,907 [P4912/D9/T197] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2016-01-16 15:08:23,907 [P4912/D9/T197] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 0 (took 1ms)
+ 2016-01-16 15:08:52,360 [P4912/D8/T167] INFO  Umbraco.Core.UmbracoApplicationBase - Application shutdown. Details: ConfigurationChange
+
+_shutDownMessage=IIS configuration change
+HostingEnvironment initiated shutdown
+HostingEnvironment caused shutdown
+
+_shutDownStack=   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownInternal()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownWithoutDemand()
+   at System.Web.Hosting.PipelineRuntime.StopProcessing()
+ 2016-01-16 15:09:02,563 [P4912/D9/T197] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2016-01-16 15:09:02,563 [P4912/D9/T197] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 1ms)
+ 2016-01-16 15:09:04,907 [P4912/D9/T46] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ICacheRefresher
+ 2016-01-16 15:09:04,907 [P4912/D9/T46] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 0 (took 1ms)
+ 2016-01-16 15:09:09,126 [P4912/D9/T176] INFO  umbraco.content - Save Xml to file...
+ 2016-01-16 15:09:09,141 [P4912/D9/T184] INFO  umbraco.content - Saved Xml to file.
+ 2016-01-16 15:09:15,782 [P4912/D10/T161] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.3.1 application starting on SHAREDWIN007
+ 2016-01-16 15:09:15,829 [P4912/D10/T161] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2016-01-16 15:09:15,844 [P4912/D10/T161] INFO  Umbraco.Core.PluginManager - Hash determined (took 7ms)
+ 2016-01-16 15:09:15,923 [P4912/D10/T161] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+ 2016-01-16 15:09:15,923 [P4912/D10/T161] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 8ms)
+ 2016-01-16 15:09:15,954 [P4912/D10/T161] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2016-01-16 15:09:15,954 [P4912/D10/T161] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 2ms)
+ 2016-01-16 15:09:15,954 [P4912/D10/T161] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2016-01-16 15:09:15,954 [P4912/D10/T161] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 0 (took 1ms)
+ 2016-01-16 15:09:15,969 [P4912/D10/T161] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+ 2016-01-16 15:09:15,969 [P4912/D10/T161] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 2ms)
+ 2016-01-16 15:09:15,969 [P4912/D10/T161] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+ 2016-01-16 15:09:15,969 [P4912/D10/T161] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 0 (took 7ms)
+ 2016-01-16 15:09:16,001 [P4912/D10/T161] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+ 2016-01-16 15:09:16,001 [P4912/D10/T161] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 0 (took 0ms)
+ 2016-01-16 15:09:16,001 [P4912/D10/T161] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+ 2016-01-16 15:09:16,001 [P4912/D10/T161] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 0 (took 0ms)
+ 2016-01-16 15:09:16,579 [P4912/D10/T161] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-01-16 15:09:16,657 [P4912/D10/T161] INFO  Merchello.Web.UmbracoApplicationEventHandler - Attempting to initialize Merchello
+ 2016-01-16 15:09:16,688 [P4912/D10/T161] INFO  Umbraco.Core.PluginManager - Starting resolution types of Merchello.Core.Gateways.GatewayProviderBase
+ 2016-01-16 15:09:16,688 [P4912/D10/T161] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Merchello.Core.Gateways.GatewayProviderBase, found 0 (took 1ms)
+ 2016-01-16 15:09:16,985 [P4912/D10/T161] INFO  Umbraco.Core.PluginManager - Starting resolution types of Merchello.Core.Observation.ITrigger
+ 2016-01-16 15:09:16,985 [P4912/D10/T161] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Merchello.Core.Observation.ITrigger, found 0 (took 0ms)
+ 2016-01-16 15:09:16,985 [P4912/D10/T161] INFO  Umbraco.Core.PluginManager - Starting resolution types of Merchello.Core.Observation.IMonitor
+ 2016-01-16 15:09:16,985 [P4912/D10/T161] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Merchello.Core.Observation.IMonitor, found 0 (took 0ms)
+ 2016-01-16 15:09:16,985 [P4912/D10/T161] INFO  Umbraco.Core.PluginManager - Starting resolution types of Merchello.Core.Chains.OfferConstraints.IOfferProcessor
+ 2016-01-16 15:09:16,985 [P4912/D10/T161] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Merchello.Core.Chains.OfferConstraints.IOfferProcessor, found 0 (took 1ms)
+ 2016-01-16 15:09:16,985 [P4912/D10/T161] INFO  Umbraco.Core.PluginManager - Starting resolution types of Merchello.Web.Mvc.IPaymentMethodUiController
+ 2016-01-16 15:09:16,985 [P4912/D10/T161] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Merchello.Web.Mvc.IPaymentMethodUiController, found 0 (took 0ms)
+ 2016-01-16 15:09:16,985 [P4912/D10/T161] INFO  Umbraco.Core.PluginManager - Starting resolution types of Merchello.Web.Reporting.ReportController
+ 2016-01-16 15:09:16,985 [P4912/D10/T161] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Merchello.Web.Reporting.ReportController, found 0 (took 0ms)
+ 2016-01-16 15:09:16,985 [P4912/D10/T161] INFO  Umbraco.Core.PluginManager - Starting resolution types of Merchello.Core.Marketing.Offer.IOfferProvider
+ 2016-01-16 15:09:17,001 [P4912/D10/T161] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Merchello.Core.Marketing.Offer.IOfferProvider, found 0 (took 1ms)
+ 2016-01-16 15:09:17,001 [P4912/D10/T161] INFO  Umbraco.Core.PluginManager - Starting resolution types of Merchello.Core.Marketing.Offer.OfferComponentBase
+ 2016-01-16 15:09:17,001 [P4912/D10/T161] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Merchello.Core.Marketing.Offer.OfferComponentBase, found 0 (took 2ms)
+ 2016-01-16 15:09:17,001 [P4912/D10/T161] INFO  Merchello.Core.CoreBootManager - Starting subscribing Monitors to Triggers
+ 2016-01-16 15:09:17,001 [P4912/D10/T161] INFO  Merchello.Core.Observation.MonitorBase`1[[Merchello.Core.Models.MonitorModels.IShipmentResultNotifyModel, Merchello.Core, Version=1.13.0.0, Culture=neutral, PublicKeyToken=null]] - PartialOrderShippedMonitor subscribing to PartialOrderShippedTrigger
+ 2016-01-16 15:09:17,001 [P4912/D10/T161] INFO  Merchello.Core.Observation.MonitorBase`1[[Merchello.Core.Models.MonitorModels.IPaymentResultMonitorModel, Merchello.Core, Version=1.13.0.0, Culture=neutral, PublicKeyToken=null]] - OrderConfirmationMonitor subscribing to OrderConfirmationTrigger
+ 2016-01-16 15:09:17,001 [P4912/D10/T161] INFO  Merchello.Core.Observation.MonitorBase`1[[Merchello.Core.Models.MonitorModels.IShipmentResultNotifyModel, Merchello.Core, Version=1.13.0.0, Culture=neutral, PublicKeyToken=null]] - OrderShippedMonitor subscribing to OrderShippedTrigger
+ 2016-01-16 15:09:17,001 [P4912/D10/T161] INFO  Umbraco.Core.CoreBootManager - Finished subscribing Monitors to Triggers
+ 2016-01-16 15:09:17,001 [P4912/D10/T161] INFO  Merchello.Core.CoreBootManager - Initializing EntityCollectionProviders
+ 2016-01-16 15:09:17,001 [P4912/D10/T161] INFO  Umbraco.Core.PluginManager - Starting resolution types of Merchello.Core.EntityCollections.IEntityCollectionProvider
+ 2016-01-16 15:09:17,001 [P4912/D10/T161] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Merchello.Core.EntityCollections.IEntityCollectionProvider, found 0 (took 3ms)
+ 2016-01-16 15:09:17,391 [P4912/D10/T161] INFO  Merchello.Web.UmbracoApplicationEventHandler - Initialization of Merchello complete
+ 2016-01-16 15:09:17,407 [P4912/D10/T161] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-01-16 15:09:17,423 [P4912/D10/T161] INFO  Merchello.Web.Search.ExamineEvents - Initializing Merchello ProductIndex binding events
+ 2016-01-16 15:09:22,626 [P4912/D10/T161] INFO  Merchello.Web.Trees.ServerVariablesParsingEvents - Initializing Merchello ServerVariablesParsingEvents
+ 2016-01-16 15:09:22,626 [P4912/D10/T161] INFO  Merchello.Web.UmbracoApplicationEventHandler - Initializing Customer related events
+ 2016-01-16 15:09:22,626 [P4912/D10/T161] INFO  Merchello.Web.UmbracoApplicationEventHandler - Verifying Merchello Version.
+ 2016-01-16 15:09:22,626 [P4912/D10/T161] INFO  Merchello.Core.Gateways.GatewayEvents - Initializing Merchello Warehouse Catalog binding events
+ 2016-01-16 15:09:22,626 [P4912/D10/T161] INFO  Merchello.Core.Gateways.Notification.Monitors.NotificationMonitorEvents - Initializing Merchello NotificationMonitor binding events
+ 2016-01-16 15:09:22,626 [P4912/D10/T161] INFO  Merchello.Core.Gateways.Notification.Monitors.NotificationMonitorEvents - Completed Merchello NotificationMonitor binding events
+ 2016-01-16 15:09:22,626 [P4912/D10/T161] INFO  Merchello.Core.Gateways.Notification.Smtp.SmtpProviderEvents - Initializing SMTP notification gateway provider registration binding events
+ 2016-01-16 15:09:22,688 [P4912/D10/T161] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-01-16 15:09:22,938 [P4912/D10/T161] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2016-01-16 15:09:22,938 [P4912/D10/T161] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2016-01-16 15:09:22,938 [P4912/D10/T161] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2016-01-16 15:09:22,938 [P4912/D10/T161] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 7206ms)
+ 2016-01-16 15:09:24,376 [P4912/D10/T187] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://www.oldlima.be:80/umbraco (UmbracoModule request)
+ 2016-01-16 15:09:26,969 [P4912/D10/T187] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2016-01-16 15:09:26,969 [P4912/D10/T187] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 1ms)
+ 2016-01-16 15:09:26,969 [P4912/D10/T187] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2016-01-16 15:09:26,969 [P4912/D10/T187] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 1ms)
+ 2016-01-16 15:09:32,751 [P4912/D10/T187] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2016-01-16 15:09:32,751 [P4912/D10/T187] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 0 (took 1ms)

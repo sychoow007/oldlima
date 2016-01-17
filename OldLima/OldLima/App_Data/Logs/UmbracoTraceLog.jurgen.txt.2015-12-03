@@ -1,0 +1,880 @@
+﻿ 2015-12-03 07:25:29,565 [P9784/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.3.1 application starting on JURGEN
+ 2015-12-03 07:25:29,644 [P9784/D2/T1] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2015-12-03 07:25:29,667 [P9784/D2/T1] INFO  Umbraco.Core.PluginManager - Hash determined (took 19ms)
+ 2015-12-03 07:25:29,844 [P9784/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+ 2015-12-03 07:25:29,860 [P9784/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 15ms)
+ 2015-12-03 07:25:29,888 [P9784/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2015-12-03 07:25:29,888 [P9784/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 1ms)
+ 2015-12-03 07:25:29,888 [P9784/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2015-12-03 07:25:29,892 [P9784/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 0 (took 2ms)
+ 2015-12-03 07:25:29,920 [P9784/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+ 2015-12-03 07:25:29,920 [P9784/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 1ms)
+ 2015-12-03 07:25:29,920 [P9784/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+ 2015-12-03 07:25:29,928 [P9784/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 0 (took 5ms)
+ 2015-12-03 07:25:29,972 [P9784/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+ 2015-12-03 07:25:29,977 [P9784/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 0 (took 0ms)
+ 2015-12-03 07:25:29,977 [P9784/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+ 2015-12-03 07:25:29,977 [P9784/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 0 (took 0ms)
+ 2015-12-03 07:25:30,993 [P9784/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2015-12-03 07:25:31,243 [P9784/D2/T1] INFO  Merchello.Web.UmbracoApplicationEventHandler - Attempting to initialize Merchello
+ 2015-12-03 07:25:31,293 [P9784/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Merchello.Core.Gateways.GatewayProviderBase
+ 2015-12-03 07:25:31,293 [P9784/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Merchello.Core.Gateways.GatewayProviderBase, found 0 (took 1ms)
+ 2015-12-03 07:25:31,405 [P9784/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Merchello.Core.Observation.ITrigger
+ 2015-12-03 07:25:31,405 [P9784/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Merchello.Core.Observation.ITrigger, found 0 (took 2ms)
+ 2015-12-03 07:25:31,413 [P9784/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Merchello.Core.Observation.IMonitor
+ 2015-12-03 07:25:31,413 [P9784/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Merchello.Core.Observation.IMonitor, found 0 (took 1ms)
+ 2015-12-03 07:25:31,421 [P9784/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Merchello.Core.Chains.OfferConstraints.IOfferProcessor
+ 2015-12-03 07:25:31,421 [P9784/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Merchello.Core.Chains.OfferConstraints.IOfferProcessor, found 0 (took 1ms)
+ 2015-12-03 07:25:31,421 [P9784/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Merchello.Web.Mvc.IPaymentMethodUiController
+ 2015-12-03 07:25:31,421 [P9784/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Merchello.Web.Mvc.IPaymentMethodUiController, found 0 (took 0ms)
+ 2015-12-03 07:25:31,425 [P9784/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Merchello.Web.Reporting.ReportController
+ 2015-12-03 07:25:31,425 [P9784/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Merchello.Web.Reporting.ReportController, found 0 (took 0ms)
+ 2015-12-03 07:25:31,425 [P9784/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Merchello.Core.Marketing.Offer.IOfferProvider
+ 2015-12-03 07:25:31,425 [P9784/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Merchello.Core.Marketing.Offer.IOfferProvider, found 0 (took 1ms)
+ 2015-12-03 07:25:31,429 [P9784/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Merchello.Core.Marketing.Offer.OfferComponentBase
+ 2015-12-03 07:25:31,433 [P9784/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Merchello.Core.Marketing.Offer.OfferComponentBase, found 0 (took 2ms)
+ 2015-12-03 07:25:31,433 [P9784/D2/T1] INFO  Merchello.Core.CoreBootManager - Starting subscribing Monitors to Triggers
+ 2015-12-03 07:25:31,437 [P9784/D2/T1] INFO  Merchello.Core.Observation.MonitorBase`1[[Merchello.Core.Models.MonitorModels.IShipmentResultNotifyModel, Merchello.Core, Version=1.13.0.0, Culture=neutral, PublicKeyToken=null]] - PartialOrderShippedMonitor subscribing to PartialOrderShippedTrigger
+ 2015-12-03 07:25:31,437 [P9784/D2/T1] INFO  Merchello.Core.Observation.MonitorBase`1[[Merchello.Core.Models.MonitorModels.IPaymentResultMonitorModel, Merchello.Core, Version=1.13.0.0, Culture=neutral, PublicKeyToken=null]] - OrderConfirmationMonitor subscribing to OrderConfirmationTrigger
+ 2015-12-03 07:25:31,437 [P9784/D2/T1] INFO  Merchello.Core.Observation.MonitorBase`1[[Merchello.Core.Models.MonitorModels.IShipmentResultNotifyModel, Merchello.Core, Version=1.13.0.0, Culture=neutral, PublicKeyToken=null]] - OrderShippedMonitor subscribing to OrderShippedTrigger
+ 2015-12-03 07:25:31,437 [P9784/D2/T1] INFO  Umbraco.Core.CoreBootManager - Finished subscribing Monitors to Triggers
+ 2015-12-03 07:25:31,441 [P9784/D2/T1] INFO  Merchello.Core.CoreBootManager - Initializing EntityCollectionProviders
+ 2015-12-03 07:25:31,441 [P9784/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Merchello.Core.EntityCollections.IEntityCollectionProvider
+ 2015-12-03 07:25:31,441 [P9784/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Merchello.Core.EntityCollections.IEntityCollectionProvider, found 0 (took 2ms)
+ 2015-12-03 07:25:32,173 [P9784/D2/T1] INFO  Merchello.Web.UmbracoApplicationEventHandler - Initialization of Merchello complete
+ 2015-12-03 07:25:32,267 [P9784/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2015-12-03 07:25:32,273 [P9784/D2/T1] INFO  Merchello.Web.Search.ExamineEvents - Initializing Merchello ProductIndex binding events
+ 2015-12-03 07:25:32,390 [P9784/D2/T1] INFO  Merchello.Web.Trees.ServerVariablesParsingEvents - Initializing Merchello ServerVariablesParsingEvents
+ 2015-12-03 07:25:32,394 [P9784/D2/T1] INFO  Merchello.Web.UmbracoApplicationEventHandler - Initializing Customer related events
+ 2015-12-03 07:25:32,398 [P9784/D2/T1] INFO  Merchello.Web.UmbracoApplicationEventHandler - Verifying Merchello Version.
+ 2015-12-03 07:25:32,402 [P9784/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2015-12-03 07:25:32,426 [P9784/D2/T1] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2015-12-03 07:25:32,446 [P9784/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2015-12-03 07:25:32,450 [P9784/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2015-12-03 07:25:32,454 [P9784/D2/T1] INFO  Merchello.Core.Gateways.GatewayEvents - Initializing Merchello Warehouse Catalog binding events
+ 2015-12-03 07:25:32,460 [P9784/D2/T1] INFO  Merchello.Core.Gateways.Notification.Monitors.NotificationMonitorEvents - Initializing Merchello NotificationMonitor binding events
+ 2015-12-03 07:25:32,460 [P9784/D2/T1] INFO  Merchello.Core.Gateways.Notification.Monitors.NotificationMonitorEvents - Completed Merchello NotificationMonitor binding events
+ 2015-12-03 07:25:32,460 [P9784/D2/T1] INFO  Merchello.Core.Gateways.Notification.Smtp.SmtpProviderEvents - Initializing SMTP notification gateway provider registration binding events
+ 2015-12-03 07:25:32,542 [P9784/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 3108ms)
+ 2015-12-03 07:25:33,894 [P9784/D2/T10] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://local.oldlima.be:80/umbraco (UmbracoModule request)
+ 2015-12-03 07:25:33,983 [P9784/D2/T11] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://local.oldlima.be:80/umbraco (UmbracoModule request)
+ 2015-12-03 07:25:34,283 [P9784/D2/T10] INFO  umbraco.content - Load Xml from file...
+ 2015-12-03 07:25:34,291 [P9784/D2/T10] INFO  umbraco.content - Loaded Xml from file.
+ 2015-12-03 07:25:34,519 [P9784/D2/T10] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2015-12-03 07:25:34,523 [P9784/D2/T10] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 0 (took 2ms)
+ 2015-12-03 07:25:35,929 [P9784/D2/T10] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2015-12-03 07:25:35,931 [P9784/D2/T10] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 2ms)
+ 2015-12-03 07:25:48,979 [P9784/D2/T15] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username jurgen.van.de.water@gmail.com from IP address 127.0.0.1
+ 2015-12-03 07:25:49,268 [P9784/D2/T10] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2015-12-03 07:25:49,268 [P9784/D2/T10] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 1ms)
+ 2015-12-03 07:25:49,373 [P9784/D2/T16] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2015-12-03 07:25:49,377 [P9784/D2/T16] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 4ms)
+ 2015-12-03 07:25:49,381 [P9784/D2/T15] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplication
+ 2015-12-03 07:25:49,381 [P9784/D2/T15] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplication, found 0 (took 1ms)
+ 2015-12-03 07:25:49,401 [P9784/D2/T16] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2015-12-03 07:25:49,401 [P9784/D2/T16] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2015-12-03 07:25:49,405 [P9784/D2/T16] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2015-12-03 07:25:49,405 [P9784/D2/T16] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 0ms)
+ 2015-12-03 07:26:01,179 [P9784/D2/T16] ERROR dashboardUtilities.FeedProxy - Exception occurred
+System.Net.WebException: The remote name could not be resolved: 'umbraco.tv'
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at dashboardUtilities.FeedProxy.Page_Load(Object sender, EventArgs e)
+ 2015-12-03 07:26:36,418 [P9784/D2/T14] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2015-12-02 07:26:36
+ 2015-12-03 07:26:51,890 [P9784/D2/T23] ERROR umbraco.cms.businesslogic.packager.Installer - Package install error
+System.IO.FileNotFoundException: Could not find file 'C:\Websites\oldlima\oldlima\OldLima\OldLima\App_Data\9065d2d8-c676-47cc-9ab9-123ea5a540cd\Umbraco.Licensing.dll'.
+File name: 'C:\Websites\oldlima\oldlima\OldLima\OldLima\App_Data\9065d2d8-c676-47cc-9ab9-123ea5a540cd\Umbraco.Licensing.dll'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.InternalMove(String sourceFileName, String destFileName, Boolean checkHost)
+   at umbraco.cms.businesslogic.packager.Installer.InstallFiles(Int32 packageId, String tempDir)
+ 2015-12-03 07:26:51,894 [P9784/D2/T23] ERROR umbraco.cms.businesslogic.packager.Installer - Package install error
+System.IO.FileNotFoundException: Could not find file 'C:\Websites\oldlima\oldlima\OldLima\OldLima\App_Data\9065d2d8-c676-47cc-9ab9-123ea5a540cd\PackageGarden.Licensing.dll'.
+File name: 'C:\Websites\oldlima\oldlima\OldLima\OldLima\App_Data\9065d2d8-c676-47cc-9ab9-123ea5a540cd\PackageGarden.Licensing.dll'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.InternalMove(String sourceFileName, String destFileName, Boolean checkHost)
+   at umbraco.cms.businesslogic.packager.Installer.InstallFiles(Int32 packageId, String tempDir)
+ 2015-12-03 07:26:51,926 [P9784/D2/T13] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Terminating
+ 2015-12-03 07:26:51,926 [P9784/D2/T13] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Waiting for tasks to complete
+ 2015-12-03 07:26:51,926 [P9784/D2/T13] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Terminating
+ 2015-12-03 07:26:51,926 [P9784/D2/T13] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Waiting for tasks to complete
+ 2015-12-03 07:26:51,926 [P9784/D2/T11] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Tasks completed, terminated
+ 2015-12-03 07:26:51,926 [P9784/D2/T5] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Tasks completed, terminated
+ 2015-12-03 07:26:51,986 [P9784/D2/T13] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Terminating
+ 2015-12-03 07:26:51,986 [P9784/D2/T13] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Waiting for tasks to complete
+ 2015-12-03 07:26:51,990 [P9784/D2/T16] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Tasks completed, terminated
+ 2015-12-03 07:26:51,990 [P9784/D2/T13] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Terminating
+ 2015-12-03 07:26:51,990 [P9784/D2/T13] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Waiting for tasks to complete
+ 2015-12-03 07:26:51,990 [P9784/D2/T14] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Tasks completed, terminated
+ 2015-12-03 07:26:56,156 [P9784/D5/T15] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.3.1 application starting on JURGEN
+ 2015-12-03 07:26:56,204 [P9784/D5/T15] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2015-12-03 07:26:56,221 [P9784/D5/T15] INFO  Umbraco.Core.PluginManager - Hash determined (took 13ms)
+ 2015-12-03 07:26:56,400 [P9784/D5/T15] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+ 2015-12-03 07:26:56,776 [P9784/D5/T15] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 374ms)
+ 2015-12-03 07:26:56,796 [P9784/D5/T15] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2015-12-03 07:26:56,814 [P9784/D5/T15] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 15ms)
+ 2015-12-03 07:26:56,815 [P9784/D5/T15] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2015-12-03 07:26:56,827 [P9784/D5/T15] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 0 (took 15ms)
+ 2015-12-03 07:26:56,851 [P9784/D5/T15] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+ 2015-12-03 07:26:56,867 [P9784/D5/T15] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 17ms)
+ 2015-12-03 07:26:56,867 [P9784/D5/T15] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+ 2015-12-03 07:26:56,907 [P9784/D5/T15] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 0 (took 39ms)
+ 2015-12-03 07:26:56,948 [P9784/D5/T15] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+ 2015-12-03 07:26:56,960 [P9784/D5/T15] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 0 (took 13ms)
+ 2015-12-03 07:26:56,960 [P9784/D5/T15] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+ 2015-12-03 07:26:56,972 [P9784/D5/T15] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 0 (took 13ms)
+ 2015-12-03 07:26:58,132 [P9784/D5/T15] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2015-12-03 07:26:58,376 [P9784/D5/T15] INFO  Merchello.Web.UmbracoApplicationEventHandler - Attempting to initialize Merchello
+ 2015-12-03 07:26:58,432 [P9784/D5/T15] INFO  Umbraco.Core.PluginManager - Starting resolution types of Merchello.Core.Gateways.GatewayProviderBase
+ 2015-12-03 07:26:58,456 [P9784/D5/T15] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Merchello.Core.Gateways.GatewayProviderBase, found 0 (took 20ms)
+ 2015-12-03 07:26:58,572 [P9784/D5/T15] INFO  Umbraco.Core.PluginManager - Starting resolution types of Merchello.Core.Observation.ITrigger
+ 2015-12-03 07:26:58,588 [P9784/D5/T15] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Merchello.Core.Observation.ITrigger, found 0 (took 15ms)
+ 2015-12-03 07:26:58,596 [P9784/D5/T15] INFO  Umbraco.Core.PluginManager - Starting resolution types of Merchello.Core.Observation.IMonitor
+ 2015-12-03 07:26:58,614 [P9784/D5/T15] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Merchello.Core.Observation.IMonitor, found 0 (took 17ms)
+ 2015-12-03 07:26:58,621 [P9784/D5/T15] INFO  Umbraco.Core.PluginManager - Starting resolution types of Merchello.Core.Chains.OfferConstraints.IOfferProcessor
+ 2015-12-03 07:26:58,636 [P9784/D5/T15] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Merchello.Core.Chains.OfferConstraints.IOfferProcessor, found 0 (took 15ms)
+ 2015-12-03 07:26:58,636 [P9784/D5/T15] INFO  Umbraco.Core.PluginManager - Starting resolution types of Merchello.Web.Mvc.IPaymentMethodUiController
+ 2015-12-03 07:26:58,648 [P9784/D5/T15] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Merchello.Web.Mvc.IPaymentMethodUiController, found 0 (took 13ms)
+ 2015-12-03 07:26:58,656 [P9784/D5/T15] INFO  Umbraco.Core.PluginManager - Starting resolution types of Merchello.Web.Reporting.ReportController
+ 2015-12-03 07:26:58,668 [P9784/D5/T15] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Merchello.Web.Reporting.ReportController, found 0 (took 13ms)
+ 2015-12-03 07:26:58,668 [P9784/D5/T15] INFO  Umbraco.Core.PluginManager - Starting resolution types of Merchello.Core.Marketing.Offer.IOfferProvider
+ 2015-12-03 07:26:58,692 [P9784/D5/T15] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Merchello.Core.Marketing.Offer.IOfferProvider, found 0 (took 22ms)
+ 2015-12-03 07:26:58,696 [P9784/D5/T15] INFO  Umbraco.Core.PluginManager - Starting resolution types of Merchello.Core.Marketing.Offer.OfferComponentBase
+ 2015-12-03 07:26:58,744 [P9784/D5/T15] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Merchello.Core.Marketing.Offer.OfferComponentBase, found 0 (took 47ms)
+ 2015-12-03 07:26:58,744 [P9784/D5/T15] INFO  Merchello.Core.CoreBootManager - Starting subscribing Monitors to Triggers
+ 2015-12-03 07:26:58,748 [P9784/D5/T15] INFO  Merchello.Core.Observation.MonitorBase`1[[Merchello.Core.Models.MonitorModels.IShipmentResultNotifyModel, Merchello.Core, Version=1.13.0.0, Culture=neutral, PublicKeyToken=null]] - PartialOrderShippedMonitor subscribing to PartialOrderShippedTrigger
+ 2015-12-03 07:26:58,748 [P9784/D5/T15] INFO  Merchello.Core.Observation.MonitorBase`1[[Merchello.Core.Models.MonitorModels.IPaymentResultMonitorModel, Merchello.Core, Version=1.13.0.0, Culture=neutral, PublicKeyToken=null]] - OrderConfirmationMonitor subscribing to OrderConfirmationTrigger
+ 2015-12-03 07:26:58,748 [P9784/D5/T15] INFO  Merchello.Core.Observation.MonitorBase`1[[Merchello.Core.Models.MonitorModels.IShipmentResultNotifyModel, Merchello.Core, Version=1.13.0.0, Culture=neutral, PublicKeyToken=null]] - OrderShippedMonitor subscribing to OrderShippedTrigger
+ 2015-12-03 07:26:58,748 [P9784/D5/T15] INFO  Umbraco.Core.CoreBootManager - Finished subscribing Monitors to Triggers
+ 2015-12-03 07:26:58,752 [P9784/D5/T15] INFO  Merchello.Core.CoreBootManager - Initializing EntityCollectionProviders
+ 2015-12-03 07:26:58,752 [P9784/D5/T15] INFO  Umbraco.Core.PluginManager - Starting resolution types of Merchello.Core.EntityCollections.IEntityCollectionProvider
+ 2015-12-03 07:26:58,776 [P9784/D5/T15] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Merchello.Core.EntityCollections.IEntityCollectionProvider, found 0 (took 24ms)
+ 2015-12-03 07:26:59,624 [P9784/D5/T15] INFO  Merchello.Web.UmbracoApplicationEventHandler - Initialization of Merchello complete
+ 2015-12-03 07:26:59,741 [P9784/D5/T15] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2015-12-03 07:26:59,761 [P9784/D5/T15] INFO  Merchello.Core.Gateways.GatewayEvents - Initializing Merchello Warehouse Catalog binding events
+ 2015-12-03 07:26:59,765 [P9784/D5/T15] INFO  Merchello.Core.Gateways.Notification.Monitors.NotificationMonitorEvents - Initializing Merchello NotificationMonitor binding events
+ 2015-12-03 07:26:59,765 [P9784/D5/T15] INFO  Merchello.Core.Gateways.Notification.Monitors.NotificationMonitorEvents - Completed Merchello NotificationMonitor binding events
+ 2015-12-03 07:26:59,765 [P9784/D5/T15] INFO  Merchello.Core.Gateways.Notification.Smtp.SmtpProviderEvents - Initializing SMTP notification gateway provider registration binding events
+ 2015-12-03 07:26:59,801 [P9784/D5/T15] INFO  Merchello.Web.Search.ExamineEvents - Initializing Merchello ProductIndex binding events
+ 2015-12-03 07:27:00,057 [P9784/D5/T15] INFO  Merchello.Web.Trees.ServerVariablesParsingEvents - Initializing Merchello ServerVariablesParsingEvents
+ 2015-12-03 07:27:00,063 [P9784/D5/T15] INFO  Merchello.Web.UmbracoApplicationEventHandler - Initializing Customer related events
+ 2015-12-03 07:27:00,067 [P9784/D5/T15] INFO  Merchello.Web.UmbracoApplicationEventHandler - Verifying Merchello Version.
+ 2015-12-03 07:27:00,080 [P9784/D5/T15] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2015-12-03 07:27:00,113 [P9784/D5/T15] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2015-12-03 07:27:00,147 [P9784/D5/T15] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2015-12-03 07:27:00,147 [P9784/D5/T15] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2015-12-03 07:27:00,304 [P9784/D5/T15] INFO  umbraco.content - Load Xml from file...
+ 2015-12-03 07:27:00,308 [P9784/D5/T15] INFO  umbraco.content - Loaded Xml from file.
+ 2015-12-03 07:27:00,348 [P9784/D5/T15] INFO  uWebshop.Umbraco6.UmbracoLoggingService - uWebshop initialized
+ 2015-12-03 07:27:00,360 [P9784/D5/T15] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 4337ms)
+ 2015-12-03 07:27:00,909 [P9784/D5/T23] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://local.oldlima.be:80/umbraco (UmbracoModule request)
+ 2015-12-03 07:27:03,503 [P9784/D5/T23] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplication
+ 2015-12-03 07:27:03,523 [P9784/D5/T23] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplication, found 0 (took 19ms)
+ 2015-12-03 07:27:03,651 [P9784/D5/T23] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2015-12-03 07:27:03,667 [P9784/D5/T23] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 0 (took 16ms)
+ 2015-12-03 07:27:03,968 [P9784/D5/T23] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ICacheRefresher
+ 2015-12-03 07:27:03,992 [P9784/D5/T23] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 0 (took 24ms)
+ 2015-12-03 07:27:04,091 [P9784/D5/T23] INFO  umbraco.content - Loading content from database...
+ 2015-12-03 07:27:04,892 [P9784/D5/T11] INFO  Umbraco.Core.Configuration.ClientDependencyConfiguration - Updated version number from 184336755 to 875836256
+ 2015-12-03 07:27:04,900 [P9784/D5/T11] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2015-12-03 07:27:04,916 [P9784/D5/T18] INFO  umbraco.content - Save Xml to file...
+ 2015-12-03 07:27:04,924 [P9784/D5/T23] INFO  umbraco.content - Saved Xml to file.
+ 2015-12-03 07:27:04,932 [P9784/D5/T11] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 29ms)
+ 2015-12-03 07:27:04,956 [P9784/D5/T11] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2015-12-03 07:27:04,977 [P9784/D5/T11] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 20ms)
+ 2015-12-03 07:27:04,981 [P9784/D5/T11] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2015-12-03 07:27:05,008 [P9784/D5/T11] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 29ms)
+ 2015-12-03 07:27:08,040 [P9784/D7/T15] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.3.1 application starting on JURGEN
+ 2015-12-03 07:27:08,086 [P9784/D7/T15] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2015-12-03 07:27:08,096 [P9784/D7/T15] INFO  Umbraco.Core.PluginManager - Hash determined (took 10ms)
+ 2015-12-03 07:27:08,252 [P9784/D7/T15] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+ 2015-12-03 07:27:08,264 [P9784/D7/T15] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 14ms)
+ 2015-12-03 07:27:08,295 [P9784/D7/T15] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2015-12-03 07:27:08,296 [P9784/D7/T15] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 1ms)
+ 2015-12-03 07:27:08,296 [P9784/D7/T15] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2015-12-03 07:27:08,296 [P9784/D7/T15] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 0 (took 1ms)
+ 2015-12-03 07:27:08,320 [P9784/D7/T15] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+ 2015-12-03 07:27:08,324 [P9784/D7/T15] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 2ms)
+ 2015-12-03 07:27:08,324 [P9784/D7/T15] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+ 2015-12-03 07:27:08,328 [P9784/D7/T15] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 0 (took 4ms)
+ 2015-12-03 07:27:08,368 [P9784/D7/T15] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+ 2015-12-03 07:27:08,368 [P9784/D7/T15] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 0 (took 1ms)
+ 2015-12-03 07:27:08,368 [P9784/D7/T15] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+ 2015-12-03 07:27:08,368 [P9784/D7/T15] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 0 (took 0ms)
+ 2015-12-03 07:27:09,287 [P9784/D7/T15] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2015-12-03 07:27:09,460 [P9784/D7/T15] INFO  Merchello.Web.UmbracoApplicationEventHandler - Attempting to initialize Merchello
+ 2015-12-03 07:27:09,508 [P9784/D7/T15] INFO  Umbraco.Core.PluginManager - Starting resolution types of Merchello.Core.Gateways.GatewayProviderBase
+ 2015-12-03 07:27:09,508 [P9784/D7/T15] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Merchello.Core.Gateways.GatewayProviderBase, found 0 (took 1ms)
+ 2015-12-03 07:27:09,605 [P9784/D7/T15] INFO  Umbraco.Core.PluginManager - Starting resolution types of Merchello.Core.Observation.ITrigger
+ 2015-12-03 07:27:09,605 [P9784/D7/T15] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Merchello.Core.Observation.ITrigger, found 0 (took 2ms)
+ 2015-12-03 07:27:09,617 [P9784/D7/T15] INFO  Umbraco.Core.PluginManager - Starting resolution types of Merchello.Core.Observation.IMonitor
+ 2015-12-03 07:27:09,617 [P9784/D7/T15] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Merchello.Core.Observation.IMonitor, found 0 (took 2ms)
+ 2015-12-03 07:27:09,625 [P9784/D7/T15] INFO  Umbraco.Core.PluginManager - Starting resolution types of Merchello.Core.Chains.OfferConstraints.IOfferProcessor
+ 2015-12-03 07:27:09,625 [P9784/D7/T15] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Merchello.Core.Chains.OfferConstraints.IOfferProcessor, found 0 (took 1ms)
+ 2015-12-03 07:27:09,625 [P9784/D7/T15] INFO  Umbraco.Core.PluginManager - Starting resolution types of Merchello.Web.Mvc.IPaymentMethodUiController
+ 2015-12-03 07:27:09,629 [P9784/D7/T15] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Merchello.Web.Mvc.IPaymentMethodUiController, found 0 (took 1ms)
+ 2015-12-03 07:27:09,629 [P9784/D7/T15] INFO  Umbraco.Core.PluginManager - Starting resolution types of Merchello.Web.Reporting.ReportController
+ 2015-12-03 07:27:09,633 [P9784/D7/T15] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Merchello.Web.Reporting.ReportController, found 0 (took 1ms)
+ 2015-12-03 07:27:09,633 [P9784/D7/T15] INFO  Umbraco.Core.PluginManager - Starting resolution types of Merchello.Core.Marketing.Offer.IOfferProvider
+ 2015-12-03 07:27:09,633 [P9784/D7/T15] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Merchello.Core.Marketing.Offer.IOfferProvider, found 0 (took 1ms)
+ 2015-12-03 07:27:09,637 [P9784/D7/T15] INFO  Umbraco.Core.PluginManager - Starting resolution types of Merchello.Core.Marketing.Offer.OfferComponentBase
+ 2015-12-03 07:27:09,641 [P9784/D7/T15] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Merchello.Core.Marketing.Offer.OfferComponentBase, found 0 (took 2ms)
+ 2015-12-03 07:27:09,641 [P9784/D7/T15] INFO  Merchello.Core.CoreBootManager - Starting subscribing Monitors to Triggers
+ 2015-12-03 07:27:09,641 [P9784/D7/T15] INFO  Merchello.Core.Observation.MonitorBase`1[[Merchello.Core.Models.MonitorModels.IShipmentResultNotifyModel, Merchello.Core, Version=1.13.0.0, Culture=neutral, PublicKeyToken=null]] - PartialOrderShippedMonitor subscribing to PartialOrderShippedTrigger
+ 2015-12-03 07:27:09,645 [P9784/D7/T15] INFO  Merchello.Core.Observation.MonitorBase`1[[Merchello.Core.Models.MonitorModels.IPaymentResultMonitorModel, Merchello.Core, Version=1.13.0.0, Culture=neutral, PublicKeyToken=null]] - OrderConfirmationMonitor subscribing to OrderConfirmationTrigger
+ 2015-12-03 07:27:09,645 [P9784/D7/T15] INFO  Merchello.Core.Observation.MonitorBase`1[[Merchello.Core.Models.MonitorModels.IShipmentResultNotifyModel, Merchello.Core, Version=1.13.0.0, Culture=neutral, PublicKeyToken=null]] - OrderShippedMonitor subscribing to OrderShippedTrigger
+ 2015-12-03 07:27:09,645 [P9784/D7/T15] INFO  Umbraco.Core.CoreBootManager - Finished subscribing Monitors to Triggers
+ 2015-12-03 07:27:09,645 [P9784/D7/T15] INFO  Merchello.Core.CoreBootManager - Initializing EntityCollectionProviders
+ 2015-12-03 07:27:09,645 [P9784/D7/T15] INFO  Umbraco.Core.PluginManager - Starting resolution types of Merchello.Core.EntityCollections.IEntityCollectionProvider
+ 2015-12-03 07:27:09,649 [P9784/D7/T15] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Merchello.Core.EntityCollections.IEntityCollectionProvider, found 0 (took 3ms)
+ 2015-12-03 07:27:10,384 [P9784/D7/T15] INFO  Merchello.Web.UmbracoApplicationEventHandler - Initialization of Merchello complete
+ 2015-12-03 07:27:10,477 [P9784/D7/T15] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2015-12-03 07:27:10,490 [P9784/D7/T15] INFO  Merchello.Core.Gateways.GatewayEvents - Initializing Merchello Warehouse Catalog binding events
+ 2015-12-03 07:27:10,493 [P9784/D7/T15] INFO  Merchello.Core.Gateways.Notification.Monitors.NotificationMonitorEvents - Initializing Merchello NotificationMonitor binding events
+ 2015-12-03 07:27:10,493 [P9784/D7/T15] INFO  Merchello.Core.Gateways.Notification.Monitors.NotificationMonitorEvents - Completed Merchello NotificationMonitor binding events
+ 2015-12-03 07:27:10,494 [P9784/D7/T15] INFO  Merchello.Core.Gateways.Notification.Smtp.SmtpProviderEvents - Initializing SMTP notification gateway provider registration binding events
+ 2015-12-03 07:27:10,501 [P9784/D7/T15] INFO  Merchello.Web.Search.ExamineEvents - Initializing Merchello ProductIndex binding events
+ 2015-12-03 07:27:10,612 [P9784/D7/T15] INFO  Merchello.Web.Trees.ServerVariablesParsingEvents - Initializing Merchello ServerVariablesParsingEvents
+ 2015-12-03 07:27:10,612 [P9784/D7/T15] INFO  Merchello.Web.UmbracoApplicationEventHandler - Initializing Customer related events
+ 2015-12-03 07:27:10,616 [P9784/D7/T15] INFO  Merchello.Web.UmbracoApplicationEventHandler - Verifying Merchello Version.
+ 2015-12-03 07:27:10,624 [P9784/D7/T15] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2015-12-03 07:27:10,644 [P9784/D7/T15] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2015-12-03 07:27:10,668 [P9784/D7/T15] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2015-12-03 07:27:10,668 [P9784/D7/T15] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2015-12-03 07:27:10,784 [P9784/D7/T15] INFO  umbraco.content - Load Xml from file...
+ 2015-12-03 07:27:10,785 [P9784/D7/T15] INFO  umbraco.content - Loaded Xml from file.
+ 2015-12-03 07:27:10,817 [P9784/D7/T15] INFO  uWebshop.Umbraco6.UmbracoLoggingService - uWebshop initialized
+ 2015-12-03 07:27:10,833 [P9784/D7/T15] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 2910ms)
+ 2015-12-03 07:27:11,591 [P9784/D7/T12] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://local.oldlima.be:80/umbraco (UmbracoModule request)
+ 2015-12-03 07:27:13,072 [P9784/D7/T29] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplication
+ 2015-12-03 07:27:13,082 [P9784/D7/T29] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplication, found 0 (took 9ms)
+ 2015-12-03 07:27:16,757 [P9784/D7/T32] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2015-12-03 07:27:16,792 [P9784/D7/T32] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 37ms)
+ 2015-12-03 07:27:18,396 [P9784/D7/T32] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2015-12-03 07:27:18,396 [P9784/D7/T32] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 1ms)
+ 2015-12-03 07:27:18,464 [P9784/D7/T32] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2015-12-03 07:27:18,467 [P9784/D7/T32] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 2ms)
+ 2015-12-03 07:27:18,486 [P9784/D7/T32] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2015-12-03 07:27:18,486 [P9784/D7/T32] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2015-12-03 07:27:18,488 [P9784/D7/T32] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2015-12-03 07:27:18,488 [P9784/D7/T32] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 0ms)
+ 2015-12-03 07:27:20,031 [P9784/D7/T32] INFO  Umbraco.Core.Configuration.ClientDependencyConfiguration - Updated version number from 875836256 to 993234520
+ 2015-12-03 07:27:20,037 [P9784/D7/T6] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Terminating
+ 2015-12-03 07:27:20,037 [P9784/D7/T6] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Waiting for tasks to complete
+ 2015-12-03 07:27:20,039 [P9784/D7/T6] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Terminating
+ 2015-12-03 07:27:20,039 [P9784/D7/T6] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Waiting for tasks to complete
+ 2015-12-03 07:27:20,039 [P9784/D7/T6] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Terminating
+ 2015-12-03 07:27:20,039 [P9784/D7/T6] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Waiting for tasks to complete
+ 2015-12-03 07:27:20,043 [P9784/D7/T29] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Tasks completed, terminated
+ 2015-12-03 07:27:20,043 [P9784/D7/T30] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Tasks completed, terminated
+ 2015-12-03 07:27:20,043 [P9784/D7/T12] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Tasks completed, terminated
+ 2015-12-03 07:27:20,083 [P9784/D7/T30] INFO  umbraco.BusinessLogic.Log - Redirected log call (please use Umbraco.Core.Logging.LogHelper instead of umbraco.BusinessLogic.Log) | Type: Debug | User: 0 | NodeId: 0 | Comment: uWebshop Installer RemoveOldDLLs start
+ 2015-12-03 07:27:20,083 [P9784/D7/T30] INFO  umbraco.BusinessLogic.Log - Redirected log call (please use Umbraco.Core.Logging.LogHelper instead of umbraco.BusinessLogic.Log) | Type: Debug | User: 0 | NodeId: 0 | Comment:  end: 12/03/2015 07:27:20.083 AM
+ 2015-12-03 07:27:20,083 [P9784/D7/T12] INFO  umbraco.BusinessLogic.Log - Redirected log call (please use Umbraco.Core.Logging.LogHelper instead of umbraco.BusinessLogic.Log) | Type: Debug | User: 0 | NodeId: 0 | Comment: uWebshop Installer move (umbraco)version specific files start: 12/03/2015 07:27:20.083 AM
+ 2015-12-03 07:27:20,091 [P9784/D7/T29] INFO  umbraco.BusinessLogic.Log - Redirected log call (please use Umbraco.Core.Logging.LogHelper instead of umbraco.BusinessLogic.Log) | Type: Debug | User: 0 | NodeId: 0 | Comment: uWebshop Installer initialize uWebshop internal state start: 12/03/2015 07:27:20.091 AM
+ 2015-12-03 07:27:20,100 [P9784/D7/T12] INFO  umbraco.BusinessLogic.Log - Redirected log call (please use Umbraco.Core.Logging.LogHelper instead of umbraco.BusinessLogic.Log) | Type: Debug | User: 0 | NodeId: 0 | Comment:  end: 12/03/2015 07:27:20.100 AM
+ 2015-12-03 07:27:20,100 [P9784/D7/T12] INFO  umbraco.BusinessLogic.Log - Redirected log call (please use Umbraco.Core.Logging.LogHelper instead of umbraco.BusinessLogic.Log) | Type: Debug | User: 0 | NodeId: 0 | Comment: uWebshop Installer Umbraco installer.Install() start: 12/03/2015 07:27:20.100 AM
+ 2015-12-03 07:27:20,103 [P9784/D7/T32] INFO  uWebshop.Umbraco6.UmbracoLoggingService - uWebshop Installer InstallOrderTable Start: 12/03/2015 07:27:20.103 AM
+ 2015-12-03 07:27:20,142 [P9784/D7/T32] INFO  uWebshop.Umbraco6.UmbracoLoggingService - uWebshop Installer InstallOrderTable End: 12/03/2015 07:27:20.142 AM
+ 2015-12-03 07:27:20,142 [P9784/D7/T32] INFO  uWebshop.Umbraco6.UmbracoLoggingService - uWebshop Installer AddStoreOrderReferenceIdToExistingOrders Start: 12/03/2015 07:27:20.142 AM
+ 2015-12-03 07:27:20,147 [P9784/D7/T32] INFO  uWebshop.Umbraco6.UmbracoLoggingService - Loading all orders from database
+ 2015-12-03 07:27:20,153 [P9784/D7/T32] INFO  uWebshop.Umbraco6.UmbracoLoggingService - uWebshop Installer AddStoreOrderReferenceIdToExistingOrders End: 12/03/2015 07:27:20.153 AM
+ 2015-12-03 07:27:20,153 [P9784/D7/T32] INFO  uWebshop.Umbraco6.UmbracoLoggingService - uWebshop Installer InstallStockTable Start: 12/03/2015 07:27:20.153 AM
+ 2015-12-03 07:27:20,154 [P9784/D7/T32] INFO  uWebshop.Umbraco6.UmbracoLoggingService - uWebshop Installer InstallStockTable End: 12/03/2015 07:27:20.154 AM
+ 2015-12-03 07:27:20,154 [P9784/D7/T32] INFO  uWebshop.Umbraco6.UmbracoLoggingService - uWebshop Installer InstallCouponsTable Start: 12/03/2015 07:27:20.154 AM
+ 2015-12-03 07:27:20,161 [P9784/D7/T32] INFO  uWebshop.Umbraco6.UmbracoLoggingService - uWebshop Installer InstallCouponsTable End: 12/03/2015 07:27:20.161 AM
+ 2015-12-03 07:27:20,161 [P9784/D7/T32] INFO  uWebshop.Umbraco6.UmbracoLoggingService - uWebshop Installer InstalluWebshopDocumentTypes Start: 12/03/2015 07:27:20.161 AM
+ 2015-12-03 07:27:20,245 [P9784/D7/T6] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Terminating
+ 2015-12-03 07:27:20,245 [P9784/D7/T6] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Waiting for tasks to complete
+ 2015-12-03 07:27:20,245 [P9784/D7/T12] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Tasks completed, terminated
+ 2015-12-03 07:27:20,404 [P9784/D7/T32] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2015-12-03 07:27:20,407 [P9784/D7/T32] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 0 (took 2ms)
+ 2015-12-03 07:27:21,035 [P9784/D7/T32] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ICacheRefresher
+ 2015-12-03 07:27:21,037 [P9784/D7/T32] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 0 (took 2ms)
+ 2015-12-03 07:27:22,126 [P9784/D2/T13] INFO  Umbraco.Core.UmbracoApplicationBase - Application shutdown. Details: BinDirChangeOrDirectoryRename
+
+_shutDownMessage=Change Notification for critical directories.
+bin dir change or directory rename
+HostingEnvironment initiated shutdown
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change in C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\2942d31d\5f51f4a9\hash\hash.web
+Change in C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\2942d31d\5f51f4a9\hash\hash.web
+CONFIG change
+CONFIG change
+CONFIG change
+CONFIG change
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+HostingEnvironment caused shutdown
+
+_shutDownStack=   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownInternal()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownWithoutDemand()
+   at System.Web.HttpRuntime.ShutdownAppDomain(String stackTrace)
+   at System.Web.HttpRuntime.OnCriticalDirectoryChange(Object sender, FileChangeEvent e)
+   at System.Web.FileChangesMonitor.OnCriticaldirChange(Object sender, FileChangeEvent e)
+   at System.Web.DirectoryMonitor.FireNotifications()
+   at System.Web.Util.WorkItem.CallCallbackWithAssert(WorkItemCallback callback)
+   at System.Web.Util.WorkItem.OnQueueUserWorkItemCompletion(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+ 2015-12-03 07:27:34,508 [P9784/D7/T32] ERROR UmbracoExamine.DataServices.UmbracoLogService - Provider=InternalIndexer, NodeId=-1
+System.Exception: App is shutting down so index batch operation is ignored,, IndexSet: InternalIndexSet
+ 2015-12-03 07:27:34,513 [P9784/D7/T32] ERROR UmbracoExamine.DataServices.UmbracoLogService - Provider=InternalIndexer, NodeId=-1
+System.Exception: App is shutting down so index batch operation is ignored,, IndexSet: InternalIndexSet
+ 2015-12-03 07:27:34,514 [P9784/D7/T32] ERROR UmbracoExamine.DataServices.UmbracoLogService - Provider=InternalIndexer, NodeId=-1
+System.Exception: App is shutting down so index batch operation is ignored,, IndexSet: InternalIndexSet
+ 2015-12-03 07:27:34,514 [P9784/D7/T32] ERROR UmbracoExamine.DataServices.UmbracoLogService - Provider=InternalIndexer, NodeId=-1
+System.Exception: App is shutting down so index batch operation is ignored,, IndexSet: InternalIndexSet
+ 2015-12-03 07:27:34,515 [P9784/D7/T32] ERROR UmbracoExamine.DataServices.UmbracoLogService - Provider=InternalIndexer, NodeId=-1
+System.Exception: App is shutting down so index batch operation is ignored,, IndexSet: InternalIndexSet
+ 2015-12-03 07:27:34,515 [P9784/D7/T32] ERROR UmbracoExamine.DataServices.UmbracoLogService - Provider=InternalIndexer, NodeId=-1
+System.Exception: App is shutting down so index batch operation is ignored,, IndexSet: InternalIndexSet
+ 2015-12-03 07:27:34,516 [P9784/D7/T32] ERROR UmbracoExamine.DataServices.UmbracoLogService - Provider=InternalIndexer, NodeId=-1
+System.Exception: App is shutting down so index batch operation is ignored,, IndexSet: InternalIndexSet
+ 2015-12-03 07:27:34,516 [P9784/D7/T32] ERROR UmbracoExamine.DataServices.UmbracoLogService - Provider=InternalIndexer, NodeId=-1
+System.Exception: App is shutting down so index batch operation is ignored,, IndexSet: InternalIndexSet
+ 2015-12-03 07:27:34,517 [P9784/D7/T32] ERROR UmbracoExamine.DataServices.UmbracoLogService - Provider=InternalIndexer, NodeId=-1
+System.Exception: App is shutting down so index batch operation is ignored,, IndexSet: InternalIndexSet
+ 2015-12-03 07:27:34,517 [P9784/D7/T32] ERROR UmbracoExamine.DataServices.UmbracoLogService - Provider=InternalIndexer, NodeId=-1
+System.Exception: App is shutting down so index batch operation is ignored,, IndexSet: InternalIndexSet
+ 2015-12-03 07:27:34,518 [P9784/D7/T32] ERROR UmbracoExamine.DataServices.UmbracoLogService - Provider=InternalIndexer, NodeId=-1
+System.Exception: App is shutting down so index batch operation is ignored,, IndexSet: InternalIndexSet
+ 2015-12-03 07:27:34,518 [P9784/D7/T32] ERROR UmbracoExamine.DataServices.UmbracoLogService - Provider=InternalIndexer, NodeId=-1
+System.Exception: App is shutting down so index batch operation is ignored,, IndexSet: InternalIndexSet
+ 2015-12-03 07:27:34,518 [P9784/D7/T32] ERROR UmbracoExamine.DataServices.UmbracoLogService - Provider=InternalIndexer, NodeId=-1
+System.Exception: App is shutting down so index batch operation is ignored,, IndexSet: InternalIndexSet
+ 2015-12-03 07:27:34,518 [P9784/D7/T32] ERROR UmbracoExamine.DataServices.UmbracoLogService - Provider=InternalIndexer, NodeId=-1
+System.Exception: App is shutting down so index batch operation is ignored,, IndexSet: InternalIndexSet
+ 2015-12-03 07:27:34,518 [P9784/D7/T32] ERROR UmbracoExamine.DataServices.UmbracoLogService - Provider=InternalIndexer, NodeId=-1
+System.Exception: App is shutting down so index batch operation is ignored,, IndexSet: InternalIndexSet
+ 2015-12-03 07:27:34,518 [P9784/D7/T32] ERROR UmbracoExamine.DataServices.UmbracoLogService - Provider=InternalIndexer, NodeId=-1
+System.Exception: App is shutting down so index batch operation is ignored,, IndexSet: InternalIndexSet
+ 2015-12-03 07:27:34,522 [P9784/D7/T32] ERROR UmbracoExamine.DataServices.UmbracoLogService - Provider=InternalIndexer, NodeId=-1
+System.Exception: App is shutting down so index batch operation is ignored,, IndexSet: InternalIndexSet
+ 2015-12-03 07:27:34,523 [P9784/D7/T32] ERROR UmbracoExamine.DataServices.UmbracoLogService - Provider=InternalIndexer, NodeId=-1
+System.Exception: App is shutting down so index batch operation is ignored,, IndexSet: InternalIndexSet
+ 2015-12-03 07:27:34,524 [P9784/D7/T32] ERROR UmbracoExamine.DataServices.UmbracoLogService - Provider=InternalIndexer, NodeId=-1
+System.Exception: App is shutting down so index batch operation is ignored,, IndexSet: InternalIndexSet
+ 2015-12-03 07:27:34,823 [P9784/D7/T32] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'uWebshop' with Id '1195' has been published.
+ 2015-12-03 07:27:34,829 [P9784/D7/T32] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Settings' with Id '1213' has been published.
+ 2015-12-03 07:27:34,829 [P9784/D7/T32] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Email' with Id '1210' has been published.
+ 2015-12-03 07:27:34,829 [P9784/D7/T32] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Shipping Providers' with Id '1207' has been published.
+ 2015-12-03 07:27:34,829 [P9784/D7/T32] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Payment Providers' with Id '1204' has been published.
+ 2015-12-03 07:27:34,829 [P9784/D7/T32] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Discounts' with Id '1201' has been published.
+ 2015-12-03 07:27:34,829 [P9784/D7/T32] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Orders' with Id '1200' has been published.
+ 2015-12-03 07:27:34,829 [P9784/D7/T32] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Catalog' with Id '1197' has been published.
+ 2015-12-03 07:27:34,829 [P9784/D7/T32] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Stores' with Id '1196' has been published.
+ 2015-12-03 07:27:34,829 [P9784/D7/T32] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Emails to customer' with Id '1212' has been published.
+ 2015-12-03 07:27:34,829 [P9784/D7/T32] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Emails to store' with Id '1211' has been published.
+ 2015-12-03 07:27:34,829 [P9784/D7/T32] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Shipping Provider Zones' with Id '1209' has been published.
+ 2015-12-03 07:27:34,829 [P9784/D7/T32] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Shipping Providers' with Id '1208' has been published.
+ 2015-12-03 07:27:34,829 [P9784/D7/T32] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Payment Provider Zones' with Id '1206' has been published.
+ 2015-12-03 07:27:34,829 [P9784/D7/T32] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Payment Providers' with Id '1205' has been published.
+ 2015-12-03 07:27:34,829 [P9784/D7/T32] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Order Discounts' with Id '1203' has been published.
+ 2015-12-03 07:27:34,829 [P9784/D7/T32] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Product Discounts' with Id '1202' has been published.
+ 2015-12-03 07:27:34,829 [P9784/D7/T32] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Products' with Id '1199' has been published.
+ 2015-12-03 07:27:34,829 [P9784/D7/T32] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Categories' with Id '1198' has been published.
+ 2015-12-03 07:27:35,137 [P9784/D5/T14] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Terminating (immediate)
+ 2015-12-03 07:27:35,137 [P9784/D5/T14] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Cancelling tasks
+ 2015-12-03 07:27:35,148 [P9784/D7/T32] INFO  uWebshop.Umbraco6.UmbracoLoggingService - Store published, requesting rebuild cache
+ 2015-12-03 07:27:35,148 [P9784/D7/T32] INFO  uWebshop.Umbraco6.UmbracoLoggingService - Issueing Full Reset Cache after 'reload entity with id'
+ 2015-12-03 07:27:35,148 [P9784/D7/T32] INFO  uWebshop.Umbraco6.UmbracoLoggingService - Request to reset cache, (re)setting timer
+ 2015-12-03 07:27:35,239 [P9784/D5/T14] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Tasks cancelled, terminated
+ 2015-12-03 07:27:35,239 [P9784/D5/T14] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Terminating (immediate)
+ 2015-12-03 07:27:35,239 [P9784/D5/T14] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Cancelling tasks
+ 2015-12-03 07:27:35,274 [P9784/D7/T32] WARN  uWebshop.Umbraco6.UmbracoLoggingService - Determining Store Urls: no storepicker but multiple stores? 
+ 2015-12-03 07:27:35,275 [P9784/D7/T32] WARN  uWebshop.Umbraco6.UmbracoLoggingService - Determining Store Urls: no storepicker but multiple stores? 
+ 2015-12-03 07:27:35,277 [P9784/D7/T32] ERROR UmbracoExamine.DataServices.UmbracoLogService - Provider=InternalIndexer, NodeId=-1
+System.Exception: App is shutting down so index batch operation is ignored,, IndexSet: InternalIndexSet
+ 2015-12-03 07:27:35,277 [P9784/D7/T32] ERROR UmbracoExamine.DataServices.UmbracoLogService - Provider=ExternalIndexer, NodeId=-1
+System.Exception: App is shutting down so index batch operation is ignored,, IndexSet: ExternalIndexSet
+ 2015-12-03 07:27:35,280 [P9784/D7/T32] INFO  uWebshop.Umbraco6.UmbracoLoggingService - Issueing Full Reset Cache after 'reload entity with id'
+ 2015-12-03 07:27:35,280 [P9784/D7/T32] INFO  uWebshop.Umbraco6.UmbracoLoggingService - Request to reset cache, (re)setting timer
+ 2015-12-03 07:27:35,280 [P9784/D7/T32] ERROR UmbracoExamine.DataServices.UmbracoLogService - Provider=InternalIndexer, NodeId=-1
+System.Exception: App is shutting down so index batch operation is ignored,, IndexSet: InternalIndexSet
+ 2015-12-03 07:27:35,280 [P9784/D7/T32] ERROR UmbracoExamine.DataServices.UmbracoLogService - Provider=ExternalIndexer, NodeId=-1
+System.Exception: App is shutting down so index batch operation is ignored,, IndexSet: ExternalIndexSet
+ 2015-12-03 07:27:35,286 [P9784/D7/T32] INFO  uWebshop.Umbraco6.UmbracoLoggingService - Issueing Full Reset Cache after 'reload entity with id'
+ 2015-12-03 07:27:35,286 [P9784/D7/T32] INFO  uWebshop.Umbraco6.UmbracoLoggingService - Request to reset cache, (re)setting timer
+ 2015-12-03 07:27:35,300 [P9784/D7/T32] WARN  Umbraco.Core.PropertyEditors.LegacyPropertyEditorIdToAliasConverter - A legacy GUID id was generated for property editor uWebshop.OrderSection. This occurs when the legacy APIs are used and done to attempt to maintain backwards compatibility. Consider upgrading all code to use the new Services APIs instead to avoid any potential issues.
+ 2015-12-03 07:27:35,340 [P9784/D5/T14] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Cancelling tasks
+ 2015-12-03 07:27:35,362 [P9784/D7/T32] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IDataType, found 0 (took 60ms)
+ 2015-12-03 07:27:35,368 [P9784/D7/T32] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2015-12-03 07:27:35,368 [P9784/D7/T32] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 0ms)
+ 2015-12-03 07:27:35,387 [P9784/D7/T32] ERROR UmbracoExamine.DataServices.UmbracoLogService - Provider=InternalIndexer, NodeId=-1
+System.Exception: App is shutting down so index batch operation is ignored,, IndexSet: InternalIndexSet
+ 2015-12-03 07:27:35,388 [P9784/D7/T32] ERROR UmbracoExamine.DataServices.UmbracoLogService - Provider=ExternalIndexer, NodeId=-1
+System.Exception: App is shutting down so index batch operation is ignored,, IndexSet: ExternalIndexSet
+ 2015-12-03 07:27:35,391 [P9784/D7/T32] INFO  uWebshop.Umbraco6.UmbracoLoggingService - Issueing Full Reset Cache after 'reload entity with id'
+ 2015-12-03 07:27:35,391 [P9784/D7/T32] INFO  uWebshop.Umbraco6.UmbracoLoggingService - Request to reset cache, (re)setting timer
+ 2015-12-03 07:27:35,392 [P9784/D7/T32] ERROR UmbracoExamine.DataServices.UmbracoLogService - Provider=InternalIndexer, NodeId=-1
+System.Exception: App is shutting down so index batch operation is ignored,, IndexSet: InternalIndexSet
+ 2015-12-03 07:27:35,392 [P9784/D7/T32] ERROR UmbracoExamine.DataServices.UmbracoLogService - Provider=ExternalIndexer, NodeId=-1
+System.Exception: App is shutting down so index batch operation is ignored,, IndexSet: ExternalIndexSet
+ 2015-12-03 07:27:35,396 [P9784/D7/T32] INFO  uWebshop.Umbraco6.UmbracoLoggingService - Issueing Full Reset Cache after 'reload entity with id'
+ 2015-12-03 07:27:35,396 [P9784/D7/T32] INFO  uWebshop.Umbraco6.UmbracoLoggingService - Request to reset cache, (re)setting timer
+ 2015-12-03 07:27:35,399 [P9784/D7/T32] ERROR UmbracoExamine.DataServices.UmbracoLogService - Provider=InternalIndexer, NodeId=-1
+System.Exception: App is shutting down so index batch operation is ignored,, IndexSet: InternalIndexSet
+ 2015-12-03 07:27:35,399 [P9784/D7/T32] ERROR UmbracoExamine.DataServices.UmbracoLogService - Provider=ExternalIndexer, NodeId=-1
+System.Exception: App is shutting down so index batch operation is ignored,, IndexSet: ExternalIndexSet
+ 2015-12-03 07:27:35,402 [P9784/D7/T32] INFO  uWebshop.Umbraco6.UmbracoLoggingService - Issueing Full Reset Cache after 'reload entity with id'
+ 2015-12-03 07:27:35,402 [P9784/D7/T32] INFO  uWebshop.Umbraco6.UmbracoLoggingService - Request to reset cache, (re)setting timer
+ 2015-12-03 07:27:35,402 [P9784/D7/T32] ERROR UmbracoExamine.DataServices.UmbracoLogService - Provider=InternalIndexer, NodeId=-1
+System.Exception: App is shutting down so index batch operation is ignored,, IndexSet: InternalIndexSet
+ 2015-12-03 07:27:35,402 [P9784/D7/T32] ERROR UmbracoExamine.DataServices.UmbracoLogService - Provider=ExternalIndexer, NodeId=-1
+System.Exception: App is shutting down so index batch operation is ignored,, IndexSet: ExternalIndexSet
+ 2015-12-03 07:27:35,409 [P9784/D7/T32] INFO  uWebshop.Umbraco6.UmbracoLoggingService - Issueing Full Reset Cache after 'reload entity with id'
+ 2015-12-03 07:27:35,409 [P9784/D7/T32] INFO  uWebshop.Umbraco6.UmbracoLoggingService - Request to reset cache, (re)setting timer
+ 2015-12-03 07:27:35,411 [P9784/D7/T32] ERROR UmbracoExamine.DataServices.UmbracoLogService - Provider=InternalIndexer, NodeId=-1
+System.Exception: App is shutting down so index batch operation is ignored,, IndexSet: InternalIndexSet
+ 2015-12-03 07:27:35,411 [P9784/D7/T32] ERROR UmbracoExamine.DataServices.UmbracoLogService - Provider=ExternalIndexer, NodeId=-1
+System.Exception: App is shutting down so index batch operation is ignored,, IndexSet: ExternalIndexSet
+ 2015-12-03 07:27:35,414 [P9784/D7/T32] INFO  uWebshop.Umbraco6.UmbracoLoggingService - Settings published, requesting rebuild cache
+ 2015-12-03 07:27:35,474 [P9784/D7/T32] ERROR UmbracoExamine.DataServices.UmbracoLogService - Provider=InternalIndexer, NodeId=-1
+System.Exception: App is shutting down so index batch operation is ignored,, IndexSet: InternalIndexSet
+ 2015-12-03 07:27:35,474 [P9784/D7/T32] ERROR UmbracoExamine.DataServices.UmbracoLogService - Provider=ExternalIndexer, NodeId=-1
+System.Exception: App is shutting down so index batch operation is ignored,, IndexSet: ExternalIndexSet
+ 2015-12-03 07:27:35,481 [P9784/D7/T32] INFO  uWebshop.Umbraco6.UmbracoLoggingService - Issueing Full Reset Cache after 'reload entity with id'
+ 2015-12-03 07:27:35,481 [P9784/D7/T32] INFO  uWebshop.Umbraco6.UmbracoLoggingService - Request to reset cache, (re)setting timer
+ 2015-12-03 07:27:35,482 [P9784/D7/T32] ERROR UmbracoExamine.DataServices.UmbracoLogService - Provider=InternalIndexer, NodeId=-1
+System.Exception: App is shutting down so index batch operation is ignored,, IndexSet: InternalIndexSet
+ 2015-12-03 07:27:35,483 [P9784/D7/T32] ERROR UmbracoExamine.DataServices.UmbracoLogService - Provider=ExternalIndexer, NodeId=-1
+System.Exception: App is shutting down so index batch operation is ignored,, IndexSet: ExternalIndexSet
+ 2015-12-03 07:27:35,484 [P9784/D7/T32] INFO  uWebshop.Umbraco6.UmbracoLoggingService - Issueing Full Reset Cache after 'reload entity with id'
+ 2015-12-03 07:27:35,484 [P9784/D7/T32] INFO  uWebshop.Umbraco6.UmbracoLoggingService - Request to reset cache, (re)setting timer
+ 2015-12-03 07:27:35,484 [P9784/D7/T32] ERROR UmbracoExamine.DataServices.UmbracoLogService - Provider=InternalIndexer, NodeId=-1
+System.Exception: App is shutting down so index batch operation is ignored,, IndexSet: InternalIndexSet
+ 2015-12-03 07:27:35,484 [P9784/D7/T32] ERROR UmbracoExamine.DataServices.UmbracoLogService - Provider=ExternalIndexer, NodeId=-1
+System.Exception: App is shutting down so index batch operation is ignored,, IndexSet: ExternalIndexSet
+ 2015-12-03 07:27:35,492 [P9784/D7/T32] INFO  uWebshop.Umbraco6.UmbracoLoggingService - Issueing Full Reset Cache after 'reload entity with id'
+ 2015-12-03 07:27:35,492 [P9784/D7/T32] INFO  uWebshop.Umbraco6.UmbracoLoggingService - Request to reset cache, (re)setting timer
+ 2015-12-03 07:27:35,494 [P9784/D7/T32] ERROR UmbracoExamine.DataServices.UmbracoLogService - Provider=InternalIndexer, NodeId=-1
+System.Exception: App is shutting down so index batch operation is ignored,, IndexSet: InternalIndexSet
+ 2015-12-03 07:27:35,494 [P9784/D7/T32] ERROR UmbracoExamine.DataServices.UmbracoLogService - Provider=ExternalIndexer, NodeId=-1
+System.Exception: App is shutting down so index batch operation is ignored,, IndexSet: ExternalIndexSet
+ 2015-12-03 07:27:35,499 [P9784/D7/T32] INFO  uWebshop.Umbraco6.UmbracoLoggingService - Issueing Full Reset Cache after 'reload entity with id'
+ 2015-12-03 07:27:35,499 [P9784/D7/T32] INFO  uWebshop.Umbraco6.UmbracoLoggingService - Request to reset cache, (re)setting timer
+ 2015-12-03 07:27:35,501 [P9784/D7/T32] ERROR UmbracoExamine.DataServices.UmbracoLogService - Provider=InternalIndexer, NodeId=-1
+System.Exception: App is shutting down so index batch operation is ignored,, IndexSet: InternalIndexSet
+ 2015-12-03 07:27:35,501 [P9784/D7/T32] ERROR UmbracoExamine.DataServices.UmbracoLogService - Provider=ExternalIndexer, NodeId=-1
+System.Exception: App is shutting down so index batch operation is ignored,, IndexSet: ExternalIndexSet
+ 2015-12-03 07:27:35,503 [P9784/D7/T32] INFO  uWebshop.Umbraco6.UmbracoLoggingService - Issueing Full Reset Cache after 'reload entity with id'
+ 2015-12-03 07:27:35,503 [P9784/D7/T32] INFO  uWebshop.Umbraco6.UmbracoLoggingService - Request to reset cache, (re)setting timer
+ 2015-12-03 07:27:35,503 [P9784/D7/T32] ERROR UmbracoExamine.DataServices.UmbracoLogService - Provider=InternalIndexer, NodeId=-1
+System.Exception: App is shutting down so index batch operation is ignored,, IndexSet: InternalIndexSet
+ 2015-12-03 07:27:35,503 [P9784/D7/T32] ERROR UmbracoExamine.DataServices.UmbracoLogService - Provider=ExternalIndexer, NodeId=-1
+System.Exception: App is shutting down so index batch operation is ignored,, IndexSet: ExternalIndexSet
+ 2015-12-03 07:27:35,510 [P9784/D7/T32] INFO  uWebshop.Umbraco6.UmbracoLoggingService - Issueing Full Reset Cache after 'reload entity with id'
+ 2015-12-03 07:27:35,510 [P9784/D7/T32] INFO  uWebshop.Umbraco6.UmbracoLoggingService - Request to reset cache, (re)setting timer
+ 2015-12-03 07:27:35,513 [P9784/D7/T32] ERROR UmbracoExamine.DataServices.UmbracoLogService - Provider=InternalIndexer, NodeId=-1
+System.Exception: App is shutting down so index batch operation is ignored,, IndexSet: InternalIndexSet
+ 2015-12-03 07:27:35,513 [P9784/D7/T32] ERROR UmbracoExamine.DataServices.UmbracoLogService - Provider=ExternalIndexer, NodeId=-1
+System.Exception: App is shutting down so index batch operation is ignored,, IndexSet: ExternalIndexSet
+ 2015-12-03 07:27:35,514 [P9784/D7/T32] INFO  uWebshop.Umbraco6.UmbracoLoggingService - Issueing Full Reset Cache after 'reload entity with id'
+ 2015-12-03 07:27:35,514 [P9784/D7/T32] INFO  uWebshop.Umbraco6.UmbracoLoggingService - Request to reset cache, (re)setting timer
+ 2015-12-03 07:27:35,514 [P9784/D7/T32] ERROR UmbracoExamine.DataServices.UmbracoLogService - Provider=InternalIndexer, NodeId=-1
+System.Exception: App is shutting down so index batch operation is ignored,, IndexSet: InternalIndexSet
+ 2015-12-03 07:27:35,518 [P9784/D7/T32] ERROR UmbracoExamine.DataServices.UmbracoLogService - Provider=ExternalIndexer, NodeId=-1
+System.Exception: App is shutting down so index batch operation is ignored,, IndexSet: ExternalIndexSet
+ 2015-12-03 07:27:35,521 [P9784/D7/T32] INFO  uWebshop.Umbraco6.UmbracoLoggingService - Issueing Full Reset Cache after 'reload entity with id'
+ 2015-12-03 07:27:35,521 [P9784/D7/T32] INFO  uWebshop.Umbraco6.UmbracoLoggingService - Request to reset cache, (re)setting timer
+ 2015-12-03 07:27:35,523 [P9784/D7/T32] ERROR UmbracoExamine.DataServices.UmbracoLogService - Provider=InternalIndexer, NodeId=-1
+System.Exception: App is shutting down so index batch operation is ignored,, IndexSet: InternalIndexSet
+ 2015-12-03 07:27:35,523 [P9784/D7/T32] ERROR UmbracoExamine.DataServices.UmbracoLogService - Provider=ExternalIndexer, NodeId=-1
+System.Exception: App is shutting down so index batch operation is ignored,, IndexSet: ExternalIndexSet
+ 2015-12-03 07:27:35,524 [P9784/D7/T32] INFO  uWebshop.Umbraco6.UmbracoLoggingService - Issueing Full Reset Cache after 'reload entity with id'
+ 2015-12-03 07:27:35,524 [P9784/D7/T32] INFO  uWebshop.Umbraco6.UmbracoLoggingService - Request to reset cache, (re)setting timer
+ 2015-12-03 07:27:35,530 [P9784/D7/T32] ERROR UmbracoExamine.DataServices.UmbracoLogService - Provider=InternalIndexer, NodeId=-1
+System.Exception: App is shutting down so index batch operation is ignored,, IndexSet: InternalIndexSet
+ 2015-12-03 07:27:35,530 [P9784/D7/T32] ERROR UmbracoExamine.DataServices.UmbracoLogService - Provider=ExternalIndexer, NodeId=-1
+System.Exception: App is shutting down so index batch operation is ignored,, IndexSet: ExternalIndexSet
+ 2015-12-03 07:27:35,533 [P9784/D7/T32] INFO  uWebshop.Umbraco6.UmbracoLoggingService - Issueing Full Reset Cache after 'reload entity with id'
+ 2015-12-03 07:27:35,533 [P9784/D7/T32] INFO  uWebshop.Umbraco6.UmbracoLoggingService - Request to reset cache, (re)setting timer
+ 2015-12-03 07:27:35,534 [P9784/D7/T32] WARN  Umbraco.Core.PropertyEditors.LegacyPropertyEditorIdToAliasConverter - A legacy GUID id was generated for property editor uWebshop.ProductOverview. This occurs when the legacy APIs are used and done to attempt to maintain backwards compatibility. Consider upgrading all code to use the new Services APIs instead to avoid any potential issues.
+ 2015-12-03 07:27:35,535 [P9784/D7/T32] ERROR UmbracoExamine.DataServices.UmbracoLogService - Provider=InternalIndexer, NodeId=-1
+System.Exception: App is shutting down so index batch operation is ignored,, IndexSet: InternalIndexSet
+ 2015-12-03 07:27:35,535 [P9784/D7/T32] ERROR UmbracoExamine.DataServices.UmbracoLogService - Provider=ExternalIndexer, NodeId=-1
+System.Exception: App is shutting down so index batch operation is ignored,, IndexSet: ExternalIndexSet
+ 2015-12-03 07:27:35,980 [P9784/D7/T32] INFO  uWebshop.Umbraco6.UmbracoLoggingService - uWebshop Installer InstalluWebshopDocumentTypes End: 12/03/2015 07:27:35.980 AM
+ 2015-12-03 07:27:35,981 [P9784/D7/T23] INFO  umbraco.BusinessLogic.Log - Redirected log call (please use Umbraco.Core.Logging.LogHelper instead of umbraco.BusinessLogic.Log) | Type: Debug | User: 0 | NodeId: 0 | Comment:  end: 12/03/2015 07:27:35.980 AM
+ 2015-12-03 07:27:35,981 [P9784/D7/T12] INFO  umbraco.BusinessLogic.Log - Redirected log call (please use Umbraco.Core.Logging.LogHelper instead of umbraco.BusinessLogic.Log) | Type: Debug | User: 0 | NodeId: 0 | Comment: uWebshop Installer MoveXMLFiles start: 12/03/2015 07:27:35.980 AM
+ 2015-12-03 07:27:35,982 [P9784/D7/T10] INFO  umbraco.BusinessLogic.Log - Redirected log call (please use Umbraco.Core.Logging.LogHelper instead of umbraco.BusinessLogic.Log) | Type: Debug | User: 0 | NodeId: 0 | Comment: uWebshop Installer moveXmlItemList Start: 12/03/2015 07:27:35.982 AM
+ 2015-12-03 07:27:35,982 [P9784/D7/T16] INFO  umbraco.BusinessLogic.Log - Redirected log call (please use Umbraco.Core.Logging.LogHelper instead of umbraco.BusinessLogic.Log) | Type: Debug | User: 0 | NodeId: 0 | Comment: uWebshop Installer MoveRazorFiles start: 12/03/2015 07:27:35.982 AM
+ 2015-12-03 07:27:35,982 [P9784/D7/T36] INFO  umbraco.BusinessLogic.Log - Redirected log call (please use Umbraco.Core.Logging.LogHelper instead of umbraco.BusinessLogic.Log) | Type: Debug | User: 0 | NodeId: 0 | Comment:  end: 12/03/2015 07:27:35.982 AM
+ 2015-12-03 07:27:35,982 [P9784/D7/T13] INFO  umbraco.BusinessLogic.Log - Redirected log call (please use Umbraco.Core.Logging.LogHelper instead of umbraco.BusinessLogic.Log) | Type: Debug | User: 0 | NodeId: 0 | Comment: uWebshop Installer moveXmlItemList End: 12/03/2015 07:27:35.982 AM
+ 2015-12-03 07:27:35,988 [P9784/D7/T29] INFO  umbraco.BusinessLogic.Log - Redirected log call (please use Umbraco.Core.Logging.LogHelper instead of umbraco.BusinessLogic.Log) | Type: Debug | User: 0 | NodeId: 0 | Comment: uWebshop Installer MoveRazorFiles Start: 12/03/2015 07:27:35.988 AM
+ 2015-12-03 07:27:35,991 [P9784/D7/T10] INFO  umbraco.BusinessLogic.Log - Redirected log call (please use Umbraco.Core.Logging.LogHelper instead of umbraco.BusinessLogic.Log) | Type: Debug | User: 0 | NodeId: 0 | Comment:  end: 12/03/2015 07:27:35.991 AM
+ 2015-12-03 07:27:35,991 [P9784/D7/T16] INFO  umbraco.BusinessLogic.Log - Redirected log call (please use Umbraco.Core.Logging.LogHelper instead of umbraco.BusinessLogic.Log) | Type: Debug | User: 0 | NodeId: 0 | Comment: uWebshop Installer MoveNEWConfigFiles start: 12/03/2015 07:27:35.991 AM
+ 2015-12-03 07:27:35,991 [P9784/D7/T11] INFO  umbraco.BusinessLogic.Log - Redirected log call (please use Umbraco.Core.Logging.LogHelper instead of umbraco.BusinessLogic.Log) | Type: Debug | User: 0 | NodeId: 0 | Comment: uWebshop Installer MoveRazorFiles End: 12/03/2015 07:27:35.991 AM
+ 2015-12-03 07:27:35,991 [P9784/D7/T36] INFO  umbraco.BusinessLogic.Log - Redirected log call (please use Umbraco.Core.Logging.LogHelper instead of umbraco.BusinessLogic.Log) | Type: Debug | User: 0 | NodeId: 0 | Comment: uWebshop Installer moveNEWConfigItemList Start: 12/03/2015 07:27:35.991 AM
+ 2015-12-03 07:27:36,008 [P9784/D7/T9] INFO  umbraco.BusinessLogic.Log - Redirected log call (please use Umbraco.Core.Logging.LogHelper instead of umbraco.BusinessLogic.Log) | Type: Debug | User: 0 | NodeId: 0 | Comment: uWebshop Installer moveNEWConfigItemList End: 12/03/2015 07:27:36.007 AM
+ 2015-12-03 07:27:36,008 [P9784/D7/T9] INFO  umbraco.BusinessLogic.Log - Redirected log call (please use Umbraco.Core.Logging.LogHelper instead of umbraco.BusinessLogic.Log) | Type: Debug | User: 0 | NodeId: 0 | Comment:  end: 12/03/2015 07:27:36.008 AM
+ 2015-12-03 07:27:36,008 [P9784/D7/T12] INFO  umbraco.BusinessLogic.Log - Redirected log call (please use Umbraco.Core.Logging.LogHelper instead of umbraco.BusinessLogic.Log) | Type: Debug | User: 0 | NodeId: 0 | Comment: uWebshop Installer MoveConfigFiles start: 12/03/2015 07:27:36.008 AM
+ 2015-12-03 07:27:36,011 [P9784/D7/T38] INFO  umbraco.BusinessLogic.Log - Redirected log call (please use Umbraco.Core.Logging.LogHelper instead of umbraco.BusinessLogic.Log) | Type: Debug | User: 0 | NodeId: 0 | Comment: uWebshop Installer moveConfigItemList Start: 12/03/2015 07:27:36.011 AM
+ 2015-12-03 07:27:36,030 [P9784/D7/T30] INFO  umbraco.BusinessLogic.Log - Redirected log call (please use Umbraco.Core.Logging.LogHelper instead of umbraco.BusinessLogic.Log) | Type: Debug | User: 0 | NodeId: 0 | Comment: uWebshop Installer moveConfigItemList End: 12/03/2015 07:27:36.029 AM
+ 2015-12-03 07:27:36,030 [P9784/D7/T30] INFO  umbraco.BusinessLogic.Log - Redirected log call (please use Umbraco.Core.Logging.LogHelper instead of umbraco.BusinessLogic.Log) | Type: Debug | User: 0 | NodeId: 0 | Comment: uWebshop Installer MoveXLSTFiles start: 12/03/2015 07:27:36.029 AM
+ 2015-12-03 07:27:36,030 [P9784/D7/T16] INFO  umbraco.BusinessLogic.Log - Redirected log call (please use Umbraco.Core.Logging.LogHelper instead of umbraco.BusinessLogic.Log) | Type: Debug | User: 0 | NodeId: 0 | Comment:  end: 12/03/2015 07:27:36.029 AM
+ 2015-12-03 07:27:36,032 [P9784/D7/T29] INFO  umbraco.BusinessLogic.Log - Redirected log call (please use Umbraco.Core.Logging.LogHelper instead of umbraco.BusinessLogic.Log) | Type: Debug | User: 0 | NodeId: 0 | Comment: uWebshop Installer moveXsltItemList Start: 12/03/2015 07:27:36.032 AM
+ 2015-12-03 07:27:36,045 [P9784/D7/T32] ERROR Umbraco.Core.UmbracoApplicationBase - An unhandled exception occurred
+System.Web.HttpUnhandledException (0x80004005): Exception of type 'System.Web.HttpUnhandledException' was thrown. ---> System.IO.DirectoryNotFoundException: Could not find a part of the path.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.InternalMove(String sourceFileName, String destFileName, Boolean checkHost)
+   at uWebshop.Package.Installer.uWebshopInstaller.MoveXLSTFiles()
+   at uWebshop.Package.Installer.uWebshopInstaller.DoLogged(Action action, String message)
+   at uWebshop.Package.Installer.uWebshopInstaller.Page_Load(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.umbraco_developer_packages_installer_aspx.ProcessRequest(HttpContext context) in c:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\2942d31d\5f51f4a9\App_Web_installer.aspx.5d1c7564.r2p1lcu4.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+ 2015-12-03 07:27:45,548 [P9784/D7/T23] INFO  uWebshop.Umbraco6.UmbracoLoggingService - Request to reset cache, timer triggered
+ 2015-12-03 07:27:45,555 [P9784/D7/T19] INFO  uWebshop.Umbraco6.UmbracoLoggingService - Clearing stores cache after a change to a store
+ 2015-12-03 07:27:45,557 [P9784/D7/T19] INFO  uWebshop.Umbraco6.UmbracoLoggingService - Rebuilding new cache
+ 2015-12-03 07:27:45,567 [P9784/D7/T19] INFO  uWebshop.Umbraco6.UmbracoLoggingService - Switching to new cache
+ 2015-12-03 07:27:45,567 [P9784/D7/T19] INFO  uWebshop.Umbraco6.UmbracoLoggingService - Switched to new cache
+ 2015-12-03 07:27:50,341 [P9784/D7/T5] INFO  Umbraco.Core.UmbracoApplicationBase - Application shutdown. Details: ConfigurationChange
+
+_shutDownMessage=CONFIG change
+HostingEnvironment initiated shutdown
+CONFIG change
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+HostingEnvironment caused shutdown
+
+_shutDownStack=   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownInternal()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownWithoutDemand()
+   at System.Web.HttpRuntime.ShutdownAppDomain(String stackTrace)
+   at System.Web.Configuration.HttpConfigurationSystem.OnConfigurationChanged(Object sender, InternalConfigEventArgs e)
+   at System.Configuration.Internal.InternalConfigRoot.OnConfigChanged(InternalConfigEventArgs e)
+   at System.Configuration.BaseConfigurationRecord.OnStreamChanged(String streamname)
+   at System.Web.DirectoryMonitor.FireNotifications()
+   at System.Web.Util.WorkItem.CallCallbackWithAssert(WorkItemCallback callback)
+   at System.Web.Util.WorkItem.OnQueueUserWorkItemCompletion(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+ 2015-12-03 07:27:58,565 [P9784/D8/T28] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.3.1 application starting on JURGEN
+ 2015-12-03 07:27:58,615 [P9784/D8/T28] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2015-12-03 07:27:58,629 [P9784/D8/T28] INFO  Umbraco.Core.PluginManager - Hash determined (took 10ms)
+ 2015-12-03 07:27:58,818 [P9784/D8/T28] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+ 2015-12-03 07:27:59,272 [P9784/D8/T28] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 443ms)
+ 2015-12-03 07:27:59,299 [P9784/D8/T28] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2015-12-03 07:27:59,306 [P9784/D8/T28] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 13ms)
+ 2015-12-03 07:27:59,306 [P9784/D8/T28] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2015-12-03 07:27:59,332 [P9784/D8/T28] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 0 (took 18ms)
+ 2015-12-03 07:27:59,362 [P9784/D8/T28] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+ 2015-12-03 07:27:59,380 [P9784/D8/T28] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 18ms)
+ 2015-12-03 07:27:59,381 [P9784/D8/T28] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+ 2015-12-03 07:27:59,466 [P9784/D8/T28] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 0 (took 85ms)
+ 2015-12-03 07:27:59,524 [P9784/D8/T28] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+ 2015-12-03 07:27:59,536 [P9784/D8/T28] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 0 (took 12ms)
+ 2015-12-03 07:27:59,536 [P9784/D8/T28] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+ 2015-12-03 07:27:59,548 [P9784/D8/T28] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 0 (took 11ms)
+ 2015-12-03 07:28:00,635 [P9784/D8/T28] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2015-12-03 07:28:00,840 [P9784/D8/T28] INFO  Merchello.Web.UmbracoApplicationEventHandler - Attempting to initialize Merchello
+ 2015-12-03 07:28:00,890 [P9784/D8/T28] INFO  Umbraco.Core.PluginManager - Starting resolution types of Merchello.Core.Gateways.GatewayProviderBase
+ 2015-12-03 07:28:00,910 [P9784/D8/T28] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Merchello.Core.Gateways.GatewayProviderBase, found 0 (took 17ms)
+ 2015-12-03 07:28:01,037 [P9784/D8/T28] INFO  Umbraco.Core.PluginManager - Starting resolution types of Merchello.Core.Observation.ITrigger
+ 2015-12-03 07:28:01,053 [P9784/D8/T28] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Merchello.Core.Observation.ITrigger, found 0 (took 17ms)
+ 2015-12-03 07:28:01,063 [P9784/D8/T28] INFO  Umbraco.Core.PluginManager - Starting resolution types of Merchello.Core.Observation.IMonitor
+ 2015-12-03 07:28:01,081 [P9784/D8/T28] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Merchello.Core.Observation.IMonitor, found 0 (took 17ms)
+ 2015-12-03 07:28:01,087 [P9784/D8/T28] INFO  Umbraco.Core.PluginManager - Starting resolution types of Merchello.Core.Chains.OfferConstraints.IOfferProcessor
+ 2015-12-03 07:28:01,102 [P9784/D8/T28] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Merchello.Core.Chains.OfferConstraints.IOfferProcessor, found 0 (took 14ms)
+ 2015-12-03 07:28:01,103 [P9784/D8/T28] INFO  Umbraco.Core.PluginManager - Starting resolution types of Merchello.Web.Mvc.IPaymentMethodUiController
+ 2015-12-03 07:28:01,120 [P9784/D8/T28] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Merchello.Web.Mvc.IPaymentMethodUiController, found 0 (took 17ms)
+ 2015-12-03 07:28:01,126 [P9784/D8/T28] INFO  Umbraco.Core.PluginManager - Starting resolution types of Merchello.Web.Reporting.ReportController
+ 2015-12-03 07:28:01,144 [P9784/D8/T28] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Merchello.Web.Reporting.ReportController, found 0 (took 17ms)
+ 2015-12-03 07:28:01,144 [P9784/D8/T28] INFO  Umbraco.Core.PluginManager - Starting resolution types of Merchello.Core.Marketing.Offer.IOfferProvider
+ 2015-12-03 07:28:01,155 [P9784/D8/T28] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Merchello.Core.Marketing.Offer.IOfferProvider, found 0 (took 18ms)
+ 2015-12-03 07:28:01,155 [P9784/D8/T28] INFO  Umbraco.Core.PluginManager - Starting resolution types of Merchello.Core.Marketing.Offer.OfferComponentBase
+ 2015-12-03 07:28:01,215 [P9784/D8/T28] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Merchello.Core.Marketing.Offer.OfferComponentBase, found 0 (took 50ms)
+ 2015-12-03 07:28:01,221 [P9784/D8/T28] INFO  Merchello.Core.CoreBootManager - Starting subscribing Monitors to Triggers
+ 2015-12-03 07:28:01,225 [P9784/D8/T28] INFO  Merchello.Core.Observation.MonitorBase`1[[Merchello.Core.Models.MonitorModels.IShipmentResultNotifyModel, Merchello.Core, Version=1.13.0.0, Culture=neutral, PublicKeyToken=null]] - PartialOrderShippedMonitor subscribing to PartialOrderShippedTrigger
+ 2015-12-03 07:28:01,225 [P9784/D8/T28] INFO  Merchello.Core.Observation.MonitorBase`1[[Merchello.Core.Models.MonitorModels.IPaymentResultMonitorModel, Merchello.Core, Version=1.13.0.0, Culture=neutral, PublicKeyToken=null]] - OrderConfirmationMonitor subscribing to OrderConfirmationTrigger
+ 2015-12-03 07:28:01,225 [P9784/D8/T28] INFO  Merchello.Core.Observation.MonitorBase`1[[Merchello.Core.Models.MonitorModels.IShipmentResultNotifyModel, Merchello.Core, Version=1.13.0.0, Culture=neutral, PublicKeyToken=null]] - OrderShippedMonitor subscribing to OrderShippedTrigger
+ 2015-12-03 07:28:01,225 [P9784/D8/T28] INFO  Umbraco.Core.CoreBootManager - Finished subscribing Monitors to Triggers
+ 2015-12-03 07:28:01,225 [P9784/D8/T28] INFO  Merchello.Core.CoreBootManager - Initializing EntityCollectionProviders
+ 2015-12-03 07:28:01,225 [P9784/D8/T28] INFO  Umbraco.Core.PluginManager - Starting resolution types of Merchello.Core.EntityCollections.IEntityCollectionProvider
+ 2015-12-03 07:28:01,246 [P9784/D8/T28] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Merchello.Core.EntityCollections.IEntityCollectionProvider, found 0 (took 17ms)
+ 2015-12-03 07:28:01,986 [P9784/D8/T28] INFO  Merchello.Web.UmbracoApplicationEventHandler - Initialization of Merchello complete
+ 2015-12-03 07:28:02,059 [P9784/D8/T28] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2015-12-03 07:28:02,059 [P9784/D8/T28] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2015-12-03 07:28:02,089 [P9784/D8/T28] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2015-12-03 07:28:02,119 [P9784/D8/T28] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2015-12-03 07:28:02,229 [P9784/D8/T28] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2015-12-03 07:28:02,239 [P9784/D8/T28] INFO  Merchello.Core.Gateways.GatewayEvents - Initializing Merchello Warehouse Catalog binding events
+ 2015-12-03 07:28:02,241 [P9784/D8/T28] INFO  Merchello.Core.Gateways.Notification.Monitors.NotificationMonitorEvents - Initializing Merchello NotificationMonitor binding events
+ 2015-12-03 07:28:02,241 [P9784/D8/T28] INFO  Merchello.Core.Gateways.Notification.Monitors.NotificationMonitorEvents - Completed Merchello NotificationMonitor binding events
+ 2015-12-03 07:28:02,241 [P9784/D8/T28] INFO  Merchello.Core.Gateways.Notification.Smtp.SmtpProviderEvents - Initializing SMTP notification gateway provider registration binding events
+ 2015-12-03 07:28:02,322 [P9784/D8/T28] INFO  Merchello.Web.Search.ExamineEvents - Initializing Merchello ProductIndex binding events
+ 2015-12-03 07:28:02,323 [P9784/D8/T28] INFO  Merchello.Web.Trees.ServerVariablesParsingEvents - Initializing Merchello ServerVariablesParsingEvents
+ 2015-12-03 07:28:02,323 [P9784/D8/T28] INFO  Merchello.Web.UmbracoApplicationEventHandler - Initializing Customer related events
+ 2015-12-03 07:28:02,323 [P9784/D8/T28] INFO  Merchello.Web.UmbracoApplicationEventHandler - Verifying Merchello Version.
+ 2015-12-03 07:28:02,691 [P9784/D8/T28] INFO  uWebshop.Umbraco6.UmbracoLoggingService - ContentMapping xml loaded
+ 2015-12-03 07:28:02,709 [P9784/D8/T28] INFO  umbraco.content - Load Xml from file...
+ 2015-12-03 07:28:02,709 [P9784/D8/T28] INFO  umbraco.content - Loaded Xml from file.
+ 2015-12-03 07:28:02,729 [P9784/D8/T28] INFO  uWebshop.Umbraco6.UmbracoLoggingService - uWebshop initialized
+ 2015-12-03 07:28:02,758 [P9784/D8/T28] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 4339ms)
+ 2015-12-03 07:28:03,399 [P9784/D8/T12] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://local.oldlima.be:80/umbraco (UmbracoModule request)
+ 2015-12-03 07:28:52,141 [P9784/D8/T30] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ICacheRefresher
+ 2015-12-03 07:28:52,171 [P9784/D8/T30] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 0 (took 27ms)
+ 2015-12-03 07:28:53,211 [P9784/D8/T30] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2015-12-03 07:28:53,254 [P9784/D8/T30] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 42ms)
+ 2015-12-03 07:28:53,695 [P9784/D8/T30] INFO  uWebshop.Umbraco6.UmbracoLoggingService - Store published, requesting rebuild cache
+ 2015-12-03 07:28:53,695 [P9784/D8/T30] INFO  uWebshop.Umbraco6.UmbracoLoggingService - Issueing Full Reset Cache after 'reload entity with id'
+ 2015-12-03 07:28:53,695 [P9784/D8/T30] INFO  uWebshop.Umbraco6.UmbracoLoggingService - Request to reset cache, (re)setting timer
+ 2015-12-03 07:28:53,802 [P9784/D8/T30] WARN  uWebshop.Umbraco6.UmbracoLoggingService - Determining Store Urls: no storepicker but multiple stores? 
+ 2015-12-03 07:28:53,838 [P9784/D8/T30] WARN  uWebshop.Umbraco6.UmbracoLoggingService - Determining Store Urls: no storepicker but multiple stores? 
+ 2015-12-03 07:28:53,838 [P9784/D8/T30] WARN  uWebshop.Umbraco6.UmbracoLoggingService - Determining Store Urls: no storepicker but multiple stores? 
+ 2015-12-03 07:28:53,863 [P9784/D8/T30] INFO  uWebshop.Umbraco6.UmbracoLoggingService - Issueing Full Reset Cache after 'reload entity with id'
+ 2015-12-03 07:28:53,863 [P9784/D8/T30] INFO  uWebshop.Umbraco6.UmbracoLoggingService - Request to reset cache, (re)setting timer
+ 2015-12-03 07:28:53,887 [P9784/D8/T30] INFO  uWebshop.Umbraco6.UmbracoLoggingService - Issueing Full Reset Cache after 'reload entity with id'
+ 2015-12-03 07:28:53,887 [P9784/D8/T30] INFO  uWebshop.Umbraco6.UmbracoLoggingService - Request to reset cache, (re)setting timer
+ 2015-12-03 07:28:53,948 [P9784/D8/T30] WARN  Umbraco.Core.PropertyEditors.LegacyPropertyEditorIdToAliasConverter - A legacy GUID id was generated for property editor uWebshop.OrderSection. This occurs when the legacy APIs are used and done to attempt to maintain backwards compatibility. Consider upgrading all code to use the new Services APIs instead to avoid any potential issues.
+ 2015-12-03 07:28:53,949 [P9784/D8/T30] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IDataType
+ 2015-12-03 07:28:54,079 [P9784/D8/T30] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IDataType, found 0 (took 130ms)
+ 2015-12-03 07:28:54,090 [P9784/D8/T30] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2015-12-03 07:28:54,117 [P9784/D8/T30] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 27ms)
+ 2015-12-03 07:28:54,152 [P9784/D8/T30] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2015-12-03 07:28:54,169 [P9784/D8/T30] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 15ms)
+ 2015-12-03 07:28:54,171 [P9784/D8/T30] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2015-12-03 07:28:54,189 [P9784/D8/T30] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 17ms)
+ 2015-12-03 07:28:54,242 [P9784/D8/T30] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplication
+ 2015-12-03 07:28:54,263 [P9784/D8/T30] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplication, found 0 (took 21ms)
+ 2015-12-03 07:28:54,302 [P9784/D8/T30] INFO  uWebshop.Umbraco6.UmbracoLoggingService - Issueing Full Reset Cache after 'reload entity with id'
+ 2015-12-03 07:28:54,302 [P9784/D8/T30] INFO  uWebshop.Umbraco6.UmbracoLoggingService - Request to reset cache, (re)setting timer
+ 2015-12-03 07:28:54,332 [P9784/D8/T30] INFO  uWebshop.Umbraco6.UmbracoLoggingService - Issueing Full Reset Cache after 'reload entity with id'
+ 2015-12-03 07:28:54,332 [P9784/D8/T30] INFO  uWebshop.Umbraco6.UmbracoLoggingService - Request to reset cache, (re)setting timer
+ 2015-12-03 07:28:54,355 [P9784/D8/T30] INFO  uWebshop.Umbraco6.UmbracoLoggingService - Issueing Full Reset Cache after 'reload entity with id'
+ 2015-12-03 07:28:54,355 [P9784/D8/T30] INFO  uWebshop.Umbraco6.UmbracoLoggingService - Request to reset cache, (re)setting timer
+ 2015-12-03 07:28:54,376 [P9784/D8/T30] INFO  uWebshop.Umbraco6.UmbracoLoggingService - Issueing Full Reset Cache after 'reload entity with id'
+ 2015-12-03 07:28:54,380 [P9784/D8/T30] INFO  uWebshop.Umbraco6.UmbracoLoggingService - Request to reset cache, (re)setting timer
+ 2015-12-03 07:28:54,401 [P9784/D8/T30] INFO  uWebshop.Umbraco6.UmbracoLoggingService - Settings published, requesting rebuild cache
+ 2015-12-03 07:28:54,484 [P9784/D8/T30] INFO  uWebshop.Umbraco6.UmbracoLoggingService - Issueing Full Reset Cache after 'reload entity with id'
+ 2015-12-03 07:28:54,484 [P9784/D8/T30] INFO  uWebshop.Umbraco6.UmbracoLoggingService - Request to reset cache, (re)setting timer
+ 2015-12-03 07:28:54,519 [P9784/D8/T30] INFO  uWebshop.Umbraco6.UmbracoLoggingService - Issueing Full Reset Cache after 'reload entity with id'
+ 2015-12-03 07:28:54,519 [P9784/D8/T30] INFO  uWebshop.Umbraco6.UmbracoLoggingService - Request to reset cache, (re)setting timer
+ 2015-12-03 07:28:54,538 [P9784/D8/T30] INFO  uWebshop.Umbraco6.UmbracoLoggingService - Issueing Full Reset Cache after 'reload entity with id'
+ 2015-12-03 07:28:54,538 [P9784/D8/T30] INFO  uWebshop.Umbraco6.UmbracoLoggingService - Request to reset cache, (re)setting timer
+ 2015-12-03 07:28:54,566 [P9784/D8/T30] INFO  uWebshop.Umbraco6.UmbracoLoggingService - Issueing Full Reset Cache after 'reload entity with id'
+ 2015-12-03 07:28:54,566 [P9784/D8/T30] INFO  uWebshop.Umbraco6.UmbracoLoggingService - Request to reset cache, (re)setting timer
+ 2015-12-03 07:28:54,591 [P9784/D8/T30] INFO  uWebshop.Umbraco6.UmbracoLoggingService - Issueing Full Reset Cache after 'reload entity with id'
+ 2015-12-03 07:28:54,591 [P9784/D8/T30] INFO  uWebshop.Umbraco6.UmbracoLoggingService - Request to reset cache, (re)setting timer
+ 2015-12-03 07:28:54,617 [P9784/D8/T30] INFO  uWebshop.Umbraco6.UmbracoLoggingService - Issueing Full Reset Cache after 'reload entity with id'
+ 2015-12-03 07:28:54,617 [P9784/D8/T30] INFO  uWebshop.Umbraco6.UmbracoLoggingService - Request to reset cache, (re)setting timer
+ 2015-12-03 07:28:54,639 [P9784/D8/T30] INFO  uWebshop.Umbraco6.UmbracoLoggingService - Issueing Full Reset Cache after 'reload entity with id'
+ 2015-12-03 07:28:54,639 [P9784/D8/T30] INFO  uWebshop.Umbraco6.UmbracoLoggingService - Request to reset cache, (re)setting timer
+ 2015-12-03 07:28:54,656 [P9784/D8/T30] INFO  uWebshop.Umbraco6.UmbracoLoggingService - Issueing Full Reset Cache after 'reload entity with id'
+ 2015-12-03 07:28:54,656 [P9784/D8/T30] INFO  uWebshop.Umbraco6.UmbracoLoggingService - Request to reset cache, (re)setting timer
+ 2015-12-03 07:28:54,674 [P9784/D8/T30] INFO  uWebshop.Umbraco6.UmbracoLoggingService - Issueing Full Reset Cache after 'reload entity with id'
+ 2015-12-03 07:28:54,674 [P9784/D8/T30] INFO  uWebshop.Umbraco6.UmbracoLoggingService - Request to reset cache, (re)setting timer
+ 2015-12-03 07:28:54,705 [P9784/D8/T30] INFO  uWebshop.Umbraco6.UmbracoLoggingService - Issueing Full Reset Cache after 'reload entity with id'
+ 2015-12-03 07:28:54,705 [P9784/D8/T30] INFO  uWebshop.Umbraco6.UmbracoLoggingService - Request to reset cache, (re)setting timer
+ 2015-12-03 07:28:54,714 [P9784/D8/T30] WARN  Umbraco.Core.PropertyEditors.LegacyPropertyEditorIdToAliasConverter - A legacy GUID id was generated for property editor uWebshop.ProductOverview. This occurs when the legacy APIs are used and done to attempt to maintain backwards compatibility. Consider upgrading all code to use the new Services APIs instead to avoid any potential issues.
+ 2015-12-03 07:28:58,728 [P9784/D8/T19] INFO  umbraco.content - Save Xml to file...
+ 2015-12-03 07:28:58,736 [P9784/D8/T11] INFO  umbraco.content - Saved Xml to file.
+ 2015-12-03 07:29:04,723 [P9784/D8/T5] INFO  uWebshop.Umbraco6.UmbracoLoggingService - Request to reset cache, timer triggered
+ 2015-12-03 07:29:04,725 [P9784/D8/T48] INFO  uWebshop.Umbraco6.UmbracoLoggingService - Clearing stores cache after a change to a store
+ 2015-12-03 07:29:04,727 [P9784/D8/T48] INFO  uWebshop.Umbraco6.UmbracoLoggingService - Rebuilding new cache
+ 2015-12-03 07:29:04,735 [P9784/D8/T48] INFO  uWebshop.Umbraco6.UmbracoLoggingService - Switching to new cache
+ 2015-12-03 07:29:04,735 [P9784/D8/T48] INFO  uWebshop.Umbraco6.UmbracoLoggingService - Switched to new cache
+ 2015-12-03 07:29:37,438 [P9784/D8/T10] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Terminating
+ 2015-12-03 07:29:37,438 [P9784/D8/T10] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Waiting for tasks to complete
+ 2015-12-03 07:29:37,438 [P9784/D8/T10] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Terminating
+ 2015-12-03 07:29:37,438 [P9784/D8/T10] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Waiting for tasks to complete
+ 2015-12-03 07:29:37,446 [P9784/D8/T38] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Tasks completed, terminated
+ 2015-12-03 07:29:37,452 [P9784/D8/T37] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Tasks completed, terminated
+ 2015-12-03 07:29:37,484 [P9784/D8/T10] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Terminating
+ 2015-12-03 07:29:37,484 [P9784/D8/T10] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Waiting for tasks to complete
+ 2015-12-03 07:29:37,484 [P9784/D8/T10] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Terminating
+ 2015-12-03 07:29:37,484 [P9784/D8/T10] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Waiting for tasks to complete
+ 2015-12-03 07:29:37,484 [P9784/D8/T23] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Tasks completed, terminated
+ 2015-12-03 07:29:37,484 [P9784/D8/T16] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Tasks completed, terminated
+ 2015-12-03 07:29:45,468 [P9784/D9/T15] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.3.1 application starting on JURGEN
+ 2015-12-03 07:29:45,564 [P9784/D9/T15] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2015-12-03 07:29:45,585 [P9784/D9/T15] INFO  Umbraco.Core.PluginManager - Hash determined (took 14ms)
+ 2015-12-03 07:29:45,735 [P9784/D9/T15] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+ 2015-12-03 07:29:46,059 [P9784/D9/T15] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 323ms)
+ 2015-12-03 07:29:46,084 [P9784/D9/T15] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2015-12-03 07:29:46,096 [P9784/D9/T15] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 12ms)
+ 2015-12-03 07:29:46,097 [P9784/D9/T15] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2015-12-03 07:29:46,111 [P9784/D9/T15] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 0 (took 13ms)
+ 2015-12-03 07:29:46,123 [P9784/D9/T15] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+ 2015-12-03 07:29:46,142 [P9784/D9/T15] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 14ms)
+ 2015-12-03 07:29:46,142 [P9784/D9/T15] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+ 2015-12-03 07:29:46,173 [P9784/D9/T15] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 0 (took 30ms)
+ 2015-12-03 07:29:46,207 [P9784/D9/T15] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+ 2015-12-03 07:29:46,218 [P9784/D9/T15] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 0 (took 11ms)
+ 2015-12-03 07:29:46,219 [P9784/D9/T15] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+ 2015-12-03 07:29:46,225 [P9784/D9/T15] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 0 (took 10ms)
+ 2015-12-03 07:29:47,090 [P9784/D9/T15] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2015-12-03 07:29:47,262 [P9784/D9/T15] INFO  Merchello.Web.UmbracoApplicationEventHandler - Attempting to initialize Merchello
+ 2015-12-03 07:29:47,291 [P9784/D9/T15] INFO  Umbraco.Core.PluginManager - Starting resolution types of Merchello.Core.Gateways.GatewayProviderBase
+ 2015-12-03 07:29:47,317 [P9784/D9/T15] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Merchello.Core.Gateways.GatewayProviderBase, found 0 (took 12ms)
+ 2015-12-03 07:29:47,408 [P9784/D9/T15] INFO  Umbraco.Core.PluginManager - Starting resolution types of Merchello.Core.Observation.ITrigger
+ 2015-12-03 07:29:47,421 [P9784/D9/T15] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Merchello.Core.Observation.ITrigger, found 0 (took 12ms)
+ 2015-12-03 07:29:47,423 [P9784/D9/T15] INFO  Umbraco.Core.PluginManager - Starting resolution types of Merchello.Core.Observation.IMonitor
+ 2015-12-03 07:29:47,434 [P9784/D9/T15] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Merchello.Core.Observation.IMonitor, found 0 (took 10ms)
+ 2015-12-03 07:29:47,443 [P9784/D9/T15] INFO  Umbraco.Core.PluginManager - Starting resolution types of Merchello.Core.Chains.OfferConstraints.IOfferProcessor
+ 2015-12-03 07:29:47,444 [P9784/D9/T15] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Merchello.Core.Chains.OfferConstraints.IOfferProcessor, found 0 (took 10ms)
+ 2015-12-03 07:29:47,444 [P9784/D9/T15] INFO  Umbraco.Core.PluginManager - Starting resolution types of Merchello.Web.Mvc.IPaymentMethodUiController
+ 2015-12-03 07:29:47,463 [P9784/D9/T15] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Merchello.Web.Mvc.IPaymentMethodUiController, found 0 (took 9ms)
+ 2015-12-03 07:29:47,464 [P9784/D9/T15] INFO  Umbraco.Core.PluginManager - Starting resolution types of Merchello.Web.Reporting.ReportController
+ 2015-12-03 07:29:47,464 [P9784/D9/T15] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Merchello.Web.Reporting.ReportController, found 0 (took 9ms)
+ 2015-12-03 07:29:47,464 [P9784/D9/T15] INFO  Umbraco.Core.PluginManager - Starting resolution types of Merchello.Core.Marketing.Offer.IOfferProvider
+ 2015-12-03 07:29:47,488 [P9784/D9/T15] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Merchello.Core.Marketing.Offer.IOfferProvider, found 0 (took 13ms)
+ 2015-12-03 07:29:47,491 [P9784/D9/T15] INFO  Umbraco.Core.PluginManager - Starting resolution types of Merchello.Core.Marketing.Offer.OfferComponentBase
+ 2015-12-03 07:29:47,525 [P9784/D9/T15] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Merchello.Core.Marketing.Offer.OfferComponentBase, found 0 (took 34ms)
+ 2015-12-03 07:29:47,525 [P9784/D9/T15] INFO  Merchello.Core.CoreBootManager - Starting subscribing Monitors to Triggers
+ 2015-12-03 07:29:47,530 [P9784/D9/T15] INFO  Merchello.Core.Observation.MonitorBase`1[[Merchello.Core.Models.MonitorModels.IShipmentResultNotifyModel, Merchello.Core, Version=1.13.0.0, Culture=neutral, PublicKeyToken=null]] - PartialOrderShippedMonitor subscribing to PartialOrderShippedTrigger
+ 2015-12-03 07:29:47,531 [P9784/D9/T15] INFO  Merchello.Core.Observation.MonitorBase`1[[Merchello.Core.Models.MonitorModels.IPaymentResultMonitorModel, Merchello.Core, Version=1.13.0.0, Culture=neutral, PublicKeyToken=null]] - OrderConfirmationMonitor subscribing to OrderConfirmationTrigger
+ 2015-12-03 07:29:47,532 [P9784/D9/T15] INFO  Merchello.Core.Observation.MonitorBase`1[[Merchello.Core.Models.MonitorModels.IShipmentResultNotifyModel, Merchello.Core, Version=1.13.0.0, Culture=neutral, PublicKeyToken=null]] - OrderShippedMonitor subscribing to OrderShippedTrigger
+ 2015-12-03 07:29:47,532 [P9784/D9/T15] INFO  Umbraco.Core.CoreBootManager - Finished subscribing Monitors to Triggers
+ 2015-12-03 07:29:47,532 [P9784/D9/T15] INFO  Merchello.Core.CoreBootManager - Initializing EntityCollectionProviders
+ 2015-12-03 07:29:47,533 [P9784/D9/T15] INFO  Umbraco.Core.PluginManager - Starting resolution types of Merchello.Core.EntityCollections.IEntityCollectionProvider
+ 2015-12-03 07:29:47,535 [P9784/D9/T15] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Merchello.Core.EntityCollections.IEntityCollectionProvider, found 0 (took 13ms)
+ 2015-12-03 07:29:48,143 [P9784/D9/T15] INFO  Merchello.Web.UmbracoApplicationEventHandler - Initialization of Merchello complete
+ 2015-12-03 07:29:48,196 [P9784/D9/T15] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2015-12-03 07:29:48,223 [P9784/D9/T15] INFO  Merchello.Core.Gateways.GatewayEvents - Initializing Merchello Warehouse Catalog binding events
+ 2015-12-03 07:29:48,226 [P9784/D9/T15] INFO  Merchello.Core.Gateways.Notification.Monitors.NotificationMonitorEvents - Initializing Merchello NotificationMonitor binding events
+ 2015-12-03 07:29:48,226 [P9784/D9/T15] INFO  Merchello.Core.Gateways.Notification.Monitors.NotificationMonitorEvents - Completed Merchello NotificationMonitor binding events
+ 2015-12-03 07:29:48,226 [P9784/D9/T15] INFO  Merchello.Core.Gateways.Notification.Smtp.SmtpProviderEvents - Initializing SMTP notification gateway provider registration binding events
+ 2015-12-03 07:29:48,233 [P9784/D9/T15] INFO  Merchello.Web.Search.ExamineEvents - Initializing Merchello ProductIndex binding events
+ 2015-12-03 07:29:48,333 [P9784/D9/T15] INFO  Merchello.Web.Trees.ServerVariablesParsingEvents - Initializing Merchello ServerVariablesParsingEvents
+ 2015-12-03 07:29:48,335 [P9784/D9/T15] INFO  Merchello.Web.UmbracoApplicationEventHandler - Initializing Customer related events
+ 2015-12-03 07:29:48,338 [P9784/D9/T15] INFO  Merchello.Web.UmbracoApplicationEventHandler - Verifying Merchello Version.
+ 2015-12-03 07:29:48,338 [P9784/D9/T15] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2015-12-03 07:29:48,360 [P9784/D9/T15] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2015-12-03 07:29:48,368 [P9784/D9/T15] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2015-12-03 07:29:48,368 [P9784/D9/T15] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2015-12-03 07:29:48,448 [P9784/D9/T15] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 3092ms)
+ 2015-12-03 07:29:48,887 [P9784/D9/T11] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://local.oldlima.be:80/umbraco (UmbracoModule request)
+ 2015-12-03 07:29:49,547 [P9784/D9/T11] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2015-12-03 07:29:49,582 [P9784/D9/T11] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 19ms)
+ 2015-12-03 07:29:49,585 [P9784/D9/T11] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2015-12-03 07:29:49,598 [P9784/D9/T11] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 13ms)
+ 2015-12-03 07:29:49,834 [P9784/D9/T11] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2015-12-03 07:29:49,852 [P9784/D9/T11] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 18ms)
+ 2015-12-03 07:29:49,902 [P9784/D9/T11] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplication
+ 2015-12-03 07:29:49,921 [P9784/D9/T11] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplication, found 0 (took 19ms)
+ 2015-12-03 07:29:52,401 [P9784/D9/T6] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ICacheRefresher
+ 2015-12-03 07:29:52,425 [P9784/D9/T6] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 0 (took 23ms)
+ 2015-12-03 07:30:07,518 [P9784/D8/T10] INFO  Umbraco.Core.UmbracoApplicationBase - Application shutdown. Details: BinDirChangeOrDirectoryRename
+
+_shutDownMessage=Change Notification for critical directories.
+bin dir change or directory rename
+HostingEnvironment initiated shutdown
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change in C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\2942d31d\5f51f4a9\hash\hash.web
+HostingEnvironment caused shutdown
+
+_shutDownStack=   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownInternal()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownWithoutDemand()
+   at System.Web.HttpRuntime.ShutdownAppDomain(String stackTrace)
+   at System.Web.HttpRuntime.OnCriticalDirectoryChange(Object sender, FileChangeEvent e)
+   at System.Web.FileChangesMonitor.OnCriticaldirChange(Object sender, FileChangeEvent e)
+   at System.Web.DirectoryMonitor.FireNotifications()
+   at System.Web.Util.WorkItem.CallCallbackWithAssert(WorkItemCallback callback)
+   at System.Web.Util.WorkItem.OnQueueUserWorkItemCompletion(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+ 2015-12-03 07:30:50,247 [P9784/D9/T5] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2015-12-02 07:30:50
+ 2015-12-03 07:30:50,490 [P9784/D9/T6] INFO  umbraco.content - Load Xml from file...
+ 2015-12-03 07:30:50,492 [P9784/D9/T6] ERROR umbraco.content - Failed to load Xml from file.
+System.Xml.XmlException: There is no Unicode byte order mark. Cannot switch to Unicode.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.CheckEncoding(String newEncodingName)
+   at System.Xml.XmlTextReaderImpl.ParseXmlDeclaration(Boolean isTextDecl)
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at System.Xml.XmlDocument.Load(Stream inStream)
+   at umbraco.content.LoadXmlFromFile()
+ 2015-12-03 07:30:50,499 [P9784/D9/T6] INFO  umbraco.content - Loading content from database...
+ 2015-12-03 07:30:51,092 [P9784/D9/T6] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2015-12-03 07:30:51,104 [P9784/D9/T6] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 0 (took 11ms)
+ 2015-12-03 07:30:55,104 [P9784/D9/T43] INFO  umbraco.content - Save Xml to file...
+ 2015-12-03 07:30:55,112 [P9784/D9/T11] INFO  umbraco.content - Saved Xml to file.
+ 2015-12-03 07:31:28,292 [P9784/D9/T12] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Terminating
+ 2015-12-03 07:31:28,292 [P9784/D9/T12] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Waiting for tasks to complete
+ 2015-12-03 07:31:28,293 [P9784/D9/T12] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Terminating
+ 2015-12-03 07:31:28,293 [P9784/D9/T12] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Waiting for tasks to complete
+ 2015-12-03 07:31:28,293 [P9784/D9/T12] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Terminating
+ 2015-12-03 07:31:28,293 [P9784/D9/T12] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Waiting for tasks to complete
+ 2015-12-03 07:31:28,297 [P9784/D9/T31] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Tasks completed, terminated
+ 2015-12-03 07:31:28,297 [P9784/D9/T9] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Tasks completed, terminated
+ 2015-12-03 07:31:28,297 [P9784/D9/T5] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Tasks completed, terminated
+ 2015-12-03 07:31:28,297 [P9784/D9/T12] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Terminating
+ 2015-12-03 07:31:28,297 [P9784/D9/T12] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Waiting for tasks to complete
+ 2015-12-03 07:31:28,298 [P9784/D9/T10] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Tasks completed, terminated
+ 2015-12-03 07:31:58,317 [P9784/D9/T31] INFO  Umbraco.Core.UmbracoApplicationBase - Application shutdown. Details: BrowsersDirChangeOrDirectoryRename
+
+_shutDownMessage=Change Notification for critical directories.
+App_Browsers dir change or directory rename
+HostingEnvironment initiated shutdown
+Change Notification for critical directories.
+App_Browsers dir change or directory rename
+Change Notification for critical directories.
+App_Browsers dir change or directory rename
+Change Notification for critical directories.
+App_Browsers dir change or directory rename
+HostingEnvironment caused shutdown
+
+_shutDownStack=   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownInternal()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownWithoutDemand()
+   at System.Web.HttpRuntime.ShutdownAppDomain(String stackTrace)
+   at System.Web.HttpRuntime.OnCriticalDirectoryChange(Object sender, FileChangeEvent e)
+   at System.Web.FileChangesMonitor.OnCriticaldirChange(Object sender, FileChangeEvent e)
+   at System.Web.DirectoryMonitor.FireNotifications()
+   at System.Web.Util.WorkItem.CallCallbackWithAssert(WorkItemCallback callback)
+   at System.Web.Util.WorkItem.OnQueueUserWorkItemCompletion(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()

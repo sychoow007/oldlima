@@ -1,0 +1,74 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoViewPage<OldLima.Models.InfoWidgetVM>
+
+<div class="head">
+    <h2>@Model.Title</h2>
+    @if (Model.WidgetItems.Count() > 1)
+    {
+        <div class="amount"><span class="currentItem"></span>/@Model.WidgetItems.Count()</div>
+    }
+</div>
+<div class="clearfix"></div>
+@if (Model.WidgetItems.Count() > 0)
+{
+    <div id="@Model.Carousel" class="carousel" data-interval="false">
+        <div class="carousel-inner">
+            @{ 
+                var counter = 0;
+            }
+            @foreach (var widgetItem in Model.WidgetItems)
+            {
+                string pictures = widgetItem.GetPropertyValue("images").ToString();
+                int firstPictureId = int.Parse(pictures.Split(',').First());
+                var motoImage = Umbraco.Media(firstPictureId);
+                var url = widgetItem.Url.Contains("beurzen") ? "/beurzen" : widgetItem.Url;
+
+                <a href="@url" class="item @(counter == 0 ? " active":"") image image-full">
+                    <img src="@motoImage.GetResponsiveImageUrl(270, 161)" alt="" class="slimsy-image" />
+                    @if (Model.Name == "ForSale")
+                    {
+                        <div class="info">
+                            <div class="left">
+                                <div class="build"><b>Bouwjaar:</b> @widgetItem.GetPropertyValue("buildingYear")</div>
+                                <div class="model"><b>Model:</b> @widgetItem.Name</div>
+                            </div>
+                            <div class="right">
+                                <div class="price"><b>Prijs:</b> @widgetItem.GetPropertyValue("price")</div>
+                            </div>
+                        </div>
+                        <div class="mask"></div>
+                    }
+                </a>
+                {
+                    counter++;
+                }
+            }
+        </div>
+        @if (Model.WidgetItems.Count() > 1)
+        {
+        <a class="left carousel-control" href="@string.Format("#{0}", Model.Carousel)" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="@string.Format("#{0}", Model.Carousel)" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+        }
+    </div>
+}
+else
+{
+    <p>Niets beschikbaar op dit moment.</p>
+}
+<script type="text/javascript">
+    showCurrentItem($('#@Model.Carousel'));
+    $('#@Model.Carousel').bind('slid.bs.carousel', function () {
+        showCurrentItem($(this));
+    });
+
+    function showCurrentItem($carousel)
+    {
+        currentIndex = $carousel.find('a.active').index() + 1;
+        $carousel.parent().find('.head .currentItem').html(currentIndex);
+    }
+</script>

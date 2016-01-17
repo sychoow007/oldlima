@@ -1,0 +1,39 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@{
+    Layout = "Shared/_Layout.cshtml";
+
+    IPublishedContent mainContent = CurrentPage;
+}
+<div class="col-md-8">
+    <p>@mainContent.GetPropertyValue("IntroText")</p>
+</div>
+<div class="col-md-4">
+    <div class="row">
+        <div class="col-md-12 widget-container">
+            @Html.Partial("PartialInfoWidget", new OldLima.Models.InfoWidgetVM()
+                                                               {
+                                                                   Name = "ForSale",
+                                                                   Title = "Te koop",
+                                                                   WidgetItems = Model.Content.AncestorOrSelf(1)
+                                                                            .Descendants("Moto")
+                                                                            .Where(x => Convert.ToBoolean(x.GetPropertyValue("inSpotlight")) == true &&
+                                                                                        Convert.ToBoolean(x.GetPropertyValue("sold")) == false),
+                                                                   Carousel = "for-sale-carousel"
+                                                               })
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12 widget-container" style="margin-top: 20px;">
+            @Html.Partial("PartialInfoWidget", new OldLima.Models.InfoWidgetVM()
+                                                               {
+                                                                   Name = "Events",
+                                                                   Title = "Evenementen",
+                                                                   WidgetItems = Model.Content.AncestorOrSelf(1)
+                                                                                  .Descendants("Event")
+                                                                                  .Where(x => Convert.ToBoolean(x.GetPropertyValue("inSpotlight")) == true &&
+                                                                                              Convert.ToDateTime(x.GetPropertyValue("date")) >= DateTime.Now),
+                                                                    Carousel = "event-carousel"
+                                                                })
+        </div>
+    </div>
+</div>

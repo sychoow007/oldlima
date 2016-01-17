@@ -1,0 +1,87 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@{
+    Layout = null;
+    var home = @CurrentPage;
+    string rootClass = (home.Name.ToLower() == "welkom" ? "with-carousel" : "no-carousel");
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welkom op de website van Oldlima</title>
+    <link href="~/Content/Site.css" rel="stylesheet" type="text/css" />
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <script src="~/Scripts/modernizr-2.6.2.js"></script>
+    <!-- Fonts -->
+    <link href="//fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet" type="text/css">
+    <script src="~/Scripts/jquery-1.10.2.min.js"></script>
+    <script src="~/Scripts/slimmage.settings.js"></script>
+    <script src="~/Scripts/slimmage.min.js"></script>
+</head>
+<body>
+    <div class="jumbotron @rootClass">
+        <div class="container header">
+            @{ Html.RenderPartial("MainNavigation"); }
+            <div class="carousel-container">
+                @CarouselHelper()
+            </div>
+        </div>
+    </div>
+
+    <div class="container body-content">
+        <div class="row">
+            @RenderBody()
+        </div>
+        <hr class="featurette-divider" />
+        <footer>
+            <p>&copy; @DateTime.Now.Year - Oldlima</p>
+        </footer>
+    </div>
+
+    <script src="~/Scripts/oldlima.js"></script>
+    <script src="~/Scripts/bootstrap.min.js"></script>
+    
+    @RenderSection("Scripts", false)
+</body>
+</html>
+@helper CarouselHelper()
+{
+    string headImages = CurrentPage.headImages;
+    string[] pictures = headImages.Split(',');
+
+    if (pictures.Length > 0 && !string.IsNullOrEmpty(pictures[0]))
+    {
+            <div id="oldlima-carousel" class="carousel slide" data-interval="3000">
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner">
+                    @for (int i = 0; i < pictures.Length; i++)
+                    {
+                        var media = Umbraco.Media(pictures[i]);
+
+                        <div class="item @(i == 0 ? "active" : "")">
+                            <img src="@media.Url">
+                        </div>
+                    }
+                </div>
+                @if (pictures.Length > 1)
+                {
+                    <a class="left carousel-control" href="#oldlima-carousel" role="button" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="right carousel-control" href="#oldlima-carousel" role="button" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                        @for (int i = 0; i < pictures.Length; i++)
+                        {
+                            <li data-target="#oldlima-carousel" data-slide-to="@i" class="@(i == 0 ? "active" : "")"></li>
+                        }
+                    </ol>
+                }
+            </div>
+    }
+}

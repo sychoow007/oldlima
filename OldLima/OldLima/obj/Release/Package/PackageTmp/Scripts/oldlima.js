@@ -1,0 +1,3 @@
+﻿$(function () {
+    $('#oldlima-carousel').carousel();
+});

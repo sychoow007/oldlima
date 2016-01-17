@@ -1,0 +1,24 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@{
+    Layout = "uWebshopMaster.cshtml";
+}
+
+<div class="row">
+	<div class="col-md-9">       
+      <div class="jumbotron">
+        <h1>uWebshop StarterStore</h1>
+        <p>Get started with uWebshop quickly and beautifully with this demostore!</p>
+                
+      </div>
+    </div> <!-- /col-md-9--> 
+	<div class="col-md-3">
+      <div class="well sidebar-nav">		 
+			@RenderPage("~/Views/Partials/TopSellingProductsList.cshtml")
+			  @RenderPage("~/Views/Partials/RandomCategories.cshtml")
+		</div>
+    </div><!-- /col-md-3 -->
+</div><!-- /row -->
+
+	
+			@RenderPage("~/Views/Partials/NewestProducts.cshtml")	
+	

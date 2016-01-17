@@ -1,0 +1,64 @@
+﻿@inherits Merchello.Web.Mvc.MerchelloTemplatePage
+@using Merchello.Web.Models.VirtualContent
+@using Oldlima.Models
+
+@{
+    Layout = "Shared/_Layout.cshtml";
+}
+<div class="col-md-3">
+    <div class="list-group">
+        @foreach (IPublishedContent item in Model.Content.Children.Where(x => x.IsVisible()))
+        {
+            <a href="@item.Url" class="list-group-item">@item.Name ()</a>
+        }
+    </div>
+</div>
+<div class="col-md-9">
+    <div class="row">
+        @foreach (IProductContent productContent in Model.Content.GetPropertyValue<IEnumerable<IProductContent>>("listView"))
+        {
+            productContent.SpecifyCulture(UmbracoContext.PublishedContentRequest.Culture);
+
+            // info from Umbraco
+            var contentidForChildPage = productContent.Id;
+
+            var productId = productContent.Key;
+
+            // info from Merchello
+            var product = Merchello.TypedProductContent(productId);
+            var price = productContent.Price.ToString("C");
+
+            var pictures = productContent.GetPropertyValue("images").ToString();
+            int firstPictureId = int.Parse(pictures.Split(',').First());
+            var image = Umbraco.Media(firstPictureId);
+
+            <div class="col-md-4">
+                <div class="thumbnail">
+                    <img class="slimsy-image" src="@image.GetResponsiveImageUrl(270,161)" />
+                    <div class="caption">
+                        <h4 class="pull-right">@price</h4>
+                        <h4>@productContent.Name</h4>
+                        @Html.Raw(productContent.GetPropertyValue("productDescription").ToString())
+                        <p>
+                            Stock: @productContent.TotalInventoryCount 
+                            <span class="pull-right">
+                                <input type="number" name="orderAmount" class="small-input" />&nbsp;
+                                @Html.Action("Display_BuyButton", "Basket", new { area = "MerchelloProductListExample", product = new AddItemModel { ProductId = productId, ContentId = contentidForChildPage} })</span>
+                        </p>
+                        <p><a href="@productContent.Name">Meer info</a></p>
+                    </div>
+                </div>
+            </div>
+            // build model to hand to controller used in BuyButton.cshtml
+            //var productitemmodel = new AddItemModel()
+
+            //{
+            //    ProductKey = merchelloproductguid,
+
+            //    ContentId = contentidForChildPage
+            //};
+        }
+    </div>
+</div>
+
+@*@Html.Action("Display_BuyButton", "Basket", new { area = "MerchelloProductListExample", product = productitemmodel })*@ 

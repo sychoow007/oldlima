@@ -1,0 +1,58 @@
+﻿@inherits Merchello.Web.Mvc.MerchelloTemplatePage
+@using OldLima.Models
+@using Merchello.Web
+@using Merchello.Web.Models.ContentEditing
+
+@{
+    Layout = "Shared/_Layout.cshtml";
+}
+<div class="col-md-3">
+    <div class="list-group">
+        <a href="#" class="list-group-item">categorie</a>
+    </div>
+</div>
+<div class="col-md-9">
+    <div class="row">
+        @foreach (IPublishedContent contentProduct in CurrentPage.Children.Where("Visible"))
+        {
+            // info from Umbraco
+            var contentidForChildPage = contentProduct.Id;
+
+            var productId = contentProduct.GetPropertyValue<ProductDisplay>("product").Key;
+
+            // merchello object
+            var merchello = new MerchelloHelper();
+
+            //merchello.Query.Product.
+            // info from Merchello
+            var product = merchello.Query.Product.GetByKey(productId);
+            var price = product.Price.ToString("C");
+            //
+            var pictures = contentProduct.GetPropertyValue("images").ToString();
+            int firstPictureId = int.Parse(pictures.Split(',').First());
+            var image = Umbraco.Media(firstPictureId);
+
+            <div class="col-md-4">
+                <div class="thumbnail">
+                    <img class="slimsy-image" src="@image.GetResponsiveImageUrl(270,161)" />
+                    <div class="caption">
+                        <h4 class="pull-right">@price</h4>
+                        <h4>@contentProduct.Name</h4>
+                        <p>@Html.Raw(contentProduct.GetPropertyValue("productDescription").ToString())</p>
+                        <a href="@contentProduct.Name" class="pull-right">Meer info</a>
+                    </div>
+                </div>
+            </div>
+            // build model to hand to controller used in BuyButton.cshtml
+            //var productitemmodel = new AddItemModel()
+
+            //{
+            //    ProductKey = merchelloproductguid,
+
+            //    ContentId = contentidForChildPage
+            //};
+        }
+    </div>
+</div>
+
+@*@Html.Action("Display_BuyButton", "Basket", new { area = "MerchelloProductListExample", product = productitemmodel })*@ 

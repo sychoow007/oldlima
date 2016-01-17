@@ -1,0 +1,36 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@{
+    Layout = "Shared/_Layout.cshtml"; ;
+}
+<link href="~/Content/ekko-lightbox.min.css" rel="stylesheet" />
+@Html.Partial("Breadcrumb")
+<div class="col-md-12">
+    @if (CurrentPage.Children.Count() > 0)
+    {
+
+        foreach (var page in CurrentPage.Children)
+        {
+            <div class="col-md-4">
+                @{
+                    var eventImage = Umbraco.Media(page.images);
+                }
+                <a href="@eventImage.Url" data-toggle="lightbox" data-gallery="multiimages" data-title="@page.Name" class="thumbnail">
+                    <img src="@eventImage.GetResponsiveImageUrl(260, 0)" alt="" />
+                </a>
+            </div>
+                        }
+                    }
+                    else
+                    {
+                        <text>Er zijn op dit moment geen evenementen.</text>
+                    }
+</div>
+@section Scripts{
+    <script src="~/Scripts/ekko-lightbox.min.js"></script>
+    <script type="text/javascript">
+        $(document).delegate('*[data-toggle="lightbox"]', 'click', function (event) {
+            event.preventDefault();
+            $(this).ekkoLightbox();
+        });
+    </script>
+}

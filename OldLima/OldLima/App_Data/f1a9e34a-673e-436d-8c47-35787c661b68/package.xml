@@ -1,0 +1,1554 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<umbPackage>
+  <files>
+    <file>
+      <guid>Package.manifest</guid>
+      <orgPath>/App_Plugins/Merchello</orgPath>
+      <orgName>Package.manifest</orgName>
+    </file>
+    <file>
+      <guid>merchello.css</guid>
+      <orgPath>/App_Plugins/Merchello/assets/css</orgPath>
+      <orgName>merchello.css</orgName>
+    </file>
+    <file>
+      <guid>merchello.css.map</guid>
+      <orgPath>/App_Plugins/Merchello/assets/css</orgPath>
+      <orgName>merchello.css.map</orgName>
+    </file>
+    <file>
+      <guid>github_thumb.jpg</guid>
+      <orgPath>/App_Plugins/Merchello/assets/images</orgPath>
+      <orgName>github_thumb.jpg</orgName>
+    </file>
+    <file>
+      <guid>h1-a.png</guid>
+      <orgPath>/App_Plugins/Merchello/assets/images</orgPath>
+      <orgName>h1-a.png</orgName>
+    </file>
+    <file>
+      <guid>ourumbracoorg_thumb.jpg</guid>
+      <orgPath>/App_Plugins/Merchello/assets/images</orgPath>
+      <orgName>ourumbracoorg_thumb.jpg</orgName>
+    </file>
+    <file>
+      <guid>youtrack_thumb.jpg</guid>
+      <orgPath>/App_Plugins/Merchello/assets/images</orgPath>
+      <orgName>youtrack_thumb.jpg</orgName>
+    </file>
+    <file>
+      <guid>collectionproviderlist.html</guid>
+      <orgPath>/App_Plugins/Merchello/Backoffice/Merchello</orgPath>
+      <orgName>collectionproviderlist.html</orgName>
+    </file>
+    <file>
+      <guid>couponeditor.html</guid>
+      <orgPath>/App_Plugins/Merchello/Backoffice/Merchello</orgPath>
+      <orgName>couponeditor.html</orgName>
+    </file>
+    <file>
+      <guid>customeraddresses.html</guid>
+      <orgPath>/App_Plugins/Merchello/Backoffice/Merchello</orgPath>
+      <orgName>customeraddresses.html</orgName>
+    </file>
+    <file>
+      <guid>customerlist.html</guid>
+      <orgPath>/App_Plugins/Merchello/Backoffice/Merchello</orgPath>
+      <orgName>customerlist.html</orgName>
+    </file>
+    <file>
+      <guid>customeroverview.html</guid>
+      <orgPath>/App_Plugins/Merchello/Backoffice/Merchello</orgPath>
+      <orgName>customeroverview.html</orgName>
+    </file>
+    <file>
+      <guid>dashboard.html</guid>
+      <orgPath>/App_Plugins/Merchello/Backoffice/Merchello</orgPath>
+      <orgName>dashboard.html</orgName>
+    </file>
+    <file>
+      <guid>gatewayproviderlist.html</guid>
+      <orgPath>/App_Plugins/Merchello/Backoffice/Merchello</orgPath>
+      <orgName>gatewayproviderlist.html</orgName>
+    </file>
+    <file>
+      <guid>invoicepayments.html</guid>
+      <orgPath>/App_Plugins/Merchello/Backoffice/Merchello</orgPath>
+      <orgName>invoicepayments.html</orgName>
+    </file>
+    <file>
+      <guid>notification.messageeditor.html</guid>
+      <orgPath>/App_Plugins/Merchello/Backoffice/Merchello</orgPath>
+      <orgName>notification.messageeditor.html</orgName>
+    </file>
+    <file>
+      <guid>notificationproviders.html</guid>
+      <orgPath>/App_Plugins/Merchello/Backoffice/Merchello</orgPath>
+      <orgName>notificationproviders.html</orgName>
+    </file>
+    <file>
+      <guid>offerslist.html</guid>
+      <orgPath>/App_Plugins/Merchello/Backoffice/Merchello</orgPath>
+      <orgName>offerslist.html</orgName>
+    </file>
+    <file>
+      <guid>ordershipments.html</guid>
+      <orgPath>/App_Plugins/Merchello/Backoffice/Merchello</orgPath>
+      <orgName>ordershipments.html</orgName>
+    </file>
+    <file>
+      <guid>paymentproviders.html</guid>
+      <orgPath>/App_Plugins/Merchello/Backoffice/Merchello</orgPath>
+      <orgName>paymentproviders.html</orgName>
+    </file>
+    <file>
+      <guid>productcontenttypelist.html</guid>
+      <orgPath>/App_Plugins/Merchello/Backoffice/Merchello</orgPath>
+      <orgName>productcontenttypelist.html</orgName>
+    </file>
+    <file>
+      <guid>productdetachedcontent.html</guid>
+      <orgPath>/App_Plugins/Merchello/Backoffice/Merchello</orgPath>
+      <orgName>productdetachedcontent.html</orgName>
+    </file>
+    <file>
+      <guid>productedit.html</guid>
+      <orgPath>/App_Plugins/Merchello/Backoffice/Merchello</orgPath>
+      <orgName>productedit.html</orgName>
+    </file>
+    <file>
+      <guid>producteditwithoptions.html</guid>
+      <orgPath>/App_Plugins/Merchello/Backoffice/Merchello</orgPath>
+      <orgName>producteditwithoptions.html</orgName>
+    </file>
+    <file>
+      <guid>productlist.html</guid>
+      <orgPath>/App_Plugins/Merchello/Backoffice/Merchello</orgPath>
+      <orgName>productlist.html</orgName>
+    </file>
+    <file>
+      <guid>productoptionseditor.html</guid>
+      <orgPath>/App_Plugins/Merchello/Backoffice/Merchello</orgPath>
+      <orgName>productoptionseditor.html</orgName>
+    </file>
+    <file>
+      <guid>reports.viewreport.html</guid>
+      <orgPath>/App_Plugins/Merchello/Backoffice/Merchello</orgPath>
+      <orgName>reports.viewreport.html</orgName>
+    </file>
+    <file>
+      <guid>reportslist.html</guid>
+      <orgPath>/App_Plugins/Merchello/Backoffice/Merchello</orgPath>
+      <orgName>reportslist.html</orgName>
+    </file>
+    <file>
+      <guid>saleoverview.html</guid>
+      <orgPath>/App_Plugins/Merchello/Backoffice/Merchello</orgPath>
+      <orgName>saleoverview.html</orgName>
+    </file>
+    <file>
+      <guid>saleslist.html</guid>
+      <orgPath>/App_Plugins/Merchello/Backoffice/Merchello</orgPath>
+      <orgName>saleslist.html</orgName>
+    </file>
+    <file>
+      <guid>settings.html</guid>
+      <orgPath>/App_Plugins/Merchello/Backoffice/Merchello</orgPath>
+      <orgName>settings.html</orgName>
+    </file>
+    <file>
+      <guid>shippingproviders.html</guid>
+      <orgPath>/App_Plugins/Merchello/Backoffice/Merchello</orgPath>
+      <orgName>shippingproviders.html</orgName>
+    </file>
+    <file>
+      <guid>taxationproviders.html</guid>
+      <orgPath>/App_Plugins/Merchello/Backoffice/Merchello</orgPath>
+      <orgName>taxationproviders.html</orgName>
+    </file>
+    <file>
+      <guid>create.staticcollection.html</guid>
+      <orgPath>/App_Plugins/Merchello/Backoffice/Merchello/dialogs</orgPath>
+      <orgName>create.staticcollection.html</orgName>
+    </file>
+    <file>
+      <guid>customer.customeraddress.addedit.html</guid>
+      <orgPath>/App_Plugins/Merchello/Backoffice/Merchello/dialogs</orgPath>
+      <orgName>customer.customeraddress.addedit.html</orgName>
+    </file>
+    <file>
+      <guid>customer.info.addedit.html</guid>
+      <orgPath>/App_Plugins/Merchello/Backoffice/Merchello/dialogs</orgPath>
+      <orgName>customer.info.addedit.html</orgName>
+    </file>
+    <file>
+      <guid>customer.newcustomer.html</guid>
+      <orgPath>/App_Plugins/Merchello/Backoffice/Merchello/dialogs</orgPath>
+      <orgName>customer.newcustomer.html</orgName>
+    </file>
+    <file>
+      <guid>daterange.selection.html</guid>
+      <orgPath>/App_Plugins/Merchello/Backoffice/Merchello/dialogs</orgPath>
+      <orgName>daterange.selection.html</orgName>
+    </file>
+    <file>
+      <guid>delete.confirmation.html</guid>
+      <orgPath>/App_Plugins/Merchello/Backoffice/Merchello/dialogs</orgPath>
+      <orgName>delete.confirmation.html</orgName>
+    </file>
+    <file>
+      <guid>delete.staticcollection.html</guid>
+      <orgPath>/App_Plugins/Merchello/Backoffice/Merchello/dialogs</orgPath>
+      <orgName>delete.staticcollection.html</orgName>
+    </file>
+    <file>
+      <guid>detachedcontenttype.edit.html</guid>
+      <orgPath>/App_Plugins/Merchello/Backoffice/Merchello/dialogs</orgPath>
+      <orgName>detachedcontenttype.edit.html</orgName>
+    </file>
+    <file>
+      <guid>edit.address.html</guid>
+      <orgPath>/App_Plugins/Merchello/Backoffice/Merchello/dialogs</orgPath>
+      <orgName>edit.address.html</orgName>
+    </file>
+    <file>
+      <guid>manage.staticcollection.html</guid>
+      <orgPath>/App_Plugins/Merchello/Backoffice/Merchello/dialogs</orgPath>
+      <orgName>manage.staticcollection.html</orgName>
+    </file>
+    <file>
+      <guid>marketing.couponreward.discountprice.html</guid>
+      <orgPath>/App_Plugins/Merchello/Backoffice/Merchello/dialogs</orgPath>
+      <orgName>marketing.couponreward.discountprice.html</orgName>
+    </file>
+    <file>
+      <guid>marketing.newofferproviderselection.html</guid>
+      <orgPath>/App_Plugins/Merchello/Backoffice/Merchello/dialogs</orgPath>
+      <orgName>marketing.newofferproviderselection.html</orgName>
+    </file>
+    <file>
+      <guid>marketing.offerconstraint.collectionpricerules.html</guid>
+      <orgPath>/App_Plugins/Merchello/Backoffice/Merchello/dialogs</orgPath>
+      <orgName>marketing.offerconstraint.collectionpricerules.html</orgName>
+    </file>
+    <file>
+      <guid>marketing.offerconstraint.collectionquantityrules.html</guid>
+      <orgPath>/App_Plugins/Merchello/Backoffice/Merchello/dialogs</orgPath>
+      <orgName>marketing.offerconstraint.collectionquantityrules.html</orgName>
+    </file>
+    <file>
+      <guid>marketing.offerconstraint.filterpricerules.html</guid>
+      <orgPath>/App_Plugins/Merchello/Backoffice/Merchello/dialogs</orgPath>
+      <orgName>marketing.offerconstraint.filterpricerules.html</orgName>
+    </file>
+    <file>
+      <guid>marketing.offerconstraint.filterquantityrules.html</guid>
+      <orgPath>/App_Plugins/Merchello/Backoffice/Merchello/dialogs</orgPath>
+      <orgName>marketing.offerconstraint.filterquantityrules.html</orgName>
+    </file>
+    <file>
+      <guid>marketing.offerconstraint.maximumquantity.html</guid>
+      <orgPath>/App_Plugins/Merchello/Backoffice/Merchello/dialogs</orgPath>
+      <orgName>marketing.offerconstraint.maximumquantity.html</orgName>
+    </file>
+    <file>
+      <guid>marketing.offerconstraint.productselectionfilter.html</guid>
+      <orgPath>/App_Plugins/Merchello/Backoffice/Merchello/dialogs</orgPath>
+      <orgName>marketing.offerconstraint.productselectionfilter.html</orgName>
+    </file>
+    <file>
+      <guid>marketing.offerconstraint.redemptionlimit.html</guid>
+      <orgPath>/App_Plugins/Merchello/Backoffice/Merchello/dialogs</orgPath>
+      <orgName>marketing.offerconstraint.redemptionlimit.html</orgName>
+    </file>
+    <file>
+      <guid>marketing.offerproviderselection.html</guid>
+      <orgPath>/App_Plugins/Merchello/Backoffice/Merchello/dialogs</orgPath>
+      <orgName>marketing.offerproviderselection.html</orgName>
+    </file>
+    <file>
+      <guid>notification.notificationmessage.add.html</guid>
+      <orgPath>/App_Plugins/Merchello/Backoffice/Merchello/dialogs</orgPath>
+      <orgName>notification.notificationmessage.add.html</orgName>
+    </file>
+    <file>
+      <guid>notification.notificationmethod.addedit.html</guid>
+      <orgPath>/App_Plugins/Merchello/Backoffice/Merchello/dialogs</orgPath>
+      <orgName>notification.notificationmethod.addedit.html</orgName>
+    </file>
+    <file>
+      <guid>notification.providersettings.smtp.html</guid>
+      <orgPath>/App_Plugins/Merchello/Backoffice/Merchello/dialogs</orgPath>
+      <orgName>notification.providersettings.smtp.html</orgName>
+    </file>
+    <file>
+      <guid>payment.cashpaymentmethod.authorizecapturepayment.html</guid>
+      <orgPath>/App_Plugins/Merchello/Backoffice/Merchello/dialogs</orgPath>
+      <orgName>payment.cashpaymentmethod.authorizecapturepayment.html</orgName>
+    </file>
+    <file>
+      <guid>payment.cashpaymentmethod.authorizepayment.html</guid>
+      <orgPath>/App_Plugins/Merchello/Backoffice/Merchello/dialogs</orgPath>
+      <orgName>payment.cashpaymentmethod.authorizepayment.html</orgName>
+    </file>
+    <file>
+      <guid>payment.cashpaymentmethod.refundpayment.html</guid>
+      <orgPath>/App_Plugins/Merchello/Backoffice/Merchello/dialogs</orgPath>
+      <orgName>payment.cashpaymentmethod.refundpayment.html</orgName>
+    </file>
+    <file>
+      <guid>payment.cashpaymentmethod.voidpayment.html</guid>
+      <orgPath>/App_Plugins/Merchello/Backoffice/Merchello/dialogs</orgPath>
+      <orgName>payment.cashpaymentmethod.voidpayment.html</orgName>
+    </file>
+    <file>
+      <guid>payment.paymentmethod.addedit.html</guid>
+      <orgPath>/App_Plugins/Merchello/Backoffice/Merchello/dialogs</orgPath>
+      <orgName>payment.paymentmethod.addedit.html</orgName>
+    </file>
+    <file>
+      <guid>pick.staticcollection.html</guid>
+      <orgPath>/App_Plugins/Merchello/Backoffice/Merchello/dialogs</orgPath>
+      <orgName>pick.staticcollection.html</orgName>
+    </file>
+    <file>
+      <guid>product.copy.html</guid>
+      <orgPath>/App_Plugins/Merchello/Backoffice/Merchello/dialogs</orgPath>
+      <orgName>product.copy.html</orgName>
+    </file>
+    <file>
+      <guid>productcontenttype.add.html</guid>
+      <orgPath>/App_Plugins/Merchello/Backoffice/Merchello/dialogs</orgPath>
+      <orgName>productcontenttype.add.html</orgName>
+    </file>
+    <file>
+      <guid>productvariant.bulk.changeprice.html</guid>
+      <orgPath>/App_Plugins/Merchello/Backoffice/Merchello/dialogs</orgPath>
+      <orgName>productvariant.bulk.changeprice.html</orgName>
+    </file>
+    <file>
+      <guid>productvariant.bulk.updateinventory.html</guid>
+      <orgPath>/App_Plugins/Merchello/Backoffice/Merchello/dialogs</orgPath>
+      <orgName>productvariant.bulk.updateinventory.html</orgName>
+    </file>
+    <file>
+      <guid>sales.create.shipment.html</guid>
+      <orgPath>/App_Plugins/Merchello/Backoffice/Merchello/dialogs</orgPath>
+      <orgName>sales.create.shipment.html</orgName>
+    </file>
+    <file>
+      <guid>sales.edit.shipment.html</guid>
+      <orgPath>/App_Plugins/Merchello/Backoffice/Merchello/dialogs</orgPath>
+      <orgName>sales.edit.shipment.html</orgName>
+    </file>
+    <file>
+      <guid>shipping.addcountry.html</guid>
+      <orgPath>/App_Plugins/Merchello/Backoffice/Merchello/dialogs</orgPath>
+      <orgName>shipping.addcountry.html</orgName>
+    </file>
+    <file>
+      <guid>shipping.fixedrate.shipmethod.html</guid>
+      <orgPath>/App_Plugins/Merchello/Backoffice/Merchello/dialogs</orgPath>
+      <orgName>shipping.fixedrate.shipmethod.html</orgName>
+    </file>
+    <file>
+      <guid>shipping.shipcountry.addprovider.html</guid>
+      <orgPath>/App_Plugins/Merchello/Backoffice/Merchello/dialogs</orgPath>
+      <orgName>shipping.shipcountry.addprovider.html</orgName>
+    </file>
+    <file>
+      <guid>shipping.shipmethod.regions.html</guid>
+      <orgPath>/App_Plugins/Merchello/Backoffice/Merchello/dialogs</orgPath>
+      <orgName>shipping.shipmethod.regions.html</orgName>
+    </file>
+    <file>
+      <guid>shipping.warehouse.addedit.html</guid>
+      <orgPath>/App_Plugins/Merchello/Backoffice/Merchello/dialogs</orgPath>
+      <orgName>shipping.warehouse.addedit.html</orgName>
+    </file>
+    <file>
+      <guid>shipping.warehousecatalog.addedit.html</guid>
+      <orgPath>/App_Plugins/Merchello/Backoffice/Merchello/dialogs</orgPath>
+      <orgName>shipping.warehousecatalog.addedit.html</orgName>
+    </file>
+    <file>
+      <guid>shipping.warehousecatalog.select.html</guid>
+      <orgPath>/App_Plugins/Merchello/Backoffice/Merchello/dialogs</orgPath>
+      <orgName>shipping.warehousecatalog.select.html</orgName>
+    </file>
+    <file>
+      <guid>sort.staticcollection.html</guid>
+      <orgPath>/App_Plugins/Merchello/Backoffice/Merchello/dialogs</orgPath>
+      <orgName>sort.staticcollection.html</orgName>
+    </file>
+    <file>
+      <guid>taxation.edittaxmethod.html</guid>
+      <orgPath>/App_Plugins/Merchello/Backoffice/Merchello/dialogs</orgPath>
+      <orgName>taxation.edittaxmethod.html</orgName>
+    </file>
+    <file>
+      <guid>addpaymenttable.tpl.html</guid>
+      <orgPath>/App_Plugins/Merchello/Backoffice/Merchello/directives</orgPath>
+      <orgName>addpaymenttable.tpl.html</orgName>
+    </file>
+    <file>
+      <guid>comparisonOperatorRadioButtons.tpl.html</guid>
+      <orgPath>/App_Plugins/Merchello/Backoffice/Merchello/directives</orgPath>
+      <orgName>comparisonOperatorRadioButtons.tpl.html</orgName>
+    </file>
+    <file>
+      <guid>customer.customeraddresstable.tpl.html</guid>
+      <orgPath>/App_Plugins/Merchello/Backoffice/Merchello/directives</orgPath>
+      <orgName>customer.customeraddresstable.tpl.html</orgName>
+    </file>
+    <file>
+      <guid>customer.customerlocation.tpl.html</guid>
+      <orgPath>/App_Plugins/Merchello/Backoffice/Merchello/directives</orgPath>
+      <orgName>customer.customerlocation.tpl.html</orgName>
+    </file>
+    <file>
+      <guid>detachedcontenttype.list.tpl.html</guid>
+      <orgPath>/App_Plugins/Merchello/Backoffice/Merchello/directives</orgPath>
+      <orgName>detachedcontenttype.list.tpl.html</orgName>
+    </file>
+    <file>
+      <guid>entity.staticcollections.tpl.html</guid>
+      <orgPath>/App_Plugins/Merchello/Backoffice/Merchello/directives</orgPath>
+      <orgName>entity.staticcollections.tpl.html</orgName>
+    </file>
+    <file>
+      <guid>filterbydaterange.tpl.html</guid>
+      <orgPath>/App_Plugins/Merchello/Backoffice/Merchello/directives</orgPath>
+      <orgName>filterbydaterange.tpl.html</orgName>
+    </file>
+    <file>
+      <guid>filterinvoices.tpl.html</guid>
+      <orgPath>/App_Plugins/Merchello/Backoffice/Merchello/directives</orgPath>
+      <orgName>filterinvoices.tpl.html</orgName>
+    </file>
+    <file>
+      <guid>merchelloAddress.tpl.html</guid>
+      <orgPath>/App_Plugins/Merchello/Backoffice/Merchello/directives</orgPath>
+      <orgName>merchelloAddress.tpl.html</orgName>
+    </file>
+    <file>
+      <guid>merchelloiconbar.tpl.html</guid>
+      <orgPath>/App_Plugins/Merchello/Backoffice/Merchello/directives</orgPath>
+      <orgName>merchelloiconbar.tpl.html</orgName>
+    </file>
+    <file>
+      <guid>merchellolistview.tpl.html</guid>
+      <orgPath>/App_Plugins/Merchello/Backoffice/Merchello/directives</orgPath>
+      <orgName>merchellolistview.tpl.html</orgName>
+    </file>
+    <file>
+      <guid>merchellopager.tpl.html</guid>
+      <orgPath>/App_Plugins/Merchello/Backoffice/Merchello/directives</orgPath>
+      <orgName>merchellopager.tpl.html</orgName>
+    </file>
+    <file>
+      <guid>notificationmethods.tpl.html</guid>
+      <orgPath>/App_Plugins/Merchello/Backoffice/Merchello/directives</orgPath>
+      <orgName>notificationmethods.tpl.html</orgName>
+    </file>
+    <file>
+      <guid>offer.components.tpl.html</guid>
+      <orgPath>/App_Plugins/Merchello/Backoffice/Merchello/directives</orgPath>
+      <orgName>offer.components.tpl.html</orgName>
+    </file>
+    <file>
+      <guid>offer.mainproperties.tpl.html</guid>
+      <orgPath>/App_Plugins/Merchello/Backoffice/Merchello/directives</orgPath>
+      <orgName>offer.mainproperties.tpl.html</orgName>
+    </file>
+    <file>
+      <guid>offer.uniqueoffercode.tpl.html</guid>
+      <orgPath>/App_Plugins/Merchello/Backoffice/Merchello/directives</orgPath>
+      <orgName>offer.uniqueoffercode.tpl.html</orgName>
+    </file>
+    <file>
+      <guid>product.optionsmanage.tpl.html</guid>
+      <orgPath>/App_Plugins/Merchello/Backoffice/Merchello/directives</orgPath>
+      <orgName>product.optionsmanage.tpl.html</orgName>
+    </file>
+    <file>
+      <guid>product.productvariantsviewtable.tpl.html</guid>
+      <orgPath>/App_Plugins/Merchello/Backoffice/Merchello/directives</orgPath>
+      <orgName>product.productvariantsviewtable.tpl.html</orgName>
+    </file>
+    <file>
+      <guid>product.reorderoptions.tpl.html</guid>
+      <orgPath>/App_Plugins/Merchello/Backoffice/Merchello/directives</orgPath>
+      <orgName>product.reorderoptions.tpl.html</orgName>
+    </file>
+    <file>
+      <guid>productvariant.digitaldownload.tpl.html</guid>
+      <orgPath>/App_Plugins/Merchello/Backoffice/Merchello/directives</orgPath>
+      <orgName>productvariant.digitaldownload.tpl.html</orgName>
+    </file>
+    <file>
+      <guid>productvariant.mainproperties.tpl.html</guid>
+      <orgPath>/App_Plugins/Merchello/Backoffice/Merchello/directives</orgPath>
+      <orgName>productvariant.mainproperties.tpl.html</orgName>
+    </file>
+    <file>
+      <guid>productvariant.shipping.tpl.html</guid>
+      <orgPath>/App_Plugins/Merchello/Backoffice/Merchello/directives</orgPath>
+      <orgName>productvariant.shipping.tpl.html</orgName>
+    </file>
+    <file>
+      <guid>resetlistfilters.tpl.html</guid>
+      <orgPath>/App_Plugins/Merchello/Backoffice/Merchello/directives</orgPath>
+      <orgName>resetlistfilters.tpl.html</orgName>
+    </file>
+    <file>
+      <guid>resolvedgatewayproviders.tpl.html</guid>
+      <orgPath>/App_Plugins/Merchello/Backoffice/Merchello/directives</orgPath>
+      <orgName>resolvedgatewayproviders.tpl.html</orgName>
+    </file>
+    <file>
+      <guid>shipcountrygatewayproviders.tpl.html</guid>
+      <orgPath>/App_Plugins/Merchello/Backoffice/Merchello/directives</orgPath>
+      <orgName>shipcountrygatewayproviders.tpl.html</orgName>
+    </file>
+    <file>
+      <guid>merchellopanel.tpl.html</guid>
+      <orgPath>/App_Plugins/Merchello/Backoffice/Merchello/directives/html</orgPath>
+      <orgName>merchellopanel.tpl.html</orgName>
+    </file>
+    <file>
+      <guid>merchelloslidepanelopen.tpl.html</guid>
+      <orgPath>/App_Plugins/Merchello/Backoffice/Merchello/directives/html</orgPath>
+      <orgName>merchelloslidepanelopen.tpl.html</orgName>
+    </file>
+    <file>
+      <guid>merchellospinner.tpl.html</guid>
+      <orgPath>/App_Plugins/Merchello/Backoffice/Merchello/directives/html</orgPath>
+      <orgName>merchellospinner.tpl.html</orgName>
+    </file>
+    <file>
+      <guid>merchellotabs.tpl.html</guid>
+      <orgPath>/App_Plugins/Merchello/Backoffice/Merchello/directives/html</orgPath>
+      <orgName>merchellotabs.tpl.html</orgName>
+    </file>
+    <file>
+      <guid>merchello.config</guid>
+      <orgPath>/App_Plugins/Merchello/config</orgPath>
+      <orgName>merchello.config</orgName>
+    </file>
+    <file>
+      <guid>merchello.controllers.js</guid>
+      <orgPath>/App_Plugins/Merchello/js</orgPath>
+      <orgName>merchello.controllers.js</orgName>
+    </file>
+    <file>
+      <guid>merchello.directives.js</guid>
+      <orgPath>/App_Plugins/Merchello/js</orgPath>
+      <orgName>merchello.directives.js</orgName>
+    </file>
+    <file>
+      <guid>merchello.filters.js</guid>
+      <orgPath>/App_Plugins/Merchello/js</orgPath>
+      <orgName>merchello.filters.js</orgName>
+    </file>
+    <file>
+      <guid>merchello.models.js</guid>
+      <orgPath>/App_Plugins/Merchello/js</orgPath>
+      <orgName>merchello.models.js</orgName>
+    </file>
+    <file>
+      <guid>merchello.module.js</guid>
+      <orgPath>/App_Plugins/Merchello/js</orgPath>
+      <orgName>merchello.module.js</orgName>
+    </file>
+    <file>
+      <guid>merchello.resources.js</guid>
+      <orgPath>/App_Plugins/Merchello/js</orgPath>
+      <orgName>merchello.resources.js</orgName>
+    </file>
+    <file>
+      <guid>merchello.services.js</guid>
+      <orgPath>/App_Plugins/Merchello/js</orgPath>
+      <orgName>merchello.services.js</orgName>
+    </file>
+    <file>
+      <guid>merchello.testing.js</guid>
+      <orgPath>/App_Plugins/Merchello/js</orgPath>
+      <orgName>merchello.testing.js</orgName>
+    </file>
+    <file>
+      <guid>da-DK.xml</guid>
+      <orgPath>/App_Plugins/Merchello/lang</orgPath>
+      <orgName>da-DK.xml</orgName>
+    </file>
+    <file>
+      <guid>en-GB.xml</guid>
+      <orgPath>/App_Plugins/Merchello/lang</orgPath>
+      <orgName>en-GB.xml</orgName>
+    </file>
+    <file>
+      <guid>en-US.xml</guid>
+      <orgPath>/App_Plugins/Merchello/lang</orgPath>
+      <orgName>en-US.xml</orgName>
+    </file>
+    <file>
+      <guid>es-ES.xml</guid>
+      <orgPath>/App_Plugins/Merchello/lang</orgPath>
+      <orgName>es-ES.xml</orgName>
+    </file>
+    <file>
+      <guid>it-IT.xml</guid>
+      <orgPath>/App_Plugins/Merchello/lang</orgPath>
+      <orgName>it-IT.xml</orgName>
+    </file>
+    <file>
+      <guid>ru-RU.xml</guid>
+      <orgPath>/App_Plugins/Merchello/lang</orgPath>
+      <orgName>ru-RU.xml</orgName>
+    </file>
+    <file>
+      <guid>merchello.productlistview.dialog.html</guid>
+      <orgPath>/App_Plugins/Merchello/propertyeditors/productlistview</orgPath>
+      <orgName>merchello.productlistview.dialog.html</orgName>
+    </file>
+    <file>
+      <guid>merchello.productlistview.html</guid>
+      <orgPath>/App_Plugins/Merchello/propertyeditors/productlistview</orgPath>
+      <orgName>merchello.productlistview.html</orgName>
+    </file>
+    <file>
+      <guid>merchello.multiproductpicker.html</guid>
+      <orgPath>/App_Plugins/Merchello/propertyeditors/productpicker</orgPath>
+      <orgName>merchello.multiproductpicker.html</orgName>
+    </file>
+    <file>
+      <guid>merchello.productselector.dialog.html</guid>
+      <orgPath>/App_Plugins/Merchello/propertyeditors/productpicker</orgPath>
+      <orgName>merchello.productselector.dialog.html</orgName>
+    </file>
+    <file>
+      <guid>merchello.productselector.html</guid>
+      <orgPath>/App_Plugins/Merchello/propertyeditors/productpicker</orgPath>
+      <orgName>merchello.productselector.html</orgName>
+    </file>
+    <file>
+      <guid>Merchello-Icon.gif</guid>
+      <orgPath>/Umbraco/Images/Tray</orgPath>
+      <orgName>Merchello-Icon.gif</orgName>
+    </file>
+    <file>
+      <guid>Merchello-Icon.png</guid>
+      <orgPath>/Umbraco/Images/Tray</orgPath>
+      <orgName>Merchello-Icon.png</orgName>
+    </file>
+    <file>
+      <guid>a20a508b-648f-4e4e-94bd-19cf8adabcea_package.manifest</guid>
+      <orgPath>/App_Plugins/Merchello.Bazaar</orgPath>
+      <orgName>package.manifest</orgName>
+    </file>
+    <file>
+      <guid>bootstrap.min.css</guid>
+      <orgPath>/App_Plugins/Merchello.Bazaar/Assets/css</orgPath>
+      <orgName>bootstrap.min.css</orgName>
+    </file>
+    <file>
+      <guid>jquery-2.1.1.intellisense.js</guid>
+      <orgPath>/App_Plugins/Merchello.Bazaar/Assets/js</orgPath>
+      <orgName>jquery-2.1.1.intellisense.js</orgName>
+    </file>
+    <file>
+      <guid>jquery.unobtrusive-ajax.min.js</guid>
+      <orgPath>/App_Plugins/Merchello.Bazaar/Assets/js</orgPath>
+      <orgName>jquery.unobtrusive-ajax.min.js</orgName>
+    </file>
+    <file>
+      <guid>jquery.validate-vsdoc.js</guid>
+      <orgPath>/App_Plugins/Merchello.Bazaar/Assets/js</orgPath>
+      <orgName>jquery.validate-vsdoc.js</orgName>
+    </file>
+    <file>
+      <guid>jquery.validate.min.js</guid>
+      <orgPath>/App_Plugins/Merchello.Bazaar/Assets/js</orgPath>
+      <orgName>jquery.validate.min.js</orgName>
+    </file>
+    <file>
+      <guid>jquery.validate.unobtrusive.min.js</guid>
+      <orgPath>/App_Plugins/Merchello.Bazaar/Assets/js</orgPath>
+      <orgName>jquery.validate.unobtrusive.min.js</orgName>
+    </file>
+    <file>
+      <guid>merchello.bazaar.js</guid>
+      <orgPath>/App_Plugins/Merchello.Bazaar/Assets/js</orgPath>
+      <orgName>merchello.bazaar.js</orgName>
+    </file>
+    <file>
+      <guid>Installer.ascx</guid>
+      <orgPath>/App_Plugins/Merchello.Bazaar/BackOffice</orgPath>
+      <orgName>Installer.ascx</orgName>
+    </file>
+    <file>
+      <guid>merchello.bazaar.module.js</guid>
+      <orgPath>/App_Plugins/Merchello.Bazaar/BackOffice</orgPath>
+      <orgName>merchello.bazaar.module.js</orgName>
+    </file>
+    <file>
+      <guid>membertype.picker.html</guid>
+      <orgPath>/App_Plugins/Merchello.Bazaar/BackOffice/PropertyEditors</orgPath>
+      <orgName>membertype.picker.html</orgName>
+    </file>
+    <file>
+      <guid>merchello.bazaar.controllers.js</guid>
+      <orgPath>/App_Plugins/Merchello.Bazaar/BackOffice/PropertyEditors</orgPath>
+      <orgName>merchello.bazaar.controllers.js</orgName>
+    </file>
+    <file>
+      <guid>theme.picker.html</guid>
+      <orgPath>/App_Plugins/Merchello.Bazaar/BackOffice/PropertyEditors</orgPath>
+      <orgName>theme.picker.html</orgName>
+    </file>
+    <file>
+      <guid>bootstrap.css</guid>
+      <orgPath>/App_Plugins/Merchello.Bazaar/Themes/Sandstone-3/Assets/css</orgPath>
+      <orgName>bootstrap.css</orgName>
+    </file>
+    <file>
+      <guid>cd6aeb72-ddcc-4403-abb8-988ce04450c9_bootstrap.min.css</guid>
+      <orgPath>/App_Plugins/Merchello.Bazaar/Themes/Sandstone-3/Assets/css</orgPath>
+      <orgName>bootstrap.min.css</orgName>
+    </file>
+    <file>
+      <guid>styles.css</guid>
+      <orgPath>/App_Plugins/Merchello.Bazaar/Themes/Sandstone-3/Assets/css</orgPath>
+      <orgName>styles.css</orgName>
+    </file>
+    <file>
+      <guid>styles.css.map</guid>
+      <orgPath>/App_Plugins/Merchello.Bazaar/Themes/Sandstone-3/Assets/css</orgPath>
+      <orgName>styles.css.map</orgName>
+    </file>
+    <file>
+      <guid>styles.min.css</guid>
+      <orgPath>/App_Plugins/Merchello.Bazaar/Themes/Sandstone-3/Assets/css</orgPath>
+      <orgName>styles.min.css</orgName>
+    </file>
+    <file>
+      <guid>styles.scss</guid>
+      <orgPath>/App_Plugins/Merchello.Bazaar/Themes/Sandstone-3/Assets/css</orgPath>
+      <orgName>styles.scss</orgName>
+    </file>
+    <file>
+      <guid>bootstrap.min.js</guid>
+      <orgPath>/App_Plugins/Merchello.Bazaar/Themes/Sandstone-3/Assets/js</orgPath>
+      <orgName>bootstrap.min.js</orgName>
+    </file>
+    <file>
+      <guid>Basket.cshtml</guid>
+      <orgPath>/App_Plugins/Merchello.Bazaar/Themes/Sandstone-3/Views</orgPath>
+      <orgName>Basket.cshtml</orgName>
+    </file>
+    <file>
+      <guid>Checkout.cshtml</guid>
+      <orgPath>/App_Plugins/Merchello.Bazaar/Themes/Sandstone-3/Views</orgPath>
+      <orgName>Checkout.cshtml</orgName>
+    </file>
+    <file>
+      <guid>CheckoutConfirmation.cshtml</guid>
+      <orgPath>/App_Plugins/Merchello.Bazaar/Themes/Sandstone-3/Views</orgPath>
+      <orgName>CheckoutConfirmation.cshtml</orgName>
+    </file>
+    <file>
+      <guid>Master.cshtml</guid>
+      <orgPath>/App_Plugins/Merchello.Bazaar/Themes/Sandstone-3/Views</orgPath>
+      <orgName>Master.cshtml</orgName>
+    </file>
+    <file>
+      <guid>Product.cshtml</guid>
+      <orgPath>/App_Plugins/Merchello.Bazaar/Themes/Sandstone-3/Views</orgPath>
+      <orgName>Product.cshtml</orgName>
+    </file>
+    <file>
+      <guid>ProductCollection.cshtml</guid>
+      <orgPath>/App_Plugins/Merchello.Bazaar/Themes/Sandstone-3/Views</orgPath>
+      <orgName>ProductCollection.cshtml</orgName>
+    </file>
+    <file>
+      <guid>ProductContent.cshtml</guid>
+      <orgPath>/App_Plugins/Merchello.Bazaar/Themes/Sandstone-3/Views</orgPath>
+      <orgName>ProductContent.cshtml</orgName>
+    </file>
+    <file>
+      <guid>ProductGroup.cshtml</guid>
+      <orgPath>/App_Plugins/Merchello.Bazaar/Themes/Sandstone-3/Views</orgPath>
+      <orgName>ProductGroup.cshtml</orgName>
+    </file>
+    <file>
+      <guid>Receipt.cshtml</guid>
+      <orgPath>/App_Plugins/Merchello.Bazaar/Themes/Sandstone-3/Views</orgPath>
+      <orgName>Receipt.cshtml</orgName>
+    </file>
+    <file>
+      <guid>Store.cshtml</guid>
+      <orgPath>/App_Plugins/Merchello.Bazaar/Themes/Sandstone-3/Views</orgPath>
+      <orgName>Store.cshtml</orgName>
+    </file>
+    <file>
+      <guid>WishList.cshtml</guid>
+      <orgPath>/App_Plugins/Merchello.Bazaar/Themes/Sandstone-3/Views</orgPath>
+      <orgName>WishList.cshtml</orgName>
+    </file>
+    <file>
+      <guid>Account.cshtml</guid>
+      <orgPath>/App_Plugins/Merchello.Bazaar/Themes/Sandstone-3/Views/Account</orgPath>
+      <orgName>Account.cshtml</orgName>
+    </file>
+    <file>
+      <guid>History.cshtml</guid>
+      <orgPath>/App_Plugins/Merchello.Bazaar/Themes/Sandstone-3/Views/Account</orgPath>
+      <orgName>History.cshtml</orgName>
+    </file>
+    <file>
+      <guid>Registration.cshtml</guid>
+      <orgPath>/App_Plugins/Merchello.Bazaar/Themes/Sandstone-3/Views/Account</orgPath>
+      <orgName>Registration.cshtml</orgName>
+    </file>
+    <file>
+      <guid>AddToCart.cshtml</guid>
+      <orgPath>/App_Plugins/Merchello.Bazaar/Themes/Sandstone-3/Views/Partials</orgPath>
+      <orgName>AddToCart.cshtml</orgName>
+    </file>
+    <file>
+      <guid>BasketTable.cshtml</guid>
+      <orgPath>/App_Plugins/Merchello.Bazaar/Themes/Sandstone-3/Views/Partials</orgPath>
+      <orgName>BasketTable.cshtml</orgName>
+    </file>
+    <file>
+      <guid>CashPaymentMethodForm.cshtml</guid>
+      <orgPath>/App_Plugins/Merchello.Bazaar/Themes/Sandstone-3/Views/Partials</orgPath>
+      <orgName>CashPaymentMethodForm.cshtml</orgName>
+    </file>
+    <file>
+      <guid>CheckoutAddressesForm.cshtml</guid>
+      <orgPath>/App_Plugins/Merchello.Bazaar/Themes/Sandstone-3/Views/Partials</orgPath>
+      <orgName>CheckoutAddressesForm.cshtml</orgName>
+    </file>
+    <file>
+      <guid>CheckoutConfirmationForm.cshtml</guid>
+      <orgPath>/App_Plugins/Merchello.Bazaar/Themes/Sandstone-3/Views/Partials</orgPath>
+      <orgName>CheckoutConfirmationForm.cshtml</orgName>
+    </file>
+    <file>
+      <guid>CustomerAddressForm.cshtml</guid>
+      <orgPath>/App_Plugins/Merchello.Bazaar/Themes/Sandstone-3/Views/Partials</orgPath>
+      <orgName>CustomerAddressForm.cshtml</orgName>
+    </file>
+    <file>
+      <guid>InvoiceSummary.cshtml</guid>
+      <orgPath>/App_Plugins/Merchello.Bazaar/Themes/Sandstone-3/Views/Partials</orgPath>
+      <orgName>InvoiceSummary.cshtml</orgName>
+    </file>
+    <file>
+      <guid>LoginForm.cshtml</guid>
+      <orgPath>/App_Plugins/Merchello.Bazaar/Themes/Sandstone-3/Views/Partials</orgPath>
+      <orgName>LoginForm.cshtml</orgName>
+    </file>
+    <file>
+      <guid>NavBar.cshtml</guid>
+      <orgPath>/App_Plugins/Merchello.Bazaar/Themes/Sandstone-3/Views/Partials</orgPath>
+      <orgName>NavBar.cshtml</orgName>
+    </file>
+    <file>
+      <guid>ProfileForm.cshtml</guid>
+      <orgPath>/App_Plugins/Merchello.Bazaar/Themes/Sandstone-3/Views/Partials</orgPath>
+      <orgName>ProfileForm.cshtml</orgName>
+    </file>
+    <file>
+      <guid>RedeemCouponOfferForm.cshtml</guid>
+      <orgPath>/App_Plugins/Merchello.Bazaar/Themes/Sandstone-3/Views/Partials</orgPath>
+      <orgName>RedeemCouponOfferForm.cshtml</orgName>
+    </file>
+    <file>
+      <guid>SaleSummary.cshtml</guid>
+      <orgPath>/App_Plugins/Merchello.Bazaar/Themes/Sandstone-3/Views/Partials</orgPath>
+      <orgName>SaleSummary.cshtml</orgName>
+    </file>
+    <file>
+      <guid>SignInSignUp.cshtml</guid>
+      <orgPath>/App_Plugins/Merchello.Bazaar/Themes/Sandstone-3/Views/Partials</orgPath>
+      <orgName>SignInSignUp.cshtml</orgName>
+    </file>
+    <file>
+      <guid>WishListTable.cshtml</guid>
+      <orgPath>/App_Plugins/Merchello.Bazaar/Themes/Sandstone-3/Views/Partials</orgPath>
+      <orgName>WishListTable.cshtml</orgName>
+    </file>
+    <file>
+      <guid>avocadobars.jpg</guid>
+      <orgPath>/media/1035</orgPath>
+      <orgName>avocadobars.jpg</orgName>
+    </file>
+    <file>
+      <guid>beeswaxlotionbase_lotionbee_main_a.jpg</guid>
+      <orgPath>/media/1037</orgPath>
+      <orgName>beeswaxlotionbase_lotionbee_main_a.jpg</orgName>
+    </file>
+    <file>
+      <guid>bathbombs.jpg</guid>
+      <orgPath>/media/1038</orgPath>
+      <orgName>bathbombs.jpg</orgName>
+    </file>
+    <file>
+      <guid>Merchello.Bazaar.dll</guid>
+      <orgPath>/bin</orgPath>
+      <orgName>Merchello.Bazaar.dll</orgName>
+    </file>
+    <file>
+      <guid>Merchello.Core.dll</guid>
+      <orgPath>/bin</orgPath>
+      <orgName>Merchello.Core.dll</orgName>
+    </file>
+    <file>
+      <guid>Merchello.Examine.dll</guid>
+      <orgPath>/bin</orgPath>
+      <orgName>Merchello.Examine.dll</orgName>
+    </file>
+    <file>
+      <guid>Merchello.Web.dll</guid>
+      <orgPath>/bin</orgPath>
+      <orgName>Merchello.Web.dll</orgName>
+    </file>
+    <file>
+      <guid>c3db9e56-f6af-4bfb-b9e9-bdef7a017552_Installer.ascx</guid>
+      <orgPath>/App_Plugins/Merchello.Bazaar/BackOffice</orgPath>
+      <orgName>Installer.ascx</orgName>
+    </file>
+  </files>
+  <info>
+    <package>
+      <name>Merchello.Bazaar.CombinedInstall</name>
+      <version>1.13.3</version>
+      <license url="http://opensource.org/licenses/MIT">MIT License</license>
+      <url>http://merchello.com</url>
+      <requirements>
+        <major>3</major>
+        <minor>0</minor>
+        <patch>0</patch>
+      </requirements>
+    </package>
+    <author>
+      <name>Rusty Swayne</name>
+      <website>http://merchello.com</website>
+    </author>
+    <readme><![CDATA[This Packages installs BOTH Merchello and the Merchello "Bazaar" store starter.]]></readme>
+  </info>
+  <DocumentTypes>
+    <DocumentType>
+      <Info>
+        <Name>BazaarMaster</Name>
+        <Alias>BazaarMaster</Alias>
+        <Icon>.sprTreeFolder</Icon>
+        <Thumbnail>folder.png</Thumbnail>
+        <Description />
+        <AllowAtRoot>False</AllowAtRoot>
+        <IsListView>False</IsListView>
+        <Compositions />
+        <AllowedTemplates />
+        <DefaultTemplate />
+      </Info>
+      <Structure />
+      <GenericProperties>
+        <GenericProperty>
+          <Name>Hide in navigation</Name>
+          <Alias>umbracoNaviHide</Alias>
+          <Type>Umbraco.TrueFalse</Type>
+          <Definition>92897bc6-a5f3-4ffe-ae27-f2e7e33dda49</Definition>
+          <Tab />
+          <Mandatory>False</Mandatory>
+          <Validation />
+          <Description><![CDATA[]]></Description>
+        </GenericProperty>
+      </GenericProperties>
+      <Tabs />
+    </DocumentType>
+    <DocumentType>
+      <Info>
+        <Name>BazaarAccount</Name>
+        <Alias>BazaarAccount</Alias>
+        <Icon>icon-umb-users</Icon>
+        <Thumbnail>folder.png</Thumbnail>
+        <Description />
+        <AllowAtRoot>False</AllowAtRoot>
+        <IsListView>False</IsListView>
+        <Master>BazaarMaster</Master>
+        <Compositions>
+          <Composition>BazaarMaster</Composition>
+        </Compositions>
+        <AllowedTemplates />
+        <DefaultTemplate />
+      </Info>
+      <Structure>
+        <DocumentType>BazaarWishList</DocumentType>
+        <DocumentType>BazaarAccountHistory</DocumentType>
+      </Structure>
+      <GenericProperties />
+      <Tabs />
+    </DocumentType>
+    <DocumentType>
+      <Info>
+        <Name>BazaarAccountHistory</Name>
+        <Alias>BazaarAccountHistory</Alias>
+        <Icon>icon-ordered-list</Icon>
+        <Thumbnail>folder.png</Thumbnail>
+        <Description />
+        <AllowAtRoot>False</AllowAtRoot>
+        <IsListView>False</IsListView>
+        <Master>BazaarMaster</Master>
+        <Compositions>
+          <Composition>BazaarMaster</Composition>
+        </Compositions>
+        <AllowedTemplates />
+        <DefaultTemplate />
+      </Info>
+      <Structure />
+      <GenericProperties />
+      <Tabs />
+    </DocumentType>
+    <DocumentType>
+      <Info>
+        <Name>BazaarBasket</Name>
+        <Alias>BazaarBasket</Alias>
+        <Icon>icon-shopping-basket</Icon>
+        <Thumbnail>folder.png</Thumbnail>
+        <Description />
+        <AllowAtRoot>False</AllowAtRoot>
+        <IsListView>False</IsListView>
+        <Master>BazaarMaster</Master>
+        <Compositions>
+          <Composition>BazaarMaster</Composition>
+        </Compositions>
+        <AllowedTemplates />
+        <DefaultTemplate />
+      </Info>
+      <Structure />
+      <GenericProperties />
+      <Tabs />
+    </DocumentType>
+    <DocumentType>
+      <Info>
+        <Name>BazaarCheckout</Name>
+        <Alias>BazaarCheckout</Alias>
+        <Icon>icon-multiple-credit-cards</Icon>
+        <Thumbnail>folder.png</Thumbnail>
+        <Description />
+        <AllowAtRoot>False</AllowAtRoot>
+        <IsListView>False</IsListView>
+        <Master>BazaarMaster</Master>
+        <Compositions>
+          <Composition>BazaarMaster</Composition>
+        </Compositions>
+        <AllowedTemplates />
+        <DefaultTemplate />
+      </Info>
+      <Structure>
+        <DocumentType>BazaarCheckoutConfirm</DocumentType>
+        <DocumentType>BazaarReceipt</DocumentType>
+        <DocumentType>BazaarCheckoutShipping</DocumentType>
+      </Structure>
+      <GenericProperties />
+      <Tabs />
+    </DocumentType>
+    <DocumentType>
+      <Info>
+        <Name>BazaarCheckoutConfirm</Name>
+        <Alias>BazaarCheckoutConfirm</Alias>
+        <Icon>icon-cash-register</Icon>
+        <Thumbnail>folder.png</Thumbnail>
+        <Description />
+        <AllowAtRoot>False</AllowAtRoot>
+        <IsListView>False</IsListView>
+        <Master>BazaarMaster</Master>
+        <Compositions>
+          <Composition>BazaarMaster</Composition>
+        </Compositions>
+        <AllowedTemplates />
+        <DefaultTemplate />
+      </Info>
+      <Structure />
+      <GenericProperties />
+      <Tabs />
+    </DocumentType>
+    <DocumentType>
+      <Info>
+        <Name>BazaarCheckoutShipping</Name>
+        <Alias>BazaarCheckoutShipping</Alias>
+        <Icon>icon-truck</Icon>
+        <Thumbnail>folder.png</Thumbnail>
+        <Description />
+        <AllowAtRoot>False</AllowAtRoot>
+        <IsListView>False</IsListView>
+        <Master>BazaarMaster</Master>
+        <Compositions>
+          <Composition>BazaarMaster</Composition>
+        </Compositions>
+        <AllowedTemplates />
+        <DefaultTemplate />
+      </Info>
+      <Structure />
+      <GenericProperties />
+      <Tabs />
+    </DocumentType>
+    <DocumentType>
+      <Info>
+        <Name>BazaarProduct</Name>
+        <Alias>BazaarProduct</Alias>
+        <Icon>icon-barcode</Icon>
+        <Thumbnail>folder.png</Thumbnail>
+        <Description />
+        <AllowAtRoot>False</AllowAtRoot>
+        <IsListView>False</IsListView>
+        <Master>BazaarMaster</Master>
+        <Compositions>
+          <Composition>BazaarMaster</Composition>
+        </Compositions>
+        <AllowedTemplates />
+        <DefaultTemplate />
+      </Info>
+      <Structure />
+      <GenericProperties>
+        <GenericProperty>
+          <Name>Image</Name>
+          <Alias>image</Alias>
+          <Type>Umbraco.ImageCropper</Type>
+          <Definition>603cd73e-8b99-470f-934d-46a118c37fcf</Definition>
+          <Tab>Product</Tab>
+          <Mandatory>False</Mandatory>
+          <Validation />
+          <Description><![CDATA[]]></Description>
+        </GenericProperty>
+        <GenericProperty>
+          <Name>Merchello Product</Name>
+          <Alias>merchelloProduct</Alias>
+          <Type>Merchello.ProductSelector</Type>
+          <Definition>9b05efb5-af7f-4730-81d2-2dc8f30543d2</Definition>
+          <Tab>Product</Tab>
+          <Mandatory>False</Mandatory>
+          <Validation />
+          <Description><![CDATA[]]></Description>
+        </GenericProperty>
+        <GenericProperty>
+          <Name>Description</Name>
+          <Alias>description</Alias>
+          <Type>Umbraco.TinyMCEv3</Type>
+          <Definition>ca90c950-0aff-4e72-b976-a30b1ac57dad</Definition>
+          <Tab>Product</Tab>
+          <Mandatory>False</Mandatory>
+          <Validation />
+          <Description><![CDATA[]]></Description>
+        </GenericProperty>
+        <GenericProperty>
+          <Name>Brief</Name>
+          <Alias>brief</Alias>
+          <Type>Umbraco.TextboxMultiple</Type>
+          <Definition>c6bac0dd-4ab9-45b1-8e30-e4b619ee5da3</Definition>
+          <Tab>Product</Tab>
+          <Mandatory>False</Mandatory>
+          <Validation />
+          <Description><![CDATA[A brief description used in the product listing]]></Description>
+        </GenericProperty>
+      </GenericProperties>
+      <Tabs>
+        <Tab>
+          <Id>16</Id>
+          <Caption>Product</Caption>
+          <SortOrder>0</SortOrder>
+        </Tab>
+      </Tabs>
+    </DocumentType>
+    <DocumentType>
+      <Info>
+        <Name>BazaarProductCollection</Name>
+        <Alias>BazaarProductCollection</Alias>
+        <Icon>icon-donate</Icon>
+        <Thumbnail>folder.png</Thumbnail>
+        <Description />
+        <AllowAtRoot>False</AllowAtRoot>
+        <IsListView>False</IsListView>
+        <Master>BazaarMaster</Master>
+        <Compositions>
+          <Composition>BazaarMaster</Composition>
+        </Compositions>
+        <AllowedTemplates />
+        <DefaultTemplate />
+      </Info>
+      <Structure />
+      <GenericProperties>
+        <GenericProperty>
+          <Name>Products</Name>
+          <Alias>products</Alias>
+          <Type>Merchello.ProductListView</Type>
+          <Definition>72370c03-00a7-492e-ab6e-bf2684a4216b</Definition>
+          <Tab>Collection</Tab>
+          <Mandatory>False</Mandatory>
+          <Validation />
+          <Description><![CDATA[]]></Description>
+        </GenericProperty>
+      </GenericProperties>
+      <Tabs>
+        <Tab>
+          <Id>1023</Id>
+          <Caption>Collection</Caption>
+          <SortOrder>0</SortOrder>
+        </Tab>
+      </Tabs>
+    </DocumentType>
+    <DocumentType>
+      <Info>
+        <Name>BazaarProductContent</Name>
+        <Alias>BazaarProductContent</Alias>
+        <Icon>.sprTreeFolder</Icon>
+        <Thumbnail>folder.png</Thumbnail>
+        <Description />
+        <AllowAtRoot>False</AllowAtRoot>
+        <IsListView>False</IsListView>
+        <Compositions />
+        <AllowedTemplates />
+        <DefaultTemplate />
+      </Info>
+      <Structure />
+      <GenericProperties>
+        <GenericProperty>
+          <Name>Brief</Name>
+          <Alias>brief</Alias>
+          <Type>Umbraco.TextboxMultiple</Type>
+          <Definition>c6bac0dd-4ab9-45b1-8e30-e4b619ee5da3</Definition>
+          <Tab>Content</Tab>
+          <Mandatory>False</Mandatory>
+          <Validation />
+          <Description><![CDATA[A brief description of the product]]></Description>
+        </GenericProperty>
+        <GenericProperty>
+          <Name>Description</Name>
+          <Alias>description</Alias>
+          <Type>Umbraco.TinyMCEv3</Type>
+          <Definition>ca90c950-0aff-4e72-b976-a30b1ac57dad</Definition>
+          <Tab>Content</Tab>
+          <Mandatory>False</Mandatory>
+          <Validation />
+          <Description><![CDATA[The description of the product]]></Description>
+        </GenericProperty>
+        <GenericProperty>
+          <Name>Image</Name>
+          <Alias>image</Alias>
+          <Type>Umbraco.ImageCropper</Type>
+          <Definition>1df9f033-e6d4-451f-b8d2-e0cbc50a836f</Definition>
+          <Tab>Images</Tab>
+          <Mandatory>False</Mandatory>
+          <Validation />
+          <Description><![CDATA[An image for the product]]></Description>
+        </GenericProperty>
+      </GenericProperties>
+      <Tabs>
+        <Tab>
+          <Id>2019</Id>
+          <Caption>Content</Caption>
+          <SortOrder>0</SortOrder>
+        </Tab>
+        <Tab>
+          <Id>2020</Id>
+          <Caption>Images</Caption>
+          <SortOrder>1</SortOrder>
+        </Tab>
+      </Tabs>
+    </DocumentType>
+    <DocumentType>
+      <Info>
+        <Name>BazaarProductGroup</Name>
+        <Alias>BazaarProductGroup</Alias>
+        <Icon>icon-checkbox-empty</Icon>
+        <Thumbnail>folder.png</Thumbnail>
+        <Description />
+        <AllowAtRoot>False</AllowAtRoot>
+        <IsListView>True</IsListView>
+        <Master>BazaarMaster</Master>
+        <Compositions>
+          <Composition>BazaarMaster</Composition>
+        </Compositions>
+        <AllowedTemplates />
+        <DefaultTemplate />
+      </Info>
+      <Structure>
+        <DocumentType>BazaarProduct</DocumentType>
+      </Structure>
+      <GenericProperties>
+        <GenericProperty>
+          <Name>Image</Name>
+          <Alias>image</Alias>
+          <Type>Umbraco.ImageCropper</Type>
+          <Definition>603cd73e-8b99-470f-934d-46a118c37fcf</Definition>
+          <Tab>Group</Tab>
+          <Mandatory>False</Mandatory>
+          <Validation />
+          <Description><![CDATA[]]></Description>
+        </GenericProperty>
+        <GenericProperty>
+          <Name>Brief</Name>
+          <Alias>brief</Alias>
+          <Type>Umbraco.TextboxMultiple</Type>
+          <Definition>c6bac0dd-4ab9-45b1-8e30-e4b619ee5da3</Definition>
+          <Tab>Group</Tab>
+          <Mandatory>False</Mandatory>
+          <Validation />
+          <Description><![CDATA[]]></Description>
+        </GenericProperty>
+      </GenericProperties>
+      <Tabs>
+        <Tab>
+          <Id>15</Id>
+          <Caption>Group</Caption>
+          <SortOrder>0</SortOrder>
+        </Tab>
+      </Tabs>
+    </DocumentType>
+    <DocumentType>
+      <Info>
+        <Name>BazaarReceipt</Name>
+        <Alias>BazaarReceipt</Alias>
+        <Icon>icon-credit-card-alt</Icon>
+        <Thumbnail>folder.png</Thumbnail>
+        <Description />
+        <AllowAtRoot>False</AllowAtRoot>
+        <IsListView>False</IsListView>
+        <Master>BazaarMaster</Master>
+        <Compositions>
+          <Composition>BazaarMaster</Composition>
+        </Compositions>
+        <AllowedTemplates />
+        <DefaultTemplate />
+      </Info>
+      <Structure />
+      <GenericProperties />
+      <Tabs />
+    </DocumentType>
+    <DocumentType>
+      <Info>
+        <Name>BazaarRegistration</Name>
+        <Alias>BazaarRegistration</Alias>
+        <Icon>icon-umb-members</Icon>
+        <Thumbnail>folder.png</Thumbnail>
+        <Description />
+        <AllowAtRoot>False</AllowAtRoot>
+        <IsListView>False</IsListView>
+        <Master>BazaarMaster</Master>
+        <Compositions>
+          <Composition>BazaarMaster</Composition>
+        </Compositions>
+        <AllowedTemplates />
+        <DefaultTemplate />
+      </Info>
+      <Structure />
+      <GenericProperties />
+      <Tabs />
+    </DocumentType>
+    <DocumentType>
+      <Info>
+        <Name>BazaarStore</Name>
+        <Alias>BazaarStore</Alias>
+        <Icon>icon-store</Icon>
+        <Thumbnail>folder.png</Thumbnail>
+        <Description />
+        <AllowAtRoot>True</AllowAtRoot>
+        <IsListView>False</IsListView>
+        <Master>BazaarMaster</Master>
+        <Compositions>
+          <Composition>BazaarMaster</Composition>
+        </Compositions>
+        <AllowedTemplates />
+        <DefaultTemplate />
+      </Info>
+      <Structure>
+        <DocumentType>BazaarProductGroup</DocumentType>
+        <DocumentType>BazaarBasket</DocumentType>
+        <DocumentType>BazaarCheckout</DocumentType>
+        <DocumentType>BazaarRegistration</DocumentType>
+        <DocumentType>BazaarAccount</DocumentType>
+        <DocumentType>BazaarProductCollection</DocumentType>
+      </Structure>
+      <GenericProperties>
+        <GenericProperty>
+          <Name>Theme Picker</Name>
+          <Alias>themePicker</Alias>
+          <Type>MerchelloBazaarThemePicker</Type>
+          <Definition>48cda889-dd2c-41ff-8f05-262bbc608be6</Definition>
+          <Tab>Theme</Tab>
+          <Mandatory>False</Mandatory>
+          <Validation />
+          <Description><![CDATA[]]></Description>
+        </GenericProperty>
+        <GenericProperty>
+          <Name>Featured Products</Name>
+          <Alias>featuredProducts</Alias>
+          <Type>Merchello.ProductListView</Type>
+          <Definition>72370c03-00a7-492e-ab6e-bf2684a4216b</Definition>
+          <Tab>Store</Tab>
+          <Mandatory>False</Mandatory>
+          <Validation />
+          <Description><![CDATA[]]></Description>
+        </GenericProperty>
+        <GenericProperty>
+          <Name>Tag Line</Name>
+          <Alias>tagLine</Alias>
+          <Type>Umbraco.Textbox</Type>
+          <Definition>0cc0eba1-9960-42c9-bf9b-60e150b429ae</Definition>
+          <Tab>Store</Tab>
+          <Mandatory>False</Mandatory>
+          <Validation />
+          <Description><![CDATA[]]></Description>
+        </GenericProperty>
+        <GenericProperty>
+          <Name>Store Title</Name>
+          <Alias>storeTitle</Alias>
+          <Type>Umbraco.Textbox</Type>
+          <Definition>0cc0eba1-9960-42c9-bf9b-60e150b429ae</Definition>
+          <Tab>Store</Tab>
+          <Mandatory>False</Mandatory>
+          <Validation />
+          <Description><![CDATA[]]></Description>
+        </GenericProperty>
+        <GenericProperty>
+          <Name>Customer MemberType</Name>
+          <Alias>customerMemberType</Alias>
+          <Type>MerchelloBazaarMemberTypePicker</Type>
+          <Definition>9abd6109-f7c8-4f37-9e92-811b698d5e4e</Definition>
+          <Tab>Customers</Tab>
+          <Mandatory>False</Mandatory>
+          <Validation />
+          <Description><![CDATA[]]></Description>
+        </GenericProperty>
+        <GenericProperty>
+          <Name>Enable wish list</Name>
+          <Alias>enableWishList</Alias>
+          <Type>Umbraco.TrueFalse</Type>
+          <Definition>92897bc6-a5f3-4ffe-ae27-f2e7e33dda49</Definition>
+          <Tab>Customers</Tab>
+          <Mandatory>False</Mandatory>
+          <Validation />
+          <Description><![CDATA[This requires customer accounts to be enabled.]]></Description>
+        </GenericProperty>
+        <GenericProperty>
+          <Name>Enable Customer Accounts</Name>
+          <Alias>customerAccounts</Alias>
+          <Type>Umbraco.TrueFalse</Type>
+          <Definition>92897bc6-a5f3-4ffe-ae27-f2e7e33dda49</Definition>
+          <Tab>Customers</Tab>
+          <Mandatory>False</Mandatory>
+          <Validation />
+          <Description><![CDATA[]]></Description>
+        </GenericProperty>
+      </GenericProperties>
+      <Tabs>
+        <Tab>
+          <Id>13</Id>
+          <Caption>Theme</Caption>
+          <SortOrder>1</SortOrder>
+        </Tab>
+        <Tab>
+          <Id>14</Id>
+          <Caption>Store</Caption>
+          <SortOrder>0</SortOrder>
+        </Tab>
+        <Tab>
+          <Id>17</Id>
+          <Caption>Customers</Caption>
+          <SortOrder>2</SortOrder>
+        </Tab>
+      </Tabs>
+    </DocumentType>
+    <DocumentType>
+      <Info>
+        <Name>BazaarWishList</Name>
+        <Alias>BazaarWishList</Alias>
+        <Icon>icon-lightbulb-active</Icon>
+        <Thumbnail>folder.png</Thumbnail>
+        <Description />
+        <AllowAtRoot>False</AllowAtRoot>
+        <IsListView>False</IsListView>
+        <Master>BazaarMaster</Master>
+        <Compositions>
+          <Composition>BazaarMaster</Composition>
+        </Compositions>
+        <AllowedTemplates />
+        <DefaultTemplate />
+      </Info>
+      <Structure />
+      <GenericProperties />
+      <Tabs />
+    </DocumentType>
+  </DocumentTypes>
+  <Templates />
+  <Stylesheets />
+  <Macros />
+  <DictionaryItems />
+  <Languages />
+  <DataTypes>
+    <DataType Name="Merchello Product Selector" Id="Merchello.ProductSelector" Definition="9b05efb5-af7f-4730-81d2-2dc8f30543d2" DatabaseType="Nvarchar">
+      <PreValues />
+    </DataType>
+    <DataType Name="Merchello Bazaar Theme Picker" Id="MerchelloBazaarThemePicker" Definition="48cda889-dd2c-41ff-8f05-262bbc608be6" DatabaseType="Nvarchar">
+      <PreValues />
+    </DataType>
+    <DataType Name="Merchello Bazaar MemberType Picker" Id="MerchelloBazaarMemberTypePicker" Definition="9abd6109-f7c8-4f37-9e92-811b698d5e4e" DatabaseType="Nvarchar">
+      <PreValues />
+    </DataType>
+    <DataType Name="Merchello Product List View" Id="Merchello.ProductListView" Definition="72370c03-00a7-492e-ab6e-bf2684a4216b" DatabaseType="Nvarchar">
+      <PreValues />
+    </DataType>
+  </DataTypes>
+  <control>/App_Plugins/Merchello.Bazaar/BackOffice/Installer.ascx</control>
+  <Actions>
+    <Action runat="install" undo="true" alias="Merchello_AddAppConfigKey" />
+    <Action runat="install" undo="true" alias="MerchelloBazaar_AddSslAppConfigKey" />
+    <Action runat="install" undo="true" alias="MerchelloBazaar_AddPaymentFormsAppConfigKey" />
+    <Action runat="install" undo="true" alias="MerchelloBazaar_AddXpathToStoreConfigKey" />
+    <Action runat="install" undo="true" alias="MerchelloBazaar_AddMembershipTypeAndGroup" />
+    <Action runat="install" undo="true" alias="Merchello_AddConfigSection" />
+    <Action runat="install" undo="true" alias="Merchello_CreateDatabase" />
+    <Action runat="install" undo="true" alias="Merchello_AddExamineConfigs">
+      <MerchelloIndexSets>
+        <IndexSet SetName="MerchelloProductIndexSet" IndexPath="~/App_Data/TEMP/ExamineIndexes/{machinename}/Merchello/Product/" />
+        <IndexSet SetName="MerchelloInvoiceIndexSet" IndexPath="~/App_Data/TEMP/ExamineIndexes/{machinename}/Merchello/Invoice/" />
+        <IndexSet SetName="MerchelloOrderIndexSet" IndexPath="~/App_Data/TEMP/ExamineIndexes/{machinename}/Merchello/Order/" />
+        <IndexSet SetName="MerchelloCustomerIndexSet" IndexPath="~/App_Data/TEMP/ExamineIndexes/{machinename}/Merchello/Customer/" />
+      </MerchelloIndexSets>
+      <MerchelloIndexProviders>
+        <add name="MerchelloProductIndexer" type="Merchello.Examine.Providers.ProductIndexer, Merchello.Examine" />
+        <add name="MerchelloInvoiceIndexer" type="Merchello.Examine.Providers.InvoiceIndexer, Merchello.Examine" />
+        <add name="MerchelloOrderIndexer" type="Merchello.Examine.Providers.OrderIndexer, Merchello.Examine" />
+        <add name="MerchelloCustomerIndexer" type="Merchello.Examine.Providers.CustomerIndexer, Merchello.Examine" />
+      </MerchelloIndexProviders>
+      <MerchelloSearchProviders>
+        <add name="MerchelloProductSearcher" type="Examine.LuceneEngine.Providers.LuceneSearcher, Examine" />
+        <add name="MerchelloInvoiceSearcher" type="Examine.LuceneEngine.Providers.LuceneSearcher, Examine" />
+        <add name="MerchelloOrderSearcher" type="Examine.LuceneEngine.Providers.LuceneSearcher, Examine" />
+        <add name="MerchelloCustomerSearcher" type="Examine.LuceneEngine.Providers.LuceneSearcher, Examine" />
+      </MerchelloSearchProviders>
+    </Action>
+    <Action runat="install" undo="true" alias="Merchello_AddLanguageFileKey" language="en" position="end" area="sections" key="merchello" value="Merchello" />
+    <Action runat="install" undo="true" alias="Merchello_GrantPermissionForApp" userLogin="$currentUser" appName="merchello" />
+    <Action runat="install" undo="true" alias="addDashboardSection" dashboardAlias="MerchelloDashboard">
+      <section alias="MerchelloSection">
+        <areas>
+          <area>merchello</area>
+        </areas>
+        <tab caption="Welcome">
+          <control showOnce="false" addPanel="true" panelCaption="">
+            ~/App_Plugins/Merchello/BackOffice/Merchello/dashboard.html
+          </control>
+        </tab>
+        <tab caption="Settings">
+          <control showOnce="false" addPanel="true" panelCaption="">
+            ~/App_Plugins/Merchello/BackOffice/Merchello/settings.html
+          </control>
+        </tab>
+      </section>
+    </Action>
+  </Actions>
+</umbPackage>

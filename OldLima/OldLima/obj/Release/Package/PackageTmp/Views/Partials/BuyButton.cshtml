@@ -1,0 +1,14 @@
+﻿@using Merchello.Web
+@model OldLima.Models.AddItemModel
+
+@{
+    // build Html form
+    using (Html.BeginUmbracoForm("AddToBasket", "Basket", FormMethod.Post))
+    {
+        // Umbraco Content Id
+        @Html.HiddenFor(x => x.ContentId)
+
+        // Merchello Product Guid
+        @Html.HiddenFor(x => x.ProductKey)
+    }
+}

@@ -1,0 +1,16 @@
+﻿@using Merchello.Web
+@model dynamic
+
+@{
+    // build Html form
+    using (Html.BeginUmbracoForm("AddToBasket","Basket", new { area= "MerchelloProductListExample", role = "form" }))
+    {
+        // Umbraco Content Id
+        @Html.HiddenFor(x => x.ContentId)
+
+        // Merchello Product Guid
+        @Html.HiddenFor(x => x.ProductId)
+
+        <input type="submit" value="Koop" />
+    }
+}

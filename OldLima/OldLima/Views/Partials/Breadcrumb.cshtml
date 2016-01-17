@@ -1,0 +1,23 @@
+﻿@inherits UmbracoTemplatePage
+<ol class="breadcrumb">
+    @foreach (var ancestor in Model.Content.Ancestors().OrderBy(x => x.Level).Where(x => x.IsVisible()))
+    {
+        if (ancestor.DocumentTypeAlias == "motorGroup")
+        {
+            <li class="active">                
+                    @ancestor.Name  
+            </li>
+            break;
+        }
+        else
+        {
+            <li>
+                <a href="@ancestor.Url">@ancestor.Name</a>
+            </li>
+        }
+    }
+        @if (Model.Content.Parent.DocumentTypeAlias != "motorGroup")
+        {
+            <li class="active">@Model.Content.Name</li>
+        }
+</ol>

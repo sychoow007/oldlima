@@ -1,0 +1,126 @@
+﻿@using System.Linq.Expressions
+@inherits UmbracoTemplatePage
+
+@{
+    Layout = "Shared/_Layout.cshtml";
+    IEnumerable<IPublishedContent> motos = Model.Content.Descendants("Moto");
+    
+    string yearFilter = Request["year"];
+    string typeFilter = Request["type"];
+}
+@Html.Partial("Breadcrumb")
+@if (motos.Count() > 0)
+{
+    <div class="col-md-12 search">
+        <span>Bouwjaar</span>
+        <select id="buildYear">
+            <option></option>
+            @foreach (var year in motos.Select(m => (string)m.GetPropertyValue("buildingYear")).OrderBy(y => y).Distinct())
+            {
+                <option value="@year">@year</option>
+            }
+        </select>
+        <span>Model</span>
+        <select id="type">
+            <option></option>
+            @foreach (var type in motos.Select(m => new { Name = m.Parent.DocumentTypeAlias == "motorGroup" ? m.Parent.Name : m.Name }).Distinct())
+            {
+                <option value="@type.Name">@type.Name</option>
+            }
+        </select>
+        <button class="btn search">Zoek</button>
+    </div>
+    <div class="col-md-12 overview">
+        <h2>Te koop</h2>
+        @ShowMotoItems(motos, x => Convert.ToBoolean(x.GetPropertyValue("sold")) == false, yearFilter, typeFilter)
+        <div class="clearfix"></div>
+        <h2>Verkocht</h2>
+        @ShowMotoItems(motos, x => Convert.ToBoolean(x.GetPropertyValue("sold")) == true, yearFilter, typeFilter)
+    </div>
+}
+else
+{
+    <div class="col-md-12">
+        Op dit moment zijn er geen motors beschikbaar.
+    </div>
+}
+
+@section Scripts{
+    <script src="~/Scripts/ekko-lightbox.min.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            $('.btn.search').on('click', function () {
+                console.log($('#type').val());
+                $('.overview').load('/@CurrentPage.Name .overview', { year: $('#buildYear').val(), type: $('#type').val() }, function () {
+                    window.slimmage.checkResponsiveImages();
+                });
+            });
+        });
+
+        $(document).delegate('*[data-toggle="lightbox"]', 'click', function (event) {
+            event.preventDefault();
+            $(this).ekkoLightbox();
+        });
+    </script>
+}
+
+@helper ShowMotoItems(IEnumerable<IPublishedContent> motoItems, Func<IPublishedContent,bool> expression, string yearFilter, string typeFilter)
+{
+if (!string.IsNullOrEmpty(yearFilter))
+{
+    motoItems = motoItems.Where(x => x.GetPropertyValue("buildingYear").ToString() == yearFilter);
+}
+
+if (!string.IsNullOrEmpty(typeFilter))
+{
+    motoItems = motoItems.Where(x => (x.Parent.DocumentTypeAlias == "motorGroup" ? x.Parent.Name == typeFilter : x.Name == typeFilter));
+}
+
+motoItems = motoItems.Where(expression);
+
+if (motoItems.Count() > 0)
+{
+        <div class="row">
+            @foreach (var page in motoItems)
+            {
+                @ShowMotors(page);
+            }
+        </div>
+    }
+    else
+    {
+        <p>Op dit moment is er niets beschikbaar.</p>
+    }
+}
+
+@helper ShowMotors(IPublishedContent page)
+{
+string images = page.GetPropertyValue("images").ToString();
+int firstImageId = int.Parse(images.Split(',').First());
+var motoImage = Umbraco.TypedMedia(firstImageId);
+    <div class="col-md-4">
+        <a href="@page.Url" class="item image image-full thumbnail">
+            <img src="@motoImage.GetResponsiveImageUrl(270, 161)" alt="" class="slimsy-image" />
+            <div class="info">
+                <div class="left">
+                    <div class="build"><b>Bouwjaar:</b> @page.GetPropertyValue("buildingYear")</div>
+                    <div class="model">
+                        <b>Model:</b>
+                        @if (page.Parent.DocumentTypeAlias == "motorGroup")
+                        {
+                            @page.Parent.Name
+                        }
+                        else
+                        {
+                            @page.Name
+                        }
+                    </div>
+                </div>
+                <div class="right">
+                    <div class="price"><b>Prijs:</b> @page.GetPropertyValue("price")</div>
+                </div>
+            </div>
+            <div class="mask"></div>
+        </a>
+    </div>
+}
