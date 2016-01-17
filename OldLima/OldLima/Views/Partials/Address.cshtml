@@ -1,0 +1,23 @@
+﻿@inherits Merchello.Web.Mvc.MerchelloViewPage<AddressModel>
+@using Merchello.Core
+@using OldLima.Models
+
+<h3>Enter your Address</h3>
+
+@Html.Label("Name")<br>
+@Html.TextBoxFor(x => x.Name, new { @class = "form-control", Placeholder = "Your full name" }) <br><br>
+
+@Html.LabelFor(x => x.Email)<br>
+@Html.TextBoxFor(x => x.Email, new { @class = "form-control", Placeholder = "Email address" }) <br><br>
+
+@Html.LabelFor(x => x.Address1)<br>
+@Html.TextBoxFor(x => x.Address1, new { @class = "form-control", Placeholder = "Address" }) <br><br>
+
+@Html.LabelFor(x => x.Locality)<br>
+@Html.TextBoxFor(x => x.Locality, new { @class = "form-control", Placeholder = "City" })<br><br>
+
+@Html.LabelFor(x => x.Region, "State or Province")<br>
+@Html.TextBoxFor(x => x.Region, new { @class = "form-control", Placeholder = "State" })<br><br>
+
+@Html.LabelFor(x => x.PostalCode)<br>
+@Html.TextBoxFor(x => x.PostalCode, new { @class = "form-control", Placeholder = "Postal or Zip Code" })<br><br>

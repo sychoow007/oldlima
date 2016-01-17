@@ -1,0 +1,16 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+<h1>Invoice</h1>
+<h2>Thank You!  Come back Soon!</h2>
+
+<table>
+    <tr>
+        <td valign="top">
+            @Html.Action("RenderReceipt", "Checkout", new {invoiceKey = Request.QueryString["inv"].DecryptWithMachineKey() })
+        </td>
+        <td width="100"></td>
+        <td>
+            @Html.Action("RenderInvoiceSummary", "Checkout", new {dataFromInvoice = true, invoiceKey = Request.QueryString["inv"].DecryptWithMachineKey() })
+
+        </td>
+    </tr>
+</table>

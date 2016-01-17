@@ -1,6 +1,5 @@
 ﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
 @{
-    Layout = null;
+    Layout = "Shared/_Layout.cshtml";
 }
-
-<h1>@CurrentPage.Name</h1>
+@Html.Action("DisplayBasket", "Basket")

@@ -1,0 +1,35 @@
+﻿@using OldLima.Controllers
+@using Merchello.Core
+@using Constants = Merchello.Core.Constants
+@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@{
+    Layout = "Shared/_Layout.cshtml";
+
+    var paymentMethods = MerchelloContext.Current.Gateways.Payment.GetPaymentGatewayMethods().Select(x => new SelectListItem()
+    {
+        Value = x.PaymentMethod.Key.ToString(),
+        Text = x.PaymentMethod.Name
+    });
+}
+
+<table>
+    <tr>
+        <td valign="top">
+            <h3>Payment Method</h3>
+
+            @using (Html.BeginUmbracoForm<CheckoutController>("SavePayment", new { @class = "form form-horizontal", role = "form" }))
+            {
+
+                @Html.DropDownList("paymentMethodKey", paymentMethods, new { @class = "form-control" })
+
+                <input type="submit" value="Proceed to receipt" />
+            }
+
+        </td>
+        <td width="100"></td>
+        <td>
+            @Html.Action("RenderInvoiceSummary", "Checkout", new { dataFromInvoice = false, invoiceKey = Guid.Empty })
+
+        </td>
+    </tr>
+</table>    

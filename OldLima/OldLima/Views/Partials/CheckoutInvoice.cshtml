@@ -1,0 +1,10 @@
+﻿@inherits Merchello.Web.Mvc.MerchelloViewPage<IInvoice>
+@using Merchello.Core
+@using Merchello.Core.Models
+
+@{
+    var invoicenumber = Model.PrefixedInvoiceNumber() == "0" ? "TBD" : Model.PrefixedInvoiceNumber();
+}
+<b>Date:</b>@Model.InvoiceDate.ToShortDateString()<br />
+<b>Invoice Number:</b>@invoicenumber<br />
+<b>Status:</b>@Model.InvoiceStatus.Name<br />

@@ -332,6 +332,16 @@
     <Content Include="Views\Partials\PartialNews.cshtml" />
     <Content Include="Views\Partials\ContactForm.cshtml" />
     <Content Include="Views\Partials\Breadcrumb.cshtml" />
+    <Content Include="Views\Partials\Basket.cshtml" />
+    <Content Include="Views\Partials\Customer.cshtml" />
+    <Content Include="Views\Checkout.cshtml" />
+    <Content Include="Views\CheckoutAddress.cshtml" />
+    <Content Include="Views\CheckoutInvoice.cshtml" />
+    <Content Include="Views\CheckoutPage.cshtml" />
+    <Content Include="Views\CheckoutPayment.cshtml" />
+    <Content Include="Views\Partials\Address.cshtml" />
+    <Content Include="Views\Partials\CheckoutSummary.cshtml" />
+    <Content Include="Views\Partials\CheckoutInvoice.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -367,11 +377,18 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Controllers\BasketController.cs" />
+    <Compile Include="Controllers\CheckoutController.cs" />
     <Compile Include="Controllers\ContactController.cs" />
     <Compile Include="Controllers\MerchelloSurfaceController.cs" />
     <Compile Include="Models\AddItemModel.cs" />
+    <Compile Include="Models\AddressModel.cs" />
+    <Compile Include="Models\BasketViewLineItem.cs" />
+    <Compile Include="Models\BasketViewModel.cs" />
+    <Compile Include="Models\BasketViewModelExtensions.cs" />
+    <Compile Include="Models\CheckoutViewModel.cs" />
     <Compile Include="Models\ContactVM.cs" />
     <Compile Include="Models\InfoWidgetVM.cs" />
+    <Compile Include="Models\PaymentInformationModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -41,7 +41,7 @@
                         <p>
                             Stock: @productContent.TotalInventoryCount 
                             <span class="pull-right">
-                                <input type="number" name="orderAmount" class="small-input" />&nbsp;
+                                <input type="number" name="OrderAmount" class="small-input" />&nbsp;
                                 @Html.Action("Display_BuyButton", "Basket", new { product = new AddItemModel { ProductKey = productId, ContentId = contentidForChildPage} })</span>
                         </p>
                         <p><a href="@productContent.Name">Meer info</a></p>

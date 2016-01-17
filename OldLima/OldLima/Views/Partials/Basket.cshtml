@@ -1,0 +1,92 @@
+﻿@inherits Merchello.Web.Mvc.MerchelloViewPage<BasketViewModel>
+@using OldLima.Controllers
+@using OldLima.Models
+
+@(Model.Items.Any() ? RenderBasket() : RenderEmpty())
+
+@helper RenderEmpty()
+{
+    <div class="col-md-12">
+        Op dit moment zit er nog niets in de winkelmand.
+    </div>    
+}
+
+@helper RenderBasket()
+{
+// Renders an "Updatable" basket
+using (Html.BeginUmbracoForm("UpdateBasket", "Basket"))
+{
+        <div class="col-md-12">
+            <div class="panel panel-info">
+                <div class="panel-heading">
+                    <div class="panel-title">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <h5><span class="glyphicon glyphicon-shopping-cart"></span> Winkelmand</h5>
+                            </div>
+                            <div class="col-md-6">
+                                <a href="/productlist/" class="btn btn-primary btn-sm btn-block">
+                                    <span class="glyphicon glyphicon-share-alt"></span> Winkel verder
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel-body">
+                    @for (var i = 0; i < Model.Items.Count(); i++)
+                    {
+                        var productContent = Merchello.TypedProductContent(Model.Items[i].Key);
+
+                        var pictures = Model.Items[i].Images;
+                        //int firstPictureId = int.Parse(pictures.Split(',').First());
+                        //var image = Umbraco.Media(firstPictureId);
+
+                        <div class="row">
+                            <div class="col-md-2">
+                                @Model.Items[i].ExtendedData
+                                @*<img class="slimsy-image" src="@image.GetResponsiveImageUrl(100,70)" />*@
+                            </div>
+                            <div class="col-md-4">
+                                <h4 class="product-name"><strong>@Model.Items[i].Name</strong></h4>
+                                @Html.HiddenFor(m => m.Items[i].Key)
+                            </div>
+                            <div class="col-md-6">
+                                <div class="col-md-6 text-right">
+                                    <h6><strong>@Model.Items[i].UnitPrice.ToString("C2") <span class="text-muted">x</span></strong></h6>
+                                </div>
+                                <div class="col-md-4">
+                                    @Html.TextBoxFor(model => model.Items[i].Quantity, new { @class = "col-md-4" })
+                                </div>
+                                <div class="col-md-2">
+                                    @Html.ActionLink("X", "RemoveItemFromBasket", "Basket", new { lineItemKey = Model.Items[i].Key }, null)
+                                </div>
+                            </div>
+                        </div>
+                        <hr />
+                    }
+                    <div class="row">
+                        <div class="text-center">
+                            <div class="col-md-offset-8">
+                                <button type="submit" name="update" class="btn btn-default btn-sm btn-block">
+                                    Winkelmand vernieuwen
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel-footer">
+                    <div class="row text-center">
+                        <div class="col-md-9">
+                            <h4 class="text-right">Totaal <strong>@Model.TotalPrice.ToString("C2")</strong></h4>
+                        </div>
+                        <div class="col-md-3">
+                            <button type="button" class="btn btn-success btn-block">
+                                Afrekenen
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+}

@@ -1,0 +1,13 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@{
+    Layout = "Shared/_Layout.cshtml";
+}
+<h2>Begin Checkout</h2>
+<table>
+    <tr>
+        <td>
+            @Html.Action("RenderInvoiceSummary", "Checkout", new { dataFromInvoice=false, invoiceKey = Guid.Empty})
+            <br /><br /><a href="/checkout/address/">Continue to Shipping/Billing Address</a>
+        </td>
+    </tr>
+</table>

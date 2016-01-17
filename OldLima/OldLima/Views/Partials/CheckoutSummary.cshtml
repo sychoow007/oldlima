@@ -1,0 +1,61 @@
+﻿@using ICSharpCode.SharpZipLib.Zip
+@using Merchello.Core
+@using OldLima.Models
+@inherits Merchello.Web.Mvc.MerchelloViewPage<CheckoutViewModel>
+
+@(Model.CustomerAddress == null ? Skip() : RenderCustomer() )
+@(Model.PaymentType.IsNullOrWhiteSpace() ? Skip() : RenderPayment())
+@(Model.Items == null ? Skip() : RenderItems())
+
+@helper Skip()
+{}
+
+@helper RenderCustomer()
+{
+    <h3>Customer</h3>
+    <b>Name: </b>@Model.CustomerName<<br />
+        <b>Email:</b>@Model.CustomerAddress.Email<br />
+        <b>Address:</b>@Model.CustomerAddress.Address1<br />
+        <b>City:</b>@Model.CustomerAddress.Locality<br />
+        <b>State:</b>@Model.CustomerAddress.Region<br />
+        <b>PostCode:</b>@Model.CustomerAddress.PostalCode<br />
+}
+@helper RenderPayment()
+{
+    <h3>Payment</h3>
+    @Model.PaymentType
+}
+
+@helper RenderItems()
+{
+    <h3>Description</h3>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Product</th>
+                <th>Sku</th>
+                <th>Unit Price</th>
+                <th>Quantity</th>
+                <th>Totals</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model.Items.Where(x => x.LineItemType == LineItemType.Product))
+            {
+                <tr>
+                    <td>@item.Name</td>
+                    <td>@item.Sku</td>
+                    <td>@item.Price.ToString("C")</td>
+                    <td>@item.Quantity</td>
+                    <td>@item.TotalPrice.ToString("C")</td>
+                </tr>
+            }
+
+            <tr>
+                <td colspan="3">All sales are final.</td>
+                <td class="text-right"><b>Invoice Total:</b></td>
+                <td>@Model.TotalBasketPrice.ToString("C")</td>
+            </tr>
+        </tbody>
+    </table>
+}

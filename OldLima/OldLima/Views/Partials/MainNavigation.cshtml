@@ -24,10 +24,12 @@
                 @* For each child page under the home node *@
                 @foreach (var childPage in home.Children)
                 {
-
-                    <li class="@(childPage.IsAncestorOrSelf(CurrentPage) ? "active" : null)">
-                        <a href="@childPage.Url">@childPage.Name</a>
-                    </li>
+                    if (childPage.DocumentTypeAlias != "Basket" && childPage.DocumentTypeAlias != "CheckoutFolder")
+                    {
+                        <li class="@(childPage.IsAncestorOrSelf(CurrentPage) ? "active" : null)">
+                            <a href="@childPage.Url">@childPage.Name</a>
+                        </li>
+                    }
                 }
             </ul>
         }

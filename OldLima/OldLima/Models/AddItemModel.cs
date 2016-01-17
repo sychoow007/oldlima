@@ -16,5 +16,7 @@ namespace OldLima.Models
         /// The Product Key (pk) of the product to be added to the cart.
         ///
         public Guid ProductKey { get; set; }
+
+        public int OrderAmount { get; set; }
     }
 }
